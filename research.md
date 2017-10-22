@@ -1,5 +1,6 @@
 ---
 title: Research topics
+permalink: research
 ---
 
 # Research topics
