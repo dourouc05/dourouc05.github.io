@@ -11,6 +11,12 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+    header ul li + li + li {
+      border-right:none;
+      width:89px;
+    }
+    </style>
   </head>
   <body>
     <div class="wrapper">
@@ -23,12 +29,12 @@
         {% endif %}
         
         <nav>
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/files/CV.pdf">CV</a></li>
-                <li><a href="/research">Research</a></li>
-                <li><a href="/talks">Talks</a></li>
-                <li><a href="/teaching">Teaching</a></li>
+            <ul>
+                <li style="width: 54px"><a href="/">Home</a></li>
+                <li style="width: 54px"><a href="/files/CV.pdf">CV</a></li>
+                <li style="width: 54px"><a href="/research">Research</a></li>
+                <li style="width: 54px"><a href="/talks">Talks</a></li>
+                <li style="width: 54px"><a href="/teaching">Teaching</a></li>
             </ul>
         </nav>
       </header>
