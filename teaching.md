@@ -17,4 +17,4 @@ Proposed master's theses
 
 Introduction to intelligent robotics
 
-Discrete optimisation
+[Discrete optimisation](/teaching-2015-2016-discrete-optimisation)
