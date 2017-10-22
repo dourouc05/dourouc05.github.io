@@ -1,0 +1,315 @@
+%% $Id: louveaux-epfl06.tex,v 1.5 2006/07/10 13:46:20 louveaux Exp $
+%%\documentclass[9pt,trans]{beamer}
+\documentclass[9pt,handout]{beamer}
+\usepackage{beamerfoils}%% FoilTeX emulation
+\usepackage{epsfig}
+\usepackage{eurosym}
+\mode<presentation>
+{
+  \usetheme{Boadilla}
+  % oder ...
+
+  \setbeamercovered{transparent}
+  % oder auch nicht
+}
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+%%\usepackage{times}
+%%\usepackage[T1]{fontenc}
+%\usepackage{booktabs}
+
+%%\includeonlyframes{current}
+
+\title{Discrete Optimization}
+
+\author{Quentin
+Louveaux}
+\institute{ULg - Institut Montefiore}
+\date{2016}
+
+% Falls eine Logodatei namens "university-logo-filename.xxx" vorhanden
+% ist, wobei xxx ein von latex bzw. pdflatex lesbares Graphikformat
+% ist, so kann man wie folgt ein Logo einf|gen:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Folgendes sollte gelvscht werden, wenn man nicht am Anfang jedes
+% Unterabschnitts die Gliederung nochmal sehen mvchte.
+%% \AtBeginSection[]
+%% {
+%%   \begin{frame}<beamer>
+%%     \frametitle{Gliederung}
+%%     \tableofcontents[currentsection,currentsubsection]
+%%   \end{frame}
+%% }
+
+% Falls Aufzdhlungen immer schrittweise gezeigt werden sollen, kann
+% folgendes Kommando benutzt werden:
+
+\beamerdefaultoverlayspecification{<+->}
+
+%%%%%%
+\definecolor{rot}{rgb}{1,0,0}
+\definecolor{gruen}{rgb}{0,1,0}
+\definecolor{blau}{rgb}{0,0,1}
+
+%%% number sets
+\newcommand{\Z}       {\mathbb{Z} }
+\newcommand{\R}       {\mathbb{R} }
+\newcommand{\Q}       {\mathbb{Q} }
+\newcommand{\N}       {\mathbb{N} }
+\newcommand{\spa}     {\text{span}}
+\newcommand{\lin}     {\text{span}}
+\newcommand{\inter}   {\text{int} }
+
+
+%%% mathematical stuff
+\newcommand{\sosR}    {\sum^2}
+\newcommand*{\transpose}[1]  { {#1}^T }
+\newcommand*{\rounddown}[1]  {\left\floor #1 \right\rfloor}
+\newcommand*{\roundup}[1]    {\left\lceil  #1 \right\rceil}
+\newcommand*{\ipart}[1]      {\rounddown{#1}}
+\newcommand*{\fpart}[1]      {\mathfrak{f}\left(#1\right)}
+
+
+\newcommand*{\iepoly}[2]  {z_{#1}\left(#2\right)}
+\newcommand*{\redmon}[3]  {r_{#1}^{#2}\left( #3 \right)}
+\newcommand*{\redset}[1]  {#1^{\emph{red}}}
+
+\newcommand*{\Gpoly}[1] {P_{[#1]}}
+
+\newcommand*{\nonc}[1]{\overline{#1}}
+\newcommand*{\const}[1]{#1_0}
+
+\newcommand{\define}{\stackrel{\rm def.}{\Leftrightarrow}}
+\newcommand{\qform}[3]{\frac{1}{2} x^{\top}#1x + #2^{\top}x + #3}
+\def\xzero{x^{0}}
+\newcommand{\gxh}[2]{{g_{#1}(#2)}}
+
+\def\pcone_k{{\mathcal C}_{k}(f)}
+\def\orthant_j{{\mathcal O}_{j}}
+
+\def\BDB{BDB^{\top}}
+\def\LDL{LDL^{\top}}
+\def\bA{A}
+\def\bb{b}
+\def\bc{c}
+\def\bh{h}
+\def\bp{p}
+\def\bx{x}
+\def\by{y}
+\def\bu{u}
+\def\bv{v}
+\def\bd{d}
+\def\T{^{T}}
+\def\D{}
+\def\mb{{\bf}}
+\def\sep{}
+\def\bo{0}
+\def\bw{w}
+\def\ba{a}
+\def\bg{g}
+\def\bH{H}
+\def\be{e}
+
+\let\ve=\relax
+\newcommand\vealpha{{\alpha}}
+\newcommand{\st}{\mathrm{s.t.}}
+\DeclareMathOperator\conv{conv}
+\DeclareMathOperator\cone{cone}
+\newcommand{\B}{\{0,1\}}
+
+\newcommand*{\person}[1] {\textsc{#1}}
+
+\newtheorem{algorithm}{Algorithmus}
+
+\makeatletter
+\newenvironment{rmat}{\left(\null\,\vcenter\bgroup
+  \Let@\restore@math@cr\default@tag
+  \baselineskip6\ex@ \lineskip1.5\ex@ \lineskiplimit\lineskip
+  \ialign\bgroup\hfil$\m@th\scriptstyle##$&&\thickspace
+  \hfil$\m@th\scriptstyle##$\crcr
+}{%
+  \crcr\egroup\egroup\,\right)%
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+  %\titlepage
+%\end{frame}
+
+%% \begin{frame}
+%%   \frametitle{Gliederung}
+%%   \tableofcontents
+%%   % Die Option [pausesections] kvnnte n|tzlich sein.
+%% \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{orange}{rgb}{0.8,0.3,0.0}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{gold}{rgb}{1.0,0.8,0.0}
+\definecolor{brown}{rgb}{0.6,0.2,0.2}
+\definecolor{blue4}{rgb}{0,0,144}
+\definecolor{white}{rgb}{255,255,255}
+\definecolor{blueexample}{rgb}{0.2,0.2,0.7}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}
+\frametitle{Valid inequalities}
+We have seen that having a good formulation is \alert{crucial}
+to obtain a (fast)-solving problem.\\
+Main issue: how to automatically \alert{improve} a formulation.
+\begin{block}{Definition}
+Let $P\subseteq \mathbb R^n$. An inequality $\sum_{j=1}^n a_j x_j \leq b$
+is \alert{valid} if it is satisfied by all points $x\in P$.
+\end{block}
+Typically, we want to derive valid inequalities for the set of
+\alert{integral solutions} and at the same time \alert{cut off}
+some part of the \alert{linear programming relaxation}.
+\end{frame}
+\begin{frame}
+\frametitle{The rounding principle}
+Let $P=\{x\in \mathbb Z^n \mid Ax\leq b\}$ and $P_{LP}=\{x\in \mathbb R^n \mid Ax\leq b\}$
+be the corresponding linear programming relaxation.\bigskip
+
+If $x\leq c$ is valid for \alert{$P_{LP}$} then $x\leq \lfloor c\rfloor$ is valid
+for \alert{$P$}.
+\begin{block}{The Chvatal-Gomory procedure}
+\begin{itemize}
+\item Compute a nonnegative \alert{combination} of the rows of the LP formulation
+$$(u^T A) x \leq u^T b, \qquad (u\geq 0)$$
+\item The inequality 
+$$(\lfloor u^T A\rfloor ) x \leq \lfloor u^T b\rfloor$$
+is valid for $P$.
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Gomory's fractional cutting plane algorithm}
+  \begin{itemize}
+  \item Based on the simplex algorithm applied to the linear relaxation of the MIP
+  \item automatically generate and apply cuts until solution is integer
+    \begin{itemize}
+    \item if optimal solution is fractional, use the information provided by the optimal basis to generate cuts (apply the Chvatal-Gomory procedure)
+    \end{itemize}
+    \item terminates in a finite number of iterations if combined with the right \alert{simplex pivoting rule}
+    \item not very successful in practice, hence \textbf{branch-and-cut}.
+  \end{itemize}
+\end{frame}
+ \begin{frame} \frametitle{The Basic Mixed Integer inequality}
+
+   \begin{block} {2D case}
+     Let $X = \{ (x,y) \in \mathbb{R}_+ \times \mathbb{Z}_+ \ | \ x + y \geq b\}$ and $f= b - \lfloor b \rfloor > 0$. \\
+     Then $$\frac{x}{f} + y \geq \lceil b \rceil$$ is valid for $X$
+   \end{block}
+  
+      \begin{block} {Corollary}
+     Let $X = \{ (x,y) \in \mathbb{R}_+ \times \mathbb{Z}_+ \ | \ y \leq b + x\}$ and $f= b - \lfloor b \rfloor > 0$. \\
+     Then $$y \leq \lfloor b \rfloor + \frac{x}{1-f}$$ is valid for $X$
+   \end{block}
+
+ \end{frame}
+
+ \begin{frame} \frametitle{Mixed Integer Rounding (MIR) cut}
+      \begin{block} {}
+     Let $$X = \{ (x,y) \in \mathbb{R}_+ \times \mathbb{Z}^2_+ \ | \ a_1y_1 + a_2y_2 \leq b + x\},$$  $$f= b - \lfloor b \rfloor > 0,$$ and $$f_i= a_1 - \lfloor a_i \rfloor, \ i=1,2$$ with $$f_1 \leq f \leq f_2.$$  \\
+     Then $$\lfloor a_1 \rfloor y_1 + \left(\lfloor a_2 \rfloor + \frac{f_2-f}{1-f} \right) y_2 \leq \lfloor b \rfloor + \frac{x}{1-f}$$ is valid for $X$.
+   \end{block}
+ \end{frame}
+
+ \begin{frame} \frametitle{Superadditivity: preliminary definitions}
+   \begin{block} {Superadditive function}
+     The function $F : D \subseteq \mathbb{R}^m \mapsto \mathbb{R}$ is superadditive if 
+     $$ F(a_1) + F(a_2) \leq F(a_1+a_2)$$
+     for all $a_1, a_2 \in D$ such that $a_1+a_2 \in D$.
+   \end{block}
+   Remark: $F$ superadditive $\Rightarrow F(0) \leq 0$.
+
+   \begin{block} {Non-decreasing function}
+     The function $F : D \subseteq \mathbb{R}^m \mapsto \mathbb{R}$ is non-decreasing if 
+     $$ F(a_1) \leq F(a_2)$$ for all $a_1, a_2 \in D$ such that $a_1 \leq a_2$.
+   \end{block}
+ \end{frame}
+
+  \begin{frame} \frametitle{Superadditivity}
+   \begin{block} {}
+     If $F : \mathbb{R}^m \mapsto \mathbb{R}$ is superadditive, non-decreasing and satisfies $F(0) = 0$, then the inequality 
+      $$ \sum_{j=1}^n F(A_j)x_j \leq F(b)$$ is valid for $\text{conv(P)}$ with $P = \{x\in \mathbb{Z}^n_+ | Ax \leq b\}$.
+   \end{block}
+
+   Proof, comparison to MIR
+
+ \end{frame}
+
+
+\begin{frame}
+\frametitle{Strong inequalities}
+\begin{itemize}
+\item<1-> Inequalities $\pi x\leq \pi_0$ and $\lambda \pi x\leq \lambda \pi_0$
+are \alert{identical} if $\lambda>0$.\bigskip
+\item<1-> An inequality $\pi x \leq \pi_0$ \alert{dominates}
+$\mu x\leq \mu_0$ if there exists $u>0$ with
+$$ \pi\geq u\mu\quad \text{and}\quad \pi_0\leq u\mu_0$$
+if we work in a polyhedron $P\subset \mathbb R^n_{\alert{+}}.$
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Polyhedra, faces and facets}
+\begin{itemize}
+\item $n$ points $x^{(1)},\ldots, x^{(k)}$ are \alert{affinely independent} 
+if $x^{(2)}-x^{(1)},\ldots, x^{(k)}-x^{(1)}$ are \alert{linearly independent}
+or equivalently if $(x^{(1)},1),\ldots,(x^{(k)},1)$ are \alert{linearly independent}.
+\bigskip
+\item The \alert{dimension} $d$ of a polyhedron $P$ is the maximum  number
+of affinely independent points  in $P$ \alert{minus 1}.
+\bigskip
+\item $F$ is a \alert{face} of $P$ if $F=\{x\in P: \pi x=\pi_0\}$
+for some valid inequality $\pi x\leq \pi_0$.
+\bigskip
+\item $F$ is a \alert{facet} if $F$ is a face of $P$ of dimension \alert{dim$(P) -1$}.
+\end{itemize}
+Facets of conv$(P)$ are the valid inequalities that we are looking for!
+\end{frame}
+\begin{frame}
+\frametitle{Knapsack covers}
+We consider the knapsack set
+$$X=\{x\in \{0,1\}^n\mid \sum_{j=1}^n a_j x_j\leq b\}.$$
+\begin{block}{Definition}
+A set $C$ is a \alert{cover} if $\sum_{j\in C} a_j > b$.
+\end{block}
+\begin{block}{A cover inequality}
+If $C$ is a cover, the cover inequality
+$$\sum_{j\in C} x_j \leq |C|-1$$
+is valid for $X$.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Lifting a cover inequality}
+Consider an inequality $\sum_{j\in C} x_j \leq |C|-1.$\\
+Consider a \alert{variable} $i\not\in C$ that we would like to \alert{lift},
+namely we want to give it a coefficient in the \alert{cover inequality}.
+\bigskip
+
+\begin{align*}
+\alpha_i = |C|-1 - \max\; & \sum_{j\in C} x_j\\
+\text{s. t. }\; & \sum_{j\in C} \leq b - a_i\\
+& x_j\in \{0,1\}.
+\end{align*}
+\end{frame}
+\begin{frame} \frametitle{Branch-and-cut: used in all MIP solvers nowadays}
+  \begin{itemize}
+  \item Branch-and-bound combined with cutting plane algorithm
+  \item uses several families of cuts, depending on the problem (MIR, covers, ...)
+  \item typically starts as a cutting plane algorithm, then branches
+  \item at each node, decide to branch or to generate and add cuts
+  \item cuts are often node specific, i.e. cannot be imported in other parts of the tree without care.
+  \end{itemize}
+\end{frame}
+
+\end{document}

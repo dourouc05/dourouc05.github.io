@@ -1,0 +1,9 @@
+Person index, Person is driver (binary), Driver number of seats, Driver maximum path length (km), Person origin node index, Person destination node index
+1, 1,  3, 12, 2,  14
+2, 0, -1, -1, 7,  12
+3, 0, -1, -1, 2,  8
+4, 0, -1, -1, 12, 7
+5, 0, -1, -1, 8,  14
+6, 0, -1, -1, 13, 3
+7, 1,  5,  8, 14, 2
+8, 1,  2, 12, 13, 3

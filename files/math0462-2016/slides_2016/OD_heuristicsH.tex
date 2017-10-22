@@ -1,0 +1,377 @@
+%% $Id: louveaux-epfl06.tex,v 1.5 2006/07/10 13:46:20 louveaux Exp $
+%%\documentclass[9pt,trans]{beamer}
+\documentclass[9pt,handout]{beamer}
+\usepackage{beamerfoils}%% FoilTeX emulation
+\usepackage{epsfig}
+\usepackage{eurosym}
+\usepackage{enumerate}
+\mode<presentation>
+{
+  \usetheme{Boadilla}
+  % oder ...
+
+  \setbeamercovered{transparent}
+  % oder auch nicht
+}
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+%%\usepackage{times}
+%%\usepackage[T1]{fontenc}
+%\usepackage{booktabs}
+
+%%\includeonlyframes{current}
+
+\title{Discrete Optimization}
+
+\author{Quentin
+Louveaux}
+\institute{ULg - Institut Montefiore}
+\date{2016}
+
+% Falls eine Logodatei namens "university-logo-filename.xxx" vorhanden
+% ist, wobei xxx ein von latex bzw. pdflatex lesbares Graphikformat
+% ist, so kann man wie folgt ein Logo einf|gen:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Folgendes sollte gelvscht werden, wenn man nicht am Anfang jedes
+% Unterabschnitts die Gliederung nochmal sehen mvchte.
+%% \AtBeginSection[]
+%% {
+%%   \begin{frame}<beamer>
+%%     \frametitle{Gliederung}
+%%     \tableofcontents[currentsection,currentsubsection]
+%%   \end{frame}
+%% }
+
+% Falls Aufzdhlungen immer schrittweise gezeigt werden sollen, kann
+% folgendes Kommando benutzt werden:
+
+\beamerdefaultoverlayspecification{<+->}
+
+%%%%%%
+\definecolor{rot}{rgb}{1,0,0}
+\definecolor{gruen}{rgb}{0,1,0}
+\definecolor{blau}{rgb}{0,0,1}
+
+%%% number sets
+\newcommand{\Z}       {\mathbb{Z} }
+\newcommand{\R}       {\mathbb{R} }
+\newcommand{\Q}       {\mathbb{Q} }
+\newcommand{\N}       {\mathbb{N} }
+\newcommand{\spa}     {\text{span}}
+\newcommand{\lin}     {\text{span}}
+\newcommand{\inter}   {\text{int} }
+
+
+%%% mathematical stuff
+\newcommand{\sosR}    {\sum^2}
+\newcommand*{\transpose}[1]  { {#1}^T }
+\newcommand*{\rounddown}[1]  {\left\floor #1 \right\rfloor}
+\newcommand*{\roundup}[1]    {\left\lceil  #1 \right\rceil}
+\newcommand*{\ipart}[1]      {\rounddown{#1}}
+\newcommand*{\fpart}[1]      {\mathfrak{f}\left(#1\right)}
+
+
+\newcommand*{\iepoly}[2]  {z_{#1}\left(#2\right)}
+\newcommand*{\redmon}[3]  {r_{#1}^{#2}\left( #3 \right)}
+\newcommand*{\redset}[1]  {#1^{\emph{red}}}
+
+\newcommand*{\Gpoly}[1] {P_{[#1]}}
+
+\newcommand*{\nonc}[1]{\overline{#1}}
+\newcommand*{\const}[1]{#1_0}
+
+\newcommand{\define}{\stackrel{\rm def.}{\Leftrightarrow}}
+\newcommand{\qform}[3]{\frac{1}{2} x^{\top}#1x + #2^{\top}x + #3}
+\def\xzero{x^{0}}
+\newcommand{\gxh}[2]{{g_{#1}(#2)}}
+
+\def\pcone_k{{\mathcal C}_{k}(f)}
+\def\orthant_j{{\mathcal O}_{j}}
+
+\def\BDB{BDB^{\top}}
+\def\LDL{LDL^{\top}}
+\def\bA{A}
+\def\bb{b}
+\def\bc{c}
+\def\bh{h}
+\def\bp{p}
+\def\bx{x}
+\def\by{y}
+\def\bu{u}
+\def\bv{v}
+\def\bd{d}
+\def\T{^{T}}
+\def\D{}
+\def\mb{{\bf}}
+\def\sep{}
+\def\bo{0}
+\def\bw{w}
+\def\ba{a}
+\def\bg{g}
+\def\bH{H}
+\def\be{e}
+
+\let\ve=\relax
+\newcommand\vealpha{{\alpha}}
+\newcommand{\st}{\mathrm{s.t.}}
+\DeclareMathOperator\conv{conv}
+\DeclareMathOperator\cone{cone}
+\newcommand{\B}{\{0,1\}}
+
+\newcommand*{\person}[1] {\textsc{#1}}
+
+\newtheorem{algorithm}{Algorithmus}
+
+\makeatletter
+\newenvironment{rmat}{\left(\null\,\vcenter\bgroup
+  \Let@\restore@math@cr\default@tag
+  \baselineskip6\ex@ \lineskip1.5\ex@ \lineskiplimit\lineskip
+  \ialign\bgroup\hfil$\m@th\scriptstyle##$&&\thickspace
+  \hfil$\m@th\scriptstyle##$\crcr
+}{%
+  \crcr\egroup\egroup\,\right)%
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+  %\titlepage
+%\end{frame}
+
+%% \begin{frame}
+%%   \frametitle{Gliederung}
+%%   \tableofcontents
+%%   % Die Option [pausesections] kvnnte n|tzlich sein.
+%% \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{orange}{rgb}{0.8,0.3,0.0}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{gold}{rgb}{1.0,0.8,0.0}
+\definecolor{brown}{rgb}{0.6,0.2,0.2}
+\definecolor{blue4}{rgb}{0,0,144}
+\definecolor{white}{rgb}{255,255,255}
+\definecolor{blueexample}{rgb}{0.2,0.2,0.7}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}
+\frametitle{Heuristics and approximation algorithms}
+Sometimes, an exact approach is \alert{very difficult} to finalize or
+\alert{computationally too expensive}.
+\begin{block}{Heuristics}
+A \alert{heuristic} is an algorithm whose running time is reasonable and that is likely to give 
+a \alert{good feasible solution} most of the time for a given class of problems.\bigskip
+
+A \alert{meta-heuristic} is a heuristic that is generic and only some parts of the
+heuristic must be defined in a \alert{problem-specific} way.
+\end{block}
+\begin{block}{Approximation algorithms}
+An \alert{approximation algorithm} is a problem-specific algorithm that
+runs in \alert{polynomial time} and such that its outcome has a 
+worst-case \alert{guarantee} compared to the optimal solution.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Simple greedy heuristics for the TSP}
+\begin{itemize}
+\item \alert{Nearest neighbor} :  Pick a city, take the \alert{closest remaining city } in the tour\medskip
+\item \alert{Greedy} (Kruskal-like) : Sort the edge costs, pick all edges in \alert{nondecreasing order} without creating a subtour or a degree 3 node\medskip
+\item \alert{Nearest insertion} :  Start from the cheapest edge, and insert in the tour the \alert{closest node} to the tour.\medskip
+\item \alert{Farthest insertion} : Same except that we insert the \alert{farthest} node in the \alert{cheapest} way.
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Local search}
+Consider the problem 
+\begin{align*}
+\min\; & c(x) \\
+\text{subject to }\; & x\in \mathcal F
+\end{align*}
+\alert{Idea}: \bigskip
+
+Start from a given \alert{feasible solution} $x$.\bigskip
+
+Define a \alert{neighborhood} $N(x)$ of $x$.\bigskip
+
+\alert{Pick} $y\in N(x)$.\bigskip
+
+\alert{If} $c(y)<c(x)$, \alert{then} $x:=y$ is the new incumbent.\bigskip
+
+\alert{Repeat} until some convergence criterion is reached.
+\end{frame}
+\begin{frame}
+\frametitle{Local search}
+Fundamental question: define a \alert{neighborhood}.\bigskip
+
+\textcolor{blue}{Examples:} TSP: 2-opt, 3-opt, matching neighborhood\\
+$k$-opt for binary optimization.\bigskip
+
+\textcolor{blue}{Issue}: One is often trapped in a local minimum.
+\end{frame}
+\begin{frame}
+\frametitle{Very-large neighborhood search}
+In this framework, the idea is to define a \alert{very large neighborhood}
+and to rely on generic solver or known well-solved problems to deal with it.\bigskip
+
+\alert{Example} : If we want to solve an MIP
+\begin{align*}
+\min \;& c^x\\
+\text{s.t. }\;& Ax\leq b\\
+& x\in \{0,1\}^n
+\end{align*}
+From a given solution $x^*$, we can define a large neighborhood 
+by splitting the variable set into two and \alert{fixing alternatively} each set of variables.\\
+Each subproblem is then solved using a branch-and-bound algorithm.\bigskip
+
+This is also very popular to combine with \alert{constraint programming}.\bigskip
+
+In all these methods, it is important to know the \alert{structure} of the problem 
+for the heuristic to make sense.
+\end{frame}
+\begin{frame}
+\frametitle{Feasibility pump}
+This is an MIP-based method to find good \alert{feasible solutions}.\\
+We want to solve \begin{align*}
+\min \;& c^Tx\\
+\text{s.t. }\;& Ax\leq b\\
+& x\in \{0,1\}^n
+\end{align*}
+\begin{enumerate}[1.]
+\item Solve the LP relaxation.
+Let $x^*$ be an optimal solution.\medskip
+\item For $T$ iterations, do the sequence (2. - 3.)\\
+Round $x^*$ componentwise to the nearest integer : $\tilde x_j = \lfloor x_j^* \rceil.$\medskip
+\item Solve  minimize $\sum_{j=1}^n |x_j-\tilde x_j|$ subject to $x\in LP.$
+\end{enumerate}
+\end{frame}
+\begin{frame}
+\frametitle{Simulated annealing}
+Metaheuristic based on  local search that tries to escape from local minima.\\
+Inspired by physical analogy.
+\begin{block}{Simulated annealing algorithm}
+\begin{itemize}
+\item<1-> \alert{Start} with $x\in \mathcal F$ and an initial temperature $T$\bigskip
+
+\item<1-> \alert{Repeat} until some convergence criterion is reached\bigskip
+
+\item<1-> \alert{Pick} randomly $y\in N(X)$\bigskip
+
+\item<1-> \alert{If} $c(y)<c(x)$, \alert{then} $x:=y$\bigskip
+
+\item<1-> \alert{If} $c(y)> c(x)$, \alert{then accept} $x:=y$ with 
+probability $e^{(c(x)-c(y))/T}$\bigskip
+
+\item<1-> \alert{Decrease} the temperature $T$
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Simulated annealing}
+Let $A= \sum_{z\in \mathcal F} e^{-c(z)/T}$ and \bigskip
+
+$\pi(x) = \frac{e^{-c(x)/T}}{A}.$\bigskip
+
+\begin{block}{Theorem}
+Assume that the Markov chain $x(t)$ is irreducible, then the unique steady
+distribution of the Markov chain is the vector with components
+$\pi(x), x\in \mathcal F$.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Approximation algorithms}
+\begin{block}{$3/2$-approximation algorithm for TSP}
+\begin{itemize}
+\item<1-> Compute a \alert{minimum spanning tree} $T$.\bigskip
+
+\item<1-> Let $S$ be the set of nodes with \alert{odd degree} in $T$.\\
+Compute a min cost matching $M$ of the nodes in $S$
+\bigskip
+\item<1-> All nodes in $T\cup M$ have even degree, create a closed walk using all 
+edges in $T\cup M$. Shortcut the closed walk to form a tour.
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Approximation algorithms}
+\begin{block}{Scheduling with precedence constraints}
+We have $n$ jobs with processing times $p_i$ and weights $w_i$.\\
+We want to schedule the jobs on a \alert{single machine} and
+respect the \alert{precedence constraints} while minimizing
+$$\sum_i w_i C_i$$
+where $C_i$ is the \alert{completion time} of job $i$.
+\end{block}
+\begin{block}{Formulation}
+\begin{align*}
+\min\; & \sum_i w_i C_i\\
+\text{s.t. }\;& \sum_{i\in S} p_i C_i \geq \frac{1}{2} \sum_{i\in S} p_i^2 +\frac{1}{2}
+\left( \sum_{i\in S} p_i\right)^2\qquad S\subset V\\
+&C_j \geq C_i + p_j \qquad \text{if } i \text{ precedes } j
+\end{align*}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Rounding algorithm }
+\begin{block}{Deterministic rounding algorithm}
+\begin{itemize}
+\item<1-> \alert{Solve} the linear programming relaxation\\
+Obtain $C^*$
+\item<1-> \alert{Sort} the $C_i^*$ in increasing order and create 
+a feasible schedule by using the \alert{same order}.\\
+(The precedence constraints will be automatically satisfied)
+\end{itemize}
+\end{block}
+\begin{block}{Theorem}
+Let $Z_H$ be the weighted completion time  of the schedule produced by the
+algorithm, and $Z_{LP}$ the value of the relaxation. Then
+$$\frac{Z_H}{Z_{LP}}\leq 2.$$
+\end{block}
+\end{frame}
+\begin{frame}
+\textit{Proof}:
+Let us assume $C^*_1 \leq C^*_2 \leq \cdots \leq C^*_n$.\\
+The completion time of job $j$ is $\bar C_j=\sum_{k=1}^j p_k$.
+\begin{align*}
+C_j^*\sum_{k=1}^j p_k &\geq \sum_{k=1}^j p_k C_k^* \; \text{since } C_j^*\geq \cdots \geq C_1^*\\
+&\geq \frac{1}{2} \sum_{k=1}^j p_k^2 + \frac{1}{2} \left( \sum_{k=1}^j p_k \right)^2\\
+&\geq \frac{1}{2} \left( \sum_{k=1}^j p_k \right)^2
+\end{align*}
+and thus
+$$C_j^* \geq \frac{1}{2} \sum_{k=1}^j p_k =\frac{1}{2} \bar C_j.$$
+\end{frame}
+\begin{frame}
+\frametitle{Approximation schemes}
+\begin{itemize}
+\item A family of algorithms $\mathcal A_{\epsilon}$ is a
+\alert{polynomial time approximation scheme (PTAS)}
+if for every $\epsilon>0$, $\mathcal A_{\epsilon}$ is an $\epsilon$-approximation
+algorithm and its running time is polynomial for fixed $\epsilon$.\bigskip
+\item If $\mathcal A_{\epsilon}$ is a PTAS and its running time is also
+polynomial in $1/\epsilon$, then it is a 
+\alert{fully polynomial time approximation scheme (FPTAS)}
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{The bin packing problem}
+$n$ items with sizes $s_1, \ldots, s_n$.\\
+Find the minimum number of bins needed to \alert{pack them}.
+\begin{block}{The first fit algorithm}
+Let $j$ be the \alert{first bin} in which item $i$ \alert{fits}.\\
+Place item $i$ in bin $j$.
+\end{block}
+It is an asymptotic approximation scheme.
+\begin{block}{Proposition}
+$$z_H \leq 2Z_{IP} + 1$$
+\end{block}
+\begin{block}{Proposition}
+If we can approximate the bin packing problem with approximation ratio 
+$\alpha<3/2$, then $P=NP$.
+\end{block}
+\end{frame}
+\end{document}

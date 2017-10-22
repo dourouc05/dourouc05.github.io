@@ -1,0 +1,11 @@
+Minimize
+ 
+Subject To
+ c2: VAR2 + VAR1 = 1
+ c3: VAR2 + VAR1 = 2
+Bounds
+ VAR2 free
+ VAR1 free
+Generals
+ VAR2 VAR1
+End

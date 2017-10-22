@@ -1,0 +1,399 @@
+%% $Id: louveaux-epfl06.tex,v 1.5 2006/07/10 13:46:20 louveaux Exp $
+%%\documentclass[9pt,trans]{beamer}
+\documentclass[9pt]{beamer}
+\usepackage{beamerfoils}%% FoilTeX emulation
+\usepackage{epsfig}
+\usepackage{eurosym}
+\mode<presentation>
+{
+  \usetheme{Boadilla}
+  % oder ...
+
+  \setbeamercovered{transparent}
+  % oder auch nicht
+}
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+%%\usepackage{times}
+%%\usepackage[T1]{fontenc}
+%\usepackage{booktabs}
+
+%%\includeonlyframes{current}
+
+\title{Discrete Optimization}
+
+\author{Quentin
+Louveaux}
+\institute{ULg - Institut Montefiore}
+\date{2016}
+
+% Falls eine Logodatei namens "university-logo-filename.xxx" vorhanden
+% ist, wobei xxx ein von latex bzw. pdflatex lesbares Graphikformat
+% ist, so kann man wie folgt ein Logo einf|gen:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Folgendes sollte gelvscht werden, wenn man nicht am Anfang jedes
+% Unterabschnitts die Gliederung nochmal sehen mvchte.
+%% \AtBeginSection[]
+%% {
+%%   \begin{frame}<beamer>
+%%     \frametitle{Gliederung}
+%%     \tableofcontents[currentsection,currentsubsection]
+%%   \end{frame}
+%% }
+
+% Falls Aufzdhlungen immer schrittweise gezeigt werden sollen, kann
+% folgendes Kommando benutzt werden:
+
+\beamerdefaultoverlayspecification{<+->}
+
+%%%%%%
+\definecolor{rot}{rgb}{1,0,0}
+\definecolor{gruen}{rgb}{0,1,0}
+\definecolor{blau}{rgb}{0,0,1}
+
+%%% number sets
+\newcommand{\Z}       {\mathbb{Z} }
+\newcommand{\R}       {\mathbb{R} }
+\newcommand{\Q}       {\mathbb{Q} }
+\newcommand{\N}       {\mathbb{N} }
+\newcommand{\spa}     {\text{span}}
+\newcommand{\lin}     {\text{span}}
+\newcommand{\inter}   {\text{int} }
+
+
+%%% mathematical stuff
+\newcommand{\sosR}    {\sum^2}
+\newcommand*{\transpose}[1]  { {#1}^T }
+\newcommand*{\rounddown}[1]  {\left\floor #1 \right\rfloor}
+\newcommand*{\roundup}[1]    {\left\lceil  #1 \right\rceil}
+\newcommand*{\ipart}[1]      {\rounddown{#1}}
+\newcommand*{\fpart}[1]      {\mathfrak{f}\left(#1\right)}
+
+
+\newcommand*{\iepoly}[2]  {z_{#1}\left(#2\right)}
+\newcommand*{\redmon}[3]  {r_{#1}^{#2}\left( #3 \right)}
+\newcommand*{\redset}[1]  {#1^{\emph{red}}}
+
+\newcommand*{\Gpoly}[1] {P_{[#1]}}
+
+\newcommand*{\nonc}[1]{\overline{#1}}
+\newcommand*{\const}[1]{#1_0}
+
+\newcommand{\define}{\stackrel{\rm def.}{\Leftrightarrow}}
+\newcommand{\qform}[3]{\frac{1}{2} x^{\top}#1x + #2^{\top}x + #3}
+\def\xzero{x^{0}}
+\newcommand{\gxh}[2]{{g_{#1}(#2)}}
+
+\def\pcone_k{{\mathcal C}_{k}(f)}
+\def\orthant_j{{\mathcal O}_{j}}
+
+\def\BDB{BDB^{\top}}
+\def\LDL{LDL^{\top}}
+\def\bA{A}
+\def\bb{b}
+\def\bc{c}
+\def\bh{h}
+\def\bp{p}
+\def\bx{x}
+\def\by{y}
+\def\bu{u}
+\def\bv{v}
+\def\bd{d}
+\def\T{^{T}}
+\def\D{}
+\def\mb{{\bf}}
+\def\sep{}
+\def\bo{0}
+\def\bw{w}
+\def\ba{a}
+\def\bg{g}
+\def\bH{H}
+\def\be{e}
+
+\let\ve=\relax
+\newcommand\vealpha{{\alpha}}
+\newcommand{\st}{\mathrm{s.t.}}
+\DeclareMathOperator\conv{conv}
+\DeclareMathOperator\cone{cone}
+\newcommand{\B}{\{0,1\}}
+
+\newcommand*{\person}[1] {\textsc{#1}}
+
+\newtheorem{algorithm}{Algorithmus}
+
+\makeatletter
+\newenvironment{rmat}{\left(\null\,\vcenter\bgroup
+  \Let@\restore@math@cr\default@tag
+  \baselineskip6\ex@ \lineskip1.5\ex@ \lineskiplimit\lineskip
+  \ialign\bgroup\hfil$\m@th\scriptstyle##$&&\thickspace
+  \hfil$\m@th\scriptstyle##$\crcr
+}{%
+  \crcr\egroup\egroup\,\right)%
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+  %\titlepage
+%\end{frame}
+
+%% \begin{frame}
+%%   \frametitle{Gliederung}
+%%   \tableofcontents
+%%   % Die Option [pausesections] kvnnte n|tzlich sein.
+%% \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{orange}{rgb}{0.8,0.3,0.0}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{gold}{rgb}{1.0,0.8,0.0}
+\definecolor{brown}{rgb}{0.6,0.2,0.2}
+\definecolor{blue4}{rgb}{0,0,144}
+\definecolor{white}{rgb}{255,255,255}
+\definecolor{blueexample}{rgb}{0.2,0.2,0.7}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+\begin{frame}
+\frametitle{The maximum flow problem}
+Let $G=(V,E)$ be a \alert{directed graph} with a \alert{source node} $s$
+and a \alert{sink node} $t$ and with \alert{capacities} $u_j$ on each edge $e_j.$
+\begin{block}{The maximum flow problem}
+Find the maximum flow sent
+from $s$ to $t$ where the flow \alert{entering} each node (except $s$ and $t$)
+is equal to the flow \alert{leaving} each node and where the flow
+on \alert{each edge} satisfies the capacity.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{The max flow problem}
+Send the maximum flow from a node $s$ (\alert{source}) to  a node $t$ (\alert{sink}).
+\uncover<2->{\\Each \alert{edge} has a \alert{capacity}}
+\uncover<3>{\\\textcolor{darkgreen}{Example} of a feasible flow}
+\begin{overlayarea}{\linewidth}{6cm}
+\begin{center}
+\includegraphics<1>[width=8cm]{stflot.pdf}
+\includegraphics<2>[width=8cm]{stflotcapacite.pdf}
+\includegraphics<3>[width=8cm]{stflotFlot.pdf}
+\end{center}
+\end{overlayarea}
+\end{frame}
+\begin{frame}
+\frametitle{The minimum cut problem}
+\begin{block}{The minimum $s-t$-cut problem}
+An $s-t$-cut is a partition of the nodes of $G$ into $V_1$ and $V_2$ where
+$s\in V_1$ and $t\in V_2$. The \alert{value} of an $s-t$-cut is equal to
+the \alert{sum of the capacities} of all edges joining one node of $V_1$
+to one node of $V_2$.\\
+The \alert{min-cut problem} is the problem of finding the $s-t$-cut
+that has the minimal value.
+\end{block}
+\begin{block}{Important result}
+Max flow = min cut
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Examples of applications}
+\begin{block}{The problem of representatives}
+A town has $r$ \alert{residents} $R_1,\ldots, R_r$,
+$q$ \alert{clubs} $C_1,\ldots, C_q$ and $p$
+\alert{political parties} $P_1,\ldots,P_p.$
+Each resident is member of \alert{at least} one club and
+can belong to \alert{exactly one} political party.\bigskip
+
+Each club must nominate one of its members to represent it
+in the town's council in such a way that the number of council members
+belonging to the political party $P_k$ is \alert{at most} $u_k$.
+\end{block}
+Problem with applications in \alert{resource assignement settings}.
+\end{frame}
+\begin{frame}
+\frametitle{Examples of applications}
+\begin{block}{Matrix rounding problem}
+We are given a \alert{matrix} $D\in \mathbb R^{p\times q}$
+with row sums $\alpha_i$ and column sums $\beta_j$.
+We can decide to round any element in the matrix to the \alert{lower}
+or the \alert{upper} integer.\bigskip
+
+How can we round each element such that, for each row
+and each column,  the sum of the \alert{rounded elements}
+is equal to a \alert{rounding of the sums}.\bigskip
+
+This is called a \alert{consistent rounding}.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Examples of applications}
+\begin{block}{Scheduling on uniform parallel machines}
+We want to schedule $J$ jobs on $M$ parallel machines.\\
+Each job $j$ has a \alert{processing time} $p_j$,
+a \alert{release date} $r_j$ and a \alert{due date } $d_j$.
+Furthermore we allow \alert{preemption}.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Examples of applications for the min-cut problem}
+\begin{block}{Distributed computing on a 2-processor computer}
+Consider a \alert{large computer program} that has to be run
+on \alert{two processors}. The code is subdivided in \alert{tasks}
+that have a different processing time on both processors.
+
+Furthermore there is a \alert{communication cost} if some
+tasks are performed on \alert{different processors}.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Example of application of the min-cut problem}
+\begin{block}{Segmentation of an image}
+Consider a picture taken of of an object: for example, an MRI image of a heart.
+We may want to detect, for each pixel, whether it actually belongs to
+the heart or whether it belongs to the background.\bigskip
+
+It is possible to create a \alert{similarity function} for each pair of pixel
+that is \alert{large} if the 2 pixels are likely to belong to the same part of the picture.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Flows and cuts}
+\begin{block}{The residual network}
+Given a flow $x$, the \alert{residual capacity} $r_{ij}$ is
+the maximum additional flow that can be \alert{added} to arc $(i,j)$
+or \alert{removed} from arc $(j,i)$.
+$$ r_{ij} = (u_{ij}-x_{ij}) + x_{ji}$$
+This yields the graph $G(x)$, the \alert{residual network}.
+\end{block}
+\begin{overlayarea}{\linewidth}{4.9cm}
+\begin{center}
+\includegraphics<2>[height=4.9cm]{stflotFlot2.pdf}
+\includegraphics<3>[height=4.9cm]{residual1.pdf}
+\includegraphics<4>[height=4.9cm]{residual2.pdf}
+\includegraphics<5>[height=4.9cm]{residualfinal.pdf}
+\end{center}
+\end{overlayarea}
+\end{frame}
+\begin{frame}
+\frametitle{$(s-t)-$cuts}
+\begin{block}{Definition of an $(s-t)-$cut}
+A cut is a partition of the \alert{node set} into two
+subsets $S,\bar S$ such that
+\begin{itemize}
+\item<1-> $S\cup \bar S = V$
+\item<1-> $S\cap \bar S=\emptyset$
+\item<1-> It is an \alert{$(s-t)-$cut} if $s\in S$ and $t\in \bar S$.
+\end{itemize}
+\end{block}
+\uncover<2->{The \alert{ capacity} of an $(s-t)-$cut is the sum of the capacities of the
+\alert{forward arcs} of the cut:
+$$u(S,\bar S) = \sum_{(i,j)\in (S,\bar S)} u_{ij}.$$}
+\uncover<3->{The \alert{residual capacity} of an $(s-t)-$cut 
+is the sum of the residual capacities of the
+\alert{forward arcs} of the cut:
+$$u(S,\bar S) = \sum_{(i,j)\in (S,\bar S)} r_{ij}.$$}
+\uncover<4->{\alert{Property:} The value of any flow is less or equal to
+the capacity of \alert{any cut} in the network.\\
+This is a \alert{weak duality } property.}
+\end{frame}
+\begin{frame}
+\frametitle{Generic augmenting path algorithm}
+\begin{block}{Definition}
+A \alert{directed path} from the source $s$ to the sink $t$ in the
+residual network is an \alert{augmenting path}.\\
+The residual capacity of the augmenting path is the 
+\alert{minimum} residual capacity over all arcs in the path.
+\end{block}
+Idea: augment step by step the value of the current flow
+using paths in the residual network.\bigskip
+
+\uncover<2->{The value by which we can augment the flow is less or equal
+to the \alert{residual capacity} of any cut.}
+\end{frame}
+\begin{frame}
+\frametitle{Generic augmenting path algorithm}
+\texttt{x:=0};\\
+\texttt{while} $G(x)$ contains a directed path from $s$ to $t$ \texttt{do}\\
+	$\qquad$ Find an augmenting path $P$\\
+	$\qquad \delta:= \min\{r_{ij} \mid (i,j)\in P\}$\\
+	$\qquad$ Augment $\delta$ units of flow along $P$ and update $G(x)$
+\bigskip
+
+\uncover<2->{Important questions:\\
+Does the algorithm terminate?\\
+Does it provide an optimal solution?\\
+What is its running time?}
+\end{frame}
+\begin{frame}
+\frametitle{Labeling algorithm}
+This is a first implementation of the augmenting path algorithm
+that \alert{does not run in polynomial time}.\bigskip
+
+\uncover<2->{\alert{Idea}: Perform a breadth-first-search or a 
+depth-first-search on the graph to \alert{label} the nodes.
+If the sink node is labeled, we have found an \alert{augmenting path}.}
+
+\uncover<3->{\begin{block}{The algorithm is correct}
+If, at an iteration, the sink node \alert{cannot be labeled},
+then the \alert{flow is maximal}.\end{block}}
+\end{frame}
+\begin{frame}
+\frametitle{The max flow-min cut theorem}
+\begin{block}{Theorem}
+The maximum value of of the flow from $s$ to $t$ equals the minimum
+capacity among all $(s-t)-$cuts.
+\end{block}
+\begin{block}{Augmenting path theorem}
+A flow $x^*$ is a \alert{maximum flow}
+if and only if the residual network $G(x^*)$
+\alert{contains no augmenting path}.
+\end{block}
+\begin{block}{Integrality theorem}
+If all arc capacities are \alert{integer}, the maximum flow problem
+has an \alert{integer} maximum flow.
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Complexity of the labeling algorithm}
+\begin{block}{Theorem}
+The labeling algorithm solves the maximum flow problem
+in $\mathcal O(mnU)$ operations.
+\end{block}
+This implies that in a such an implementation, the algorithm
+\alert{does not run } in polynomial time in the \alert{worst case}.
+\end{frame}
+\begin{frame}
+\frametitle{Combinatorial implications}
+\begin{itemize}
+\item<1-> The maximum number of \alert{arc-disjoint paths} from $s$ to $t$
+is equal to the minimum number of arcs whose \alert{removal disconnects} $s$ from $t$.
+\item<1-> The maximum number of \alert{node-disjoint} paths from $s$ to $t$ is
+equal to the minimum number of \alert{nodes whose removal} disconnects $s$ from $t$.
+\item<1-> Matchings and covers are strong dual for \alert{bipartite graphs}.
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Flows with lower bounds}
+\begin{block}{Optimizing from a feasible flow}
+Just change the computation of the \alert{residual capacity}
+$$ r_{ij} = (u_{ij}-x_{ij}) + (x_{ji}-l_{ji})$$
+\end{block}
+\begin{block}{Establishing a feasible flow}
+\begin{itemize}
+\item<2-> Add an arc $(t,s)$ of \alert{infinite capacity}
+and transform the problem into finding a \alert{feasible circulation}.
+\item<2-> At each node, compute 
+$$b(i) = \sum_{j\mid (j,i)\in A} l_{ji} - \sum_{j\mid (i,j)\in A} l_{ij}$$
+\item<2-> Put only \alert{upper bounds} on the arcs to find $x'$
+\item<2-> Create a \alert{dummy source node} $s'$ and a \alert{dummy sink node} $t'$.
+\item<2-> Create an edge from $s'$ to $i$ if $b(i)>0$ with capacity $b(i)$.
+\item<2-> Create an edge from $i$ to $t'$ if $b(i)<0$ with capacity $|b(i)|$.
+\item<2-> The problem is feasible if there exists a flow with total value $\sum_ib(i)$
+\item<2-> The potential feasible flow is obtained as $x_{ij}:=x_{ij}'+l_{ij}$
+\end{itemize}
+\end{block}
+\end{frame}
+\end{document}

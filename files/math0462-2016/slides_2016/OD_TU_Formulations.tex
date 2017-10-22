@@ -1,0 +1,109 @@
+%% $Id: louveaux-epfl06.tex,v 1.5 2006/07/10 13:46:20 louveaux Exp $
+%%\documentclass[9pt,trans]{beamer}
+\documentclass[10pt,handout]{beamer}
+\usepackage{beamerfoils}%% FoilTeX emulation
+\usepackage{epsfig}
+\usepackage{eurosym}
+\mode<presentation>
+
+  \usetheme{Boadilla}
+
+  \setbeamercovered{transparent}
+ 
+\usepackage[french]{babel}
+\usepackage[latin1]{inputenc}
+\title{Discrete Optimization}
+
+\author{Quentin
+Louveaux}
+\institute{ULg - Institut Montefiore}
+\date{2016}
+
+\definecolor{orange}{rgb}{0.8,0.3,0.0}
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{gold}{rgb}{1.0,0.8,0.0}
+\definecolor{brown}{rgb}{0.6,0.2,0.2}
+\definecolor{blue4}{rgb}{0,0,144}
+\definecolor{white}{rgb}{255,255,255}
+\definecolor{blueexample}{rgb}{0.2,0.2,0.7}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\R}{\mathbb R}
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Polynomially solvable problems}
+Can we study some types of problems where the linear relaxation \alert{always 
+solves} the \alert{discrete} problem.
+\begin{block}{Cramer rule}
+A solution of $Ax=b$ is given by $x$ with
+$$x_i = \frac{\text{det}(A^i)}{\text{det}(A)},$$
+with $A^i$ is obtained by taking $A$ and replacing its $i^{th}$ column by $b$.
+\end{block}
+A polyhedron has all integer vertices if all determinant of all square submatrices
+is equal to 1, 0, or -1.
+\end{frame}
+\begin{frame}
+\frametitle{Total unimodularity}
+\begin{block}{Definition}
+\begin{itemize}
+\item<1-> A matrix $A\in \Z^{m\times n}$ is \alert{unimodular} if the determinant
+of \alert{each basis} is \alert{1} or \alert{$-1$}.
+\item<1-> A matrix $A\in \Z^{m\times n}$ is \alert{totally unimodular} (TU) if the
+determinant of each square submatrix of $A$ is \alert{$0,1,-1$}.
+\end{itemize}
+\end{block}
+\begin{block}{Proposition}
+\begin{itemize}
+\item<2-> A matrix $A$ is TU iff $[A,I]$ is unimodular.
+\item<2-> A matrix $A$ is TU iff $\left( \begin{array}{c}A\\-A\\I\\-I\end{array}\right)$ is TU
+\item<2-> A matrix $A$ is TU iff $A^T$ is TU
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Total unimodularity in integer problems}
+\begin{block}{Theorem}
+\begin{itemize}
+\item<1-> $A$ is unimodular iff $P(b)=\{x\in \R^n_+\mid Ax=b\}$
+is integral for all $b\in \Z^m$.
+\item<1-> $A$ is TU iff $P(b)=\{x\in \R^n_+\mid Ax\leq b\}$ is integral for all $b\in \Z^m.$
+\end{itemize}
+\end{block}
+\begin{block}{Corollary}
+\begin{itemize}
+\item<2-> $A$ is TU iff $\{x\mid Ax=b, 0\leq x\leq u\}$ is integral for all integral vectors $b$ and $u$.
+\item<2-> $A$ is TU iff $\{x\mid a\leq Ax\leq b, l\leq x\leq u\}$ is integral
+for all integral vectors $a,b,l,u$.
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Recognizing total unimodularity}
+\begin{block}{Proposition}
+A matrix $A$ is TU iff each collection $Q$ of rows  of $A$ can be partitioned into two
+parts so that the sum of the rows in one part minus the sum of the rows in the other
+part is a vector with entries $0, +1, -1$.
+\end{block}
+\begin{block}{Theorem}
+The following matrices are TU
+\begin{itemize}
+\item<2-> The node-arc indicence matrix of a \alert{directed graph}
+\item<2-> The node-edge incidence matrix of an \alert{undirected bipartite graph}
+\item<2-> A $\{0,1\}$-matrix in which each column has its ones consecutively
+(also known as \alert{interval matrix})
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Example of discrete problems solvable with the LP}
+\begin{itemize}
+\item<1-> The maximum flow problem
+\item<1-> The shortest path problem
+\item<1-> The minimum cost flow problem
+\item<1-> The matching problem in a bipartite graph
+\end{itemize}
+\end{frame}
+\end{document}
