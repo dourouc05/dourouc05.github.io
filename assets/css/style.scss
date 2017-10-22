@@ -4,6 +4,6 @@
 @import "{{ site.theme }}";
 
 header ul li + li + li {
-  border-right: 1px;
+  border-right: solid;
   width: 89px;
 }
