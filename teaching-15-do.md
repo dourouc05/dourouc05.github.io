@@ -1,6 +1,6 @@
 ---
 title: Discrete Optimisation (MATH0462), 2015-2016
-permalink: teaching-2015-2016-discrete-optimisation
+permalink: teaching/2015-2016-discrete-optimisation
 ---
 
 # Discrete Optimisation (MATH0462), 2015-2016
@@ -9,7 +9,7 @@ permalink: teaching-2015-2016-discrete-optimisation
 
 Professor: [Q. Louveaux](http://www.montefiore.ulg.ac.be/~louveaux).
 
-(Course page)[http://progcours.ulg.ac.be/cocoon/cours/MATH0462-1.html].
+[Course page[(http://progcours.ulg.ac.be/cocoon/cours/MATH0462-1.html).
 
 [Lab accounts (MS800)](http://www.student.montefiore.ulg.ac.be/accounts.php).
 
@@ -143,3 +143,5 @@ For the resit, the written exam has the same modalities as the first session. It
         </tr>
     </tbody>
 </table>
+
+Those exercises come in large part from Sébastien Mathieu's work, and have been modified with his consent. 
