@@ -1,9 +1,0 @@
----
----
-
-@import "{{ site.theme }}";
-
-header ul li + li + li {
-  border-right: solid;
-  width: 89px;
-}
