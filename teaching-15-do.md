@@ -240,26 +240,27 @@ julia> m = Model(solver=CbcSolver()) # Use Cbc
 julia> m = Model(solver=GurobiSolver()) # Use Gurobi
 ```
 
-Create variables using the @defVar macro (it will automatically create Julia variables):
+Create variables using the `@defVar` macro (it will automatically create Julia variables):
 
 ```
 julia> @defVar(m, x) # Variable x, continuous, no bounds
 julia> @defVar(m, y[0:1] >= 10, Int) # Variables y[0] to y[1], integer, greater or equal to 10
 julia> @defVar(m, z[0:1, 0:1], Bin) # Variables z[0][0], z[0][1], z[1][0], and z[1][1], booleans
+```
 
-Add some constraints with the @addConstraint macro:
+Add some constraints with the `@addConstraint` macro:
 
 ```
 julia> @addConstraint(m, sum(y) >= x)
 ```
 
-Add an objective using the @setObjective macro:
+Add an objective using the `@setObjective` macro:
 
 ```
 julia> @setObjective(m, Max, sum(z))
 ```
 
-Print the model with the print() function:
+Print the model with the `print()` function:
 
 ```
 julia> print(m)
@@ -271,13 +272,13 @@ Subject to
  x free
 ```
 
-Solve the model with the solve() function:
+Solve the model with the `solve()` function:
 
 ```
 julia> solve(m)
 ```
 
-Get the values for the variables with the getValue() function:
+Get the values for the variables with the `getValue()` function:
 
 ```
 julia> getValue(x)
