@@ -21,7 +21,7 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 
 [See it on ORBI](http://orbi.ulg.ac.be/handle/2268/209469)
 
-## A Journey through Julia (17 November 2016, Geeks anonymes)
+## A Journey through Julia (17 November 2016, Geeks anonymes; 17 May 2017, IEEE Student Branch Liège)
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
