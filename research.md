@@ -50,9 +50,36 @@ Thanks to my teaching assistant role, I had the opportunity to contribute to Ren
 
 ## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
+This book was written for anyone wanting to develop graphical user interfaces in Python, starting from a simple dialog to very elaborate applications with menus, toolbars, resizing, database access, etc. The reader is supposed to have little to no knowledge about Qt, but to be knowledgeable about Python and object-oriented programming, especially inheritance. 
+
+Qt is a very complete multiplatform framework, written in C++. PyQt is a binding between Python and Qt, bringing the full Python environment to Qt. 
+
+This book relies on PyQt version 5.6, which will be maintained in the long term, while also mentioning the differences with the next version, PyQt 5.7. 
+
+Two programming paradigms are proposed: the imperative way, that assembles widgets, and the declarative way, with the QML language (Qt Quick). The same example application (library management) is developed with the two methodologies. To go further, a third part details interactive 2D rendering with graphics views (within a Qt Widget application) and different advanced rendering techniques for Qt Quick (Canvas, Qt 3D). 
+
+Eric6 was chosen as default development environment. You will also use Qt Creator to develop in QML. 
+
 ISBN-13: 978-2-8227-0518-9.
 
 ## [Créer des applications avec Qt 5 : les essentiels](https://www.d-booker.fr/110-qt-5-les-essentiels.html), G. Belz, T. Cuvelier, I. Diallo, L. du Verdier, V. Meyer, F. Renault
+
+Qt 5 was out at the end of 2012 and marks a new step in multiplatform programmin. Taking into account the evolution of application development, the framework was refactored as a large and modular toolbox that can be used to create any kind of application, either for desktop or mobile devices. 
+
+This book aims at covering all fundamental tools of Qt 5. 
+
+As a newcomer or a seasoned user, as a designer or a developer, the book will guide you through the first steps with the new version of the framework. Through rich and various examples, it gives you all the keys to create applications, help you find the best graphical modules, take the most out of Qt Creator, optimise your development, or succeed in migrating from Qt 4. A large part of the book is dedicated to Qt QUick and QML, being the most prominent addition to Qt. 
+
+Like the framework, this book is modular, meaning that it is made up of several relatively autonomous units, focused on specific items. Its objective is to directly answer learning goals and use cases, so that the reader may quickly find the most relevant bits. 
+
+This book will present: 
+
+  - what Qt 5 brings to the table
+  - the needed elements to begin with Qt
+  - Qt Quick
+  - QGraphicsView
+  - Qt Creator
+
 
 ISBN-13: 978-2-8227-0108-2.
 
