@@ -46,6 +46,20 @@ Due to my teaching assistant role, I have developed an exercise book for the dis
 
 Thanks to my teaching assistant role, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with [Mathieu Baijot](https://www.esat.kuleuven.be/micas/index.php/mathieu-baijot-cv)) and by creating videos showing the use of the simulator (they are being finalised). 
 
+# Books
+
+## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html)
+
+## [Créer des applications avec Qt 5 : les essentiels](https://www.d-booker.fr/110-qt-5-les-essentiels.html)
+
+## Web sémantique : méthodes et outils pour le Web de données
+
+The World Wide Web has enabled the creation of a global information space comprising linked documents. As the Web becomes ever more enmeshed with our daily lives, there is a growing desire for direct access to raw data not currently available on the Web or bound up in hypertext documents. Linked data provides a publishing paradigm in which not only documents, but also data, can be a first class citizen of the Web, thereby enabling the extension of the Web with a global data space based on open standards - the Web of data. In this Synthesis lecture we provide readers with a detailed technical introduction to linked data. We begin by outlining the basic principles of linked data, including coverage of relevant aspects of Web architecture. The remainder of the text is based around two main themes - the publication and consumption of linked data. Drawing on a practical linked data scenario, we provide guidance and best practices on: architectural approaches to publishing linked data; choo ing URIs and vocabularies to identify and describe resources; deciding what data to return in a description of a resource on the Web; methods and frameworks for automated linking of data sets; and testing and debugging approaches for linked data deployments. We give an overview of existing linked data applications and then examine the architectures that are used to consume linked data from the Web, alongside existing tools and frameworks that enable these. Readers can expect to gain a rich technical understanding of linked data fundamentals, as the basis for application development, research or further study.
+
+This book is a translation of Christian Bizer and Tom Heath's *Linked data: evolving the Web into a global data space*. 
+
+ISBN-13: 978-2-7440-2519-8. 
+
 # Development projects
 
 ## Car on the Hill (now: [CovoitULiège](https://covoituliege.ulg.ac.be/))
