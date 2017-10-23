@@ -48,11 +48,15 @@ Thanks to my teaching assistant role, I had the opportunity to contribute to Ren
 
 # Books
 
-## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html)
+## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
-## [Créer des applications avec Qt 5 : les essentiels](https://www.d-booker.fr/110-qt-5-les-essentiels.html)
+ISBN-13: 978-2-8227-0518-9.
 
-## Web sémantique : méthodes et outils pour le Web de données
+## [Créer des applications avec Qt 5 : les essentiels](https://www.d-booker.fr/110-qt-5-les-essentiels.html), G. Belz, T. Cuvelier, I. Diallo, L. du Verdier, V. Meyer, F. Renault
+
+ISBN-13: 978-2-8227-0108-2.
+
+## Web sémantique : méthodes et outils pour le Web de données, T. Health and C. Bizier, translated by T. Cuvelier, J. Plu, A. Seilles
 
 The World Wide Web has enabled the creation of a global information space comprising linked documents. As the Web becomes ever more enmeshed with our daily lives, there is a growing desire for direct access to raw data not currently available on the Web or bound up in hypertext documents. Linked data provides a publishing paradigm in which not only documents, but also data, can be a first class citizen of the Web, thereby enabling the extension of the Web with a global data space based on open standards - the Web of data. In this Synthesis lecture we provide readers with a detailed technical introduction to linked data. We begin by outlining the basic principles of linked data, including coverage of relevant aspects of Web architecture. The remainder of the text is based around two main themes - the publication and consumption of linked data. Drawing on a practical linked data scenario, we provide guidance and best practices on: architectural approaches to publishing linked data; choo ing URIs and vocabularies to identify and describe resources; deciding what data to return in a description of a resource on the Web; methods and frameworks for automated linking of data sets; and testing and debugging approaches for linked data deployments. We give an overview of existing linked data applications and then examine the architectures that are used to consume linked data from the Web, alongside existing tools and frameworks that enable these. Readers can expect to gain a rich technical understanding of linked data fundamentals, as the basis for application development, research or further study.
 
