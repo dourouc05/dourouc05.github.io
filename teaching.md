@@ -11,10 +11,10 @@ Introduction to intelligent robotics
 
 Discrete optimisation — Introduction à l'algorithmique numérique
 
-Proposed master's theses
+[Proposed master's theses](teaching-2016-2017-proposed-theses)
 
 ## 2015-2016
 
-Introduction to intelligent robotics
+[Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
 [Discrete optimisation](/teaching-2015-2016-discrete-optimisation)
