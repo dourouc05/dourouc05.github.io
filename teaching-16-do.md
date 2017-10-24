@@ -456,28 +456,28 @@ Between the versions 0.12 and 0.13, JuMP changed its syntax. Using the old synta
     <tbody>
         <tr>
             <td>Defining a variable</td>
-            <td><code>@defVar(model, variable, class)</code></td>
-            <td><code>@variable(model, variable, class)</code></td>
+            <td markdown="span">`@defVar(model, variable, class)`</td>
+            <td markdown="span">`@variable(model, variable, class)`</td>
         </tr>
         <tr>
             <td>Defining a constraint</td>
-            <td><code>@addConstraint(model, constraint)</code></td>
-            <td><code>@constraint(model, constraint)</code></td>
+            <td markdown="span">`@addConstraint(model, constraint)`</td>
+            <td markdown="span">`@constraint(model, constraint)`</td>
         </tr>
         <tr>
             <td>Defining the objective function</td>
-            <td><code>@setObjective(model, sense, expression)</code></td>
-            <td><code>@objective(model, sense, expression)</code></td>
+            <td markdown="span">`@setObjective(model, sense, expression)`</td>
+            <td markdown="span">`@objective(model, sense, expression)`</td>
         </tr>
         <tr>
             <td>Getting the value of a variable after optimisation</td>
-            <td><code>getValue(variable)</code></td>
-            <td><code>getvalue(variable)</code></td>
+            <td markdown="span">`getValue(variable)`</td>
+            <td markdown="span">`getvalue(variable)`</td>
         </tr>
         <tr>
             <td>Getting the objective value after optimisation</td>
-            <td><code>getObjectiveValue(model)</code></td>
-            <td><code>getobjectivevalue(model)</code></td>
+            <td markdown="span">`getObjectiveValue(model)`</td>
+            <td markdown="span">`getobjectivevalue(model)`</td>
         </tr>
     </tbody>
 </table>
