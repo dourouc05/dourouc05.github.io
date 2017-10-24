@@ -7,11 +7,11 @@ permalink: teaching
 
 ## 2016-2017
 
-Introduction to intelligent robotics
+[Introduction to intelligent robotics](/teaching-2016-2017-intelligent-robotics)
 
-[Discrete optimisation](/teaching-2016-2017-discrete-optimisation) — Introduction à l'algorithmique numérique
+[Discrete optimisation](/teaching-2016-2017-discrete-optimisation) — [Introduction à l'algorithmique numérique](/teaching-2016-2017-algorithmique-numerique)
 
-[Proposed master's theses](teaching-2016-2017-proposed-theses)
+[Proposed master's theses](/teaching-2016-2017-proposed-theses)
 
 ## 2015-2016
 
