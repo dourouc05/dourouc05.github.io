@@ -9,7 +9,7 @@ permalink: teaching
 
 Introduction to intelligent robotics
 
-Discrete optimisation — Introduction à l'algorithmique numérique
+[Discrete optimisation](/teaching-2016-2017-discrete-optimisation) — Introduction à l'algorithmique numérique
 
 [Proposed master's theses](teaching-2016-2017-proposed-theses)
 

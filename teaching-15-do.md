@@ -204,7 +204,7 @@ First, download Julia 0.3 for your platform [from their webpage](http://julialan
   - For OS X: download the DMG image, mount it, copy the application to your Applications folder.
   - For Linux: select the right package type.
 
-Then, install the optimisation packages: JuMP as a modelling layer, Cbc as a free open-source solver. From the Julia prompt: 
+Then, install the optimisation packages: [JuMP](https://github.com/JuliaOpt/JuMP.jl) as a modelling layer, [Cbc](https://projects.coin-or.org/Cbc) as a free open-source solver. From the Julia prompt: 
 
 ```julia
 julia> Pkg.update()
@@ -220,7 +220,7 @@ julia> Pkg.add("Gurobi")
 
 For an introduction to the language, see [the documentation](http://docs.julialang.org/en/release-0.3/#manual) or [Andrew Collier's Month of Julia](http://www.exegetic.biz/blog/tag/monthofjulia/). For an introduction to JuMP, [see the documentation](http://jump.readthedocs.org/en/latest/). More detailed examples are available as [notebooks (they are not necessarily MILPs!)](http://www.juliaopt.org/notebooks/index.html).
 
-Julia also has a more comfortable way of working than a text editor and a console: Juno is a recent IDE for Julia (there is no need to reinstall the packages within Juno).
+Julia also has a more comfortable way of working than a text editor and a console: [Juno](http://junolab.org/) is a recent IDE for Julia (there is no need to reinstall the packages within Juno).
 
 ### How to use JuMP?
 
