@@ -451,34 +451,34 @@ Between the versions 0.12 and 0.13, JuMP changed its syntax. Using the old synta
             <th>Meaning</th>
             <th>JuMP 0.12-</th>
             <th>JuMP 0.13+</th>
-        <tr>
+        </tr>
     </thead>
     <tbody>
         <tr>
             <td>Defining a variable</td>
             <td><code>@defVar(model, variable, class)</code></td>
             <td><code>@variable(model, variable, class)</code></td>
-        <tr>
+        </tr>
         <tr>
             <td>Defining a constraint</td>
             <td><code>@addConstraint(model, constraint)</code></td>
             <td><code>@constraint(model, constraint)</code></td>
-        <tr>
+        </tr>
         <tr>
             <td>Defining the objective function</td>
             <td><code>@setObjective(model, sense, expression)</code></td>
             <td><code>@objective(model, sense, expression)</code></td>
-        <tr>
+        </tr>
         <tr>
             <td>Getting the value of a variable after optimisation</td>
             <td><code>getValue(variable)</code></td>
             <td><code>getvalue(variable)</code></td>
-        <tr>
+        </tr>
         <tr>
             <td>Getting the objective value after optimisation</td>
             <td><code>getObjectiveValue(model)</code></td>
             <td><code>getobjectivevalue(model)</code></td>
-        <tr>
+        </tr>
     </tbody>
 </table>
 
