@@ -9,7 +9,7 @@ permalink: teaching-2015-2016-discrete-optimisation
 
 Professor: [Q. Louveaux](http://www.montefiore.ulg.ac.be/~louveaux).
 
-[Course page[(http://progcours.ulg.ac.be/cocoon/cours/MATH0462-1.html).
+[Course page](http://progcours.ulg.ac.be/cocoon/cours/MATH0462-1.html).
 
 [Lab accounts (MS800)](http://www.student.montefiore.ulg.ac.be/accounts.php).
 
