@@ -322,3 +322,79 @@ Several theoretical lessons make up this course. Their main purpose is to help r
     </tbody>
 </table>
 
+The chapter numbers follow those of the reference book, [Robotics, Vision and Control](http://petercorke.com/RVC1/), first edition ([freely available when connected from the university network](https://link.springer.com/book/10.1007/978-3-642-20144-8)).
+
+[The second edition is out since June 2017, 22](http://petercorke.com/wordpress/rvc/): the numbering may have evolved, but the book is still be valuable for this course ([it is also freely available when connected from the university network](https://link.springer.com/book/10.1007%2F978-3-319-54413-7)).
+
+The slides that were used the previous years are still available [on Renaud Detry's website](http://renaud-detry.net/teaching/info0948/private/slides.php). (Use the university's cabled network, or a password will be required.) 
+
+## Project
+
+[Project statement](http://ulgrobotics.github.io/trs/project.html), [list of milestones](http://ulgrobotics.github.io/trs/project.html#milestones), [installation procedure](http://ulgrobotics.github.io/trs/setup.html#install). The project should be done in groups of two. If you have questions about the project, you can ask any teaching assistant. [Submissions must be done on the dedicated platform](https://submit.montefiore.ulg.ac.be/) (all the members of your group must register on the platform so that you can make a group). Deadlines: 
+
+
+  - 23 March: milestone A1 and short presentation of your robot exploring the room to produce a map
+  - 13 June: final submission
+  - 14 June: final examination
+
+You may find the following software useful during the project (for MATLAB only):
+
+  - [Peter Corke's Robotics Toolbox](http://petercorke.com/wordpress/toolboxes/robotics-toolbox), also [on GitHub](https://github.com/petercorke/robotics-toolbox-matlab) (however, be cautious: it will not always work as expected); it is automatically installed when you perform the installation steps for the project (when running the script `startup_robot.m`)
+  - [MATLAB Robotics Toolbox](https://fr.mathworks.com/products/robotics.html) (available since R2015a, not by default in all MATLAB editions)
+
+A few links more specifically about the simulator and the code you will have to write:
+
+  - [Complete demo of the youBot (MATLAB)](https://github.com/dourouc05/trs/blob/master/youbot/youbot.m), [more focused demos (MATLAB)](https://github.com/dourouc05/trs/tree/master/youbot/focused)
+  - [List of forbidden functions](http://ulgrobotics.github.io/trs/project.html#api)
+  - [Simulator help](http://www.coppeliarobotics.com/helpFiles/)
+
+Would you choose not to use MATLAB, here are a few links that you might find useful:
+
+  - [the list of V-REP bindings](http://www.coppeliarobotics.com/helpFiles/en/remoteApiClientSide.htm) (the same commands are used for all bindings, whatever the programming language)
+  - For C++: [Robotics Library](http://www.roboticslibrary.org/) (for motion planning), [OpenCV](http://opencv.org/) (for image processing, feature extraction, and machine learning), [mlpack](http://www.mlpack.org/) (for machine learning)
+  - For Octave: Peter Corke's robotics toolbox is partially useable with Octave
+
+## FAQ
+
+### The simulator shows a black screen and gives incorrect position/angle for the robot. What happened?
+
+Usually, when the simulator outputs NaN values, it means that it got invalid inputs, usually as velocities. Graphically, the impact of the NaN values is a black screen. 
+
+### How to update VLFeat? 
+
+By default, the script `startup_robot` downloads an outdated version of VLFeat (0.9.9, while the current one is 0.9.20), which lacks many features (such as an SVM implementation). To update it, you can download the latest version on the official website, including binaries (on [VLFeat's download page](http://www.vlfeat.org/download.html), the file is currently under the link VLFeat 0.9.20 binary package). Extract this archive on your computer (for example, in the directory `matlab/rvctools/contrib/vlfeat-0.9.20`, along with the embedded version of VLFeat, `matlab` containing the `startup_robot.m` file).
+
+Before using VLFeat, you must use a script that sets up the needed paths (very much like `startup_robot`), each time you start MATLAB. If you followed the previous instructions, that script is `matlab/rvctools/contrib/vlfeat-0.9.20/toolbox/vl_setup.m`.
+
+If you get strange errors when trying to use some functions, you may have to recompile the MEX files of VLFeat. To this end, you must at least have [a C compiler installed that is recognised by MATLAB](https://fr.mathworks.com/help/matlab/matlab_external/what-you-need-to-build-mex-files.html): for example, on Windows, [Visual C++ (included with Visual Studio Community)](https://www.visualstudio.com/free-developer-offers/) or [MinGW](https://fr.mathworks.com/help/matlab/matlab_external/install-mingw-support-package.html). Once you have a compiler, start the compilation by launching the script `matlab/rvctools/contrib/vlfeat-0.9.20/toolbox/vl_compile.m`.
+
+With Visual C++, you might still get errors when compiling:
+
+```
+Error using mex
+vl_fisher.c
+C:\Programs Files ( x86)\Windows Kits\10\include\10.0.10150.0\ucrt\stdio.h(1925): warning C4005:
+'snprintf': macro redefinition
+
+C:\Robotics\matlab\rvctools\contrib\vlfeat-0.9.20\vl\host.h(315): note: see previous
+definition of 'snprintf'
+
+C:\Program Files (x86)\Windows Kits\10\include\10.0.10150.0\ucrt\stdio.h(1927): fatal error
+C1189: #error: Macro definition of snprintf conflicts with Standard Library function declaration
+
+Error in vl_compile (line 140)
+mex(cmd{:}) ;
+```
+
+[In this case](https://github.com/vlfeat/vlfeat/issues/137), edit the file `matlab/rvctools/contrib/vlfeat-0.9.20/vl/host.h` to comment out the lines 315 and 335 (they look like `# define snprintf _snprintf`). (Another solution is to use [the master branch](https://github.com/vlfeat/vlfeat) of VLFeat.) Restart `matlab/rvctools/contrib/vlfeat-0.9.20/toolbox/vl_compile.m`.
+
+## How to use the simulator? 
+
+For the projet in this course, you will be asked to use [the simulator V-REP](http://www.coppeliarobotics.com/). It emulates a complete robot (the [youBot](http://www.youbot-store.com/)) evolving in its environment: it will move around, place its arm, grasp objects, take pictures within the simulator.
+
+For the installation, please follow [the TRS tutorial](http://ulgrobotics.github.io/trs/setup.html). It is highly recommended to use MATLAB as a programming environment.
+
+When following the tutorial, if you have an error executing the statement `binding_test()` (step 3.2), make sure you have started the simulation in V-REP.
+
+In order to shoot videos from V-REP, you can use the option *[Tools > Video recorder](http://www.coppeliarobotics.com/helpFiles/en/aviRecorder.htm)*; however, the video will not contain any MATLAB overlay. In order to record your voice, you may have to use separate software for video making, such as [KDEnlive](https://kdenlive.org/). Other tools allow you to capture your screen (including MATLAB windows), such as [OBS Studio (free and open-source software)](https://obsproject.com/) or [Camtasia (the trial version is sufficient)](https://www.techsmith.com/camtasia.html).
+
