@@ -25,7 +25,7 @@ For the resit, the written exam has the same modalities as the first session. It
 
 ## Exercise sessions
 
-<table>
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>#</th>

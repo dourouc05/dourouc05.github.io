@@ -19,7 +19,7 @@ Coordinator: [L. Wehenkel](http://montefiore.ulg.ac.be/~lwh/).
 
 Several theoretical lessons make up this course. Their main purpose is to help realising the project, but they will also give an overview of the field. 
 
-<table>
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>#</th>
