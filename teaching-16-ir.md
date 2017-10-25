@@ -62,11 +62,12 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>Simulator presentation, M. Baijot and Th. Cuvelier</td>
             <td colspan="2" markdown="span">
                 [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/02_Project_and_simulator.pdf). Videos: 
-                
-                  - [V-REP interface description](https://www.youtube.com/watch?v=6Oq55YYLwQs); [back-up link](/files/info0948-2016/V-REP%20overall.mp4)
-                  - [Starting a simulation](https://www.youtube.com/watch?v=SgUfqFveJwQ) (last updated 2014-03-23 14:30); [back-up link](/files/info0948-2016/V-REP%20simulation.mp4)
-                  - [Moving the camera]https://www.youtube.com/watch?v=FRN_Gj_lSqU); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4)
-                  - [Moving objects and getting positions](https://www.youtube.com/watch?v=O8HNW9cXY6Q); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4)
+                <ul>
+                  <li>[V-REP interface description](https://www.youtube.com/watch?v=6Oq55YYLwQs); [back-up link](/files/info0948-2016/V-REP%20overall.mp4)</li>
+                  <li>[Starting a simulation](https://www.youtube.com/watch?v=SgUfqFveJwQ) (last updated 2014-03-23 14:30); [back-up link](/files/info0948-2016/V-REP%20simulation.mp4)</li>
+                  <li>[Moving the camera](https://www.youtube.com/watch?v=FRN_Gj_lSqU); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4)</li>
+                  <li>[Moving objects and getting positions](https://www.youtube.com/watch?v=O8HNW9cXY6Q); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4)</li>
+                </ul>
             </td>
         </tr>
         <tr id="course-3">
@@ -95,18 +96,16 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>5</td>
             <td>9 March 2017</td>
             <td>Fitting and Shape Matching (not in the reference book), Ph. Latour</td>
-            <td>
-                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf)
-            </td>
-            <td class="small">
-                <strong>To go further</strong><br/>
+            <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf)</td>
+            <td class="small" markdown="span">
+                **To go further**<br/>
                 For shape matching: 
                 <ul>
-                    <li>[Chapter 1](https://en.wikipedia.org/wiki/Total_least_squares">total least squares</a> (avoid simple linear regression: see [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of <a href="https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
+                    <li>[total least squares](https://en.wikipedia.org/wiki/Total_least_squares) (avoid simple linear regression: see [Chapter 1](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
                     <li>[Hausdorff distance](https://en.wikipedia.org/wiki/Hausdorff_distance)</li>
                 </ul>
                 An efficient data structure to work with many points: [the k-d tree](https://en.wikipedia.org/wiki/K-d_tree). <br/><br/>
-                <strong>For the project</strong><br/>
+                **For the project**<br/>
                 Peter Corke's Machine Vision Toolbox: 
                 <ul>
                     <li>[fitting points to a model with RANSAC](http://www.petercorke.com/MVTB/r3/html/ransac.html)</li>
@@ -132,7 +131,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td></td>
             <td>23 March 2017</td>
             <td colspan="3">
-                <span class="label label-danger">Danger</span> Milestone A1 (<a href="#project">details below</a>)<br/><br/>
+                <span class="label label-danger">Danger</span> Milestone A1<br/><br/>
                 You are expected to produce a 5-minute video of your robot that explores the map and eventually shows the map, with an audio comment explaining your implementation (why you chose a given path finding algorithm, how you decide the next point to explore, rather than what function you called). Ideally, the video should also show how your robot is making decisions (for example, show the map being built, the next point to explore, the trajectory). <br/>
                 Your submission must include both <em>your</em> source code and the video (either directly as a file, or a link to an external website where you hosted your video — in this case, smake sure that we can access the video at any time after your submission). 
             </td>
@@ -141,20 +140,18 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>7</td>
             <td>30 March 2017</td>
             <td>Image Processing (ch. 12), M. Van Droogenbroeck</td>
-            <td>
-                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/11-image-processing.pdf)
-            </td>
-            <td class="small">
-                <strong>To go further</strong><br/>
-                [article](http://h2r.cs.brown.edu/social-feedback-icra-2017/">Reducing Errors in Object-Fetching Interactions through Social Feedback</a>: [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), <a href="http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf). <br/><br/>
-                <strong>For the project</strong><br/>
+            <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/11-image-processing.pdf)</td>
+            <td class="small" markdown="span">
+                **To go further**<br/>
+                [Reducing Errors in Object-Fetching Interactions through Social Feedback](http://h2r.cs.brown.edu/social-feedback-icra-2017/">Reducing Errors in Object-Fetching Interactions through Social Feedback</a>: [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), [article](http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf). <br/><br/>
+                **For the project**<br/>
                 [Reference book](http://petercorke.com/RVC1/chaps/12/)<br/>
                 MATLAB Image Processing Toolbox: 
                 <ul>
-                    <li>display an image: [the coordinate system](https://fr.mathworks.com/help/images/ref/imshow.html">imshow</a>, <a href="https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
-                    <li>colour space transformation: [the reverse operation](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html">from RGB to HSV</a> and <a href="https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
-                    <li>[Gaussian filtering](https://fr.mathworks.com/help/images/morphological-filtering.html">morphological operations</a>, <a href="https://fr.mathworks.com/help/images/ref/imgaussfilt.html)</li>
-                    <li>[circles detection](https://fr.mathworks.com/help/images/ref/edge.html">edge detection</a>, <a href="https://fr.mathworks.com/help/images/ref/imfindcircles.html)</li>
+                    <li>display an image: [imshow](https://fr.mathworks.com/help/images/ref/imshow.html), [the coordinate system](https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
+                    <li>colour space transformation: [from RGB to HSV](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html) and [the reverse operation](https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
+                    <li>[morphological operations](https://fr.mathworks.com/help/images/morphological-filtering.html), [Gaussian filtering](https://fr.mathworks.com/help/images/ref/imgaussfilt.html)</li>
+                    <li>[edge detection](https://fr.mathworks.com/help/images/ref/edge.html), [circles detection](https://fr.mathworks.com/help/images/ref/imfindcircles.html)</li>
                 </ul>
             </td>
         </tr>
@@ -165,14 +162,14 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                 Feature Extraction, Bag-of-features for Image Classification (ch. 13), R. Marée <br/>
                 <span class="label label-danger">The course begins at 9:30</span>
             </td>
-            <td>
-                [previous version](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf">Slides (20 MB)</a> (<a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))
+            <td markdown="span">
+                [Slides (20 MB)](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf) ([previous version]http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))
             </td>
-            <td class="small">
+            <td class="small" markdown="span">
                 [Reference book](http://petercorke.com/RVC1/chaps/13/)<br/>
                 Peter Corke's Machine Vision Toolbox: 
                 <ul>
-                    <li>Feature extraction: [corner detector](http://www.petercorke.com/MVTB/r3/html/isift.html">SIFT</a>, <a href="http://www.petercorke.com/MVTB/r3/html/isurf.html">SURF</a>, <a href="http://www.petercorke.com/MVTB/r3/html/icorner.html)</li>
+                    <li>Feature extraction: [SIFT](http://www.petercorke.com/MVTB/r3/html/isift.html), [SURF](http://www.petercorke.com/MVTB/r3/html/isurf.html), [corner detector](http://www.petercorke.com/MVTB/r3/html/icorner.html)</li>
                 </ul>
                 MATLAB Computer Vision System Toolbox (high level): 
                 <ul>
@@ -213,7 +210,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
         <tr id="examination">
             <td></td>
             <td>14 June 2017</td>
-            <td colspan="3">
+            <td colspan="3" markdown="span">
                 <span class="label label-danger">Danger</span> Project presentations<br/><br/>
                 The exam will mainly consist of a live demo of your solution on a house that differs from the one provided for training. Be ready to run your code on a laptop, with a different VREP file. Please also prepare videos showing the key elements of your solution, in case there is not enough time to run a full simulation sequence. Prepare two or three slides describing the key elements of your work. This defence shall last approximately ten to fifteen minutes per group.<br/>
                 One examiner residing in the USA, a videoconferencing system will be used, namely [Skype](https://www.skype.com/en/). Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).<br/>
