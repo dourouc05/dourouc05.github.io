@@ -51,48 +51,44 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td rowspan="2">16 February 2017</td>
             <td>Time and Motion, Mobile Robots (ch. 3 and 4), B. Boigelot</td>
             <td markdown="span">
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/time-motion.pdf">Slides</a>
+                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/time-motion.pdf)
             </td>
             <td class="small" markdown="span">
-                Reference book for <a href="http://petercorke.com/RVC1/chaps/3/">Chapter 3</a> and <a href="http://petercorke.com/RVC1/chaps/4/">Chapter 4</a><br/>
-                Peter Corke's Robotics Toolbox: <a href="http://www.petercorke.com/RTB/r9/html/#trajectorygeneration">trajectory interpolation</a>
+                Reference book for [Chapter 3](http://petercorke.com/RVC1/chaps/3/) and [Chapter 4](http://petercorke.com/RVC1/chaps/4/)<br/>
+                Peter Corke's Robotics Toolbox: [trajectory interpolation](http://www.petercorke.com/RTB/r9/html/#trajectorygeneration)
             </td>
         </tr>
         <tr>
             <td>Simulator presentation, M. Baijot and Th. Cuvelier</td>
             <td colspan="2" markdown="span">
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/02_Project_and_simulator.pdf">Slides</a>. Videos: 
-                <ul>
-                    <li><a href="https://www.youtube.com/watch?v=6Oq55YYLwQs">V-REP interface description</a>; <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20overall.mp4">back-up link</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=SgUfqFveJwQ">Starting a simulation</a> (last updated 2014-03-23 14:30); <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20simulation.mp4">back-up link</a></li>                                <li><a href="https://www.youtube.com/watch?v=FRN_Gj_lSqU">Moving the camera</a>; <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4">back-up link</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=O8HNW9cXY6Q">Moving objects and getting positions</a>; <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4">back-up link</a></li>
-                </ul>
+                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/02_Project_and_simulator.pdf). Videos: 
+                
+                  - [V-REP interface description](https://www.youtube.com/watch?v=6Oq55YYLwQs); [back-up link](/files/info0948-2016/V-REP%20overall.mp4)
+                  - [Starting a simulation](https://www.youtube.com/watch?v=SgUfqFveJwQ) (last updated 2014-03-23 14:30); [back-up link](/files/info0948-2016/V-REP%20simulation.mp4)
+                  - [Moving the camera]https://www.youtube.com/watch?v=FRN_Gj_lSqU); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4)
+                  - [Moving objects and getting positions](https://www.youtube.com/watch?v=O8HNW9cXY6Q); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4)
             </td>
         </tr>
         <tr id="course-3">
             <td>3</td>
             <td>23 February 2017</td>
             <td>Navigation (ch. 5), B. Boigelot</td>
-            <td markdown="span">
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/control-navigation.pdf">Slides</a>
-            </td>
+            <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/control-navigation.pdf)</td>
             <td class="small" markdown="span">
-                <a href="http://petercorke.com/RVC1/chaps/5/">Reference book</a><br/>
-                Peter Corke's Robotics Toolbox: <a href="http://www.petercorke.com/RTB/r9/html/#pathplanning">path planning</a>, <a href="http://www.petercorke.com/RTB/r9/html/angdiff.html">angle difference (<code>angdiff</code>)</a><br/>
-                MATLAB Robotics Toolbox: <a href="http://fr.mathworks.com/help/robotics/ug/occupancy-grids.html">path planning and occupancy grids</a>, <a href="http://fr.mathworks.com/help/robotics/ug/probabilistic-roadmaps-prm.html">probabilistic roadmap (PRM)</a>, <a href="http://fr.mathworks.com/help/robotics/ref/robotics.purepursuit-class.html">PurePursuit controller</a>
+                [Reference book](http://petercorke.com/RVC1/chaps/5/)<br/>
+                Peter Corke's Robotics Toolbox: [http://www.petercorke.com/RTB/r9/html/#pathplanning](http://www.petercorke.com/RTB/r9/html/#pathplanning), [angle difference (`angdiff`)](http://www.petercorke.com/RTB/r9/html/angdiff.html)<br/>
+                MATLAB Robotics Toolbox: [path planning and occupancy grids](http://fr.mathworks.com/help/robotics/ug/occupancy-grids.html), [probabilistic roadmap (PRM)](http://fr.mathworks.com/help/robotics/ug/probabilistic-roadmaps-prm.html), [PurePursuit controller](http://fr.mathworks.com/help/robotics/ref/robotics.purepursuit-class.html)
             </td>
         </tr>
         <tr id="course-4">
             <td>4</td>
             <td>2 March 2017</td>
             <td>Localization and Kalman Filter (ch. 6), L. Wehenkel</td>
-            <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/6-localization.pdf">Slides</a>
-            </td>
-            <td class="small">
-                <a href="http://petercorke.com/RVC1/chaps/6/">Reference book</a><br/>
-                Peter Corke's Robotics Toolbox: <a href="http://www.petercorke.com/RTB/r9/html/#localization">localisation with Kalman filter and particle filter</a>, <a href="http://www.petercorke.com/RTB/r9/html/Map.html">map of landmarks</a><br/>
-                MATLAB Robotics Toolbox: <a href="https://fr.mathworks.com/help/robotics/ug/particle-filter-parameters.html">particle filter</a>, <a href="http://fr.mathworks.com/help/robotics/ug/probabilistic-roadmaps-prm.html">probabilistic roadmap (PRM)</a>, <a href="http://fr.mathworks.com/help/robotics/ref/robotics.purepursuit-class.html">PurePursuit controller</a>
+            <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/6-localization.pdf)</td>
+            <td class="small" markdown="span">
+                [Reference book](http://petercorke.com/RVC1/chaps/6/)<br/>
+                Peter Corke's Robotics Toolbox: [localisation with Kalman filter and particle filter](http://www.petercorke.com/RTB/r9/html/#localization), [[map of landmarks](http://www.petercorke.com/RTB/r9/html/Map.html)<br/>
+                MATLAB Robotics Toolbox: [particle filter](https://fr.mathworks.com/help/robotics/ug/particle-filter-parameters.html), [probabilistic roadmap (PRM)](http://fr.mathworks.com/help/robotics/ug/probabilistic-roadmaps-prm.html), [PurePursuit controller](http://fr.mathworks.com/help/robotics/ref/robotics.purepursuit-class.html)
             </td>
         </tr>
         <tr id="course-5">
@@ -100,30 +96,30 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>9 March 2017</td>
             <td>Fitting and Shape Matching (not in the reference book), Ph. Latour</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf">Slides</a>
+                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf)
             </td>
             <td class="small">
                 <strong>To go further</strong><br/>
                 For shape matching: 
                 <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Total_least_squares">total least squares</a> (avoid simple linear regression: see <a href="http://people.cas.uab.edu/~mosya/cl/IHO.pdf">Chapter 1</a> of <a href="https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906">Circular and linear regression: Fitting circles and lines by least squares, N. Chernov</a>)</li>
-                    <li><a href="https://en.wikipedia.org/wiki/Hausdorff_distance">Hausdorff distance</a></li>
+                    <li>[Chapter 1](https://en.wikipedia.org/wiki/Total_least_squares">total least squares</a> (avoid simple linear regression: see [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of <a href="https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
+                    <li>[Hausdorff distance](https://en.wikipedia.org/wiki/Hausdorff_distance)</li>
                 </ul>
-                An efficient data structure to work with many points: <a href="https://en.wikipedia.org/wiki/K-d_tree">the k-d tree</a>. <br/><br/>
+                An efficient data structure to work with many points: [the k-d tree](https://en.wikipedia.org/wiki/K-d_tree). <br/><br/>
                 <strong>For the project</strong><br/>
                 Peter Corke's Machine Vision Toolbox: 
                 <ul>
-                    <li><a href="http://www.petercorke.com/MVTB/r3/html/ransac.html">fitting points to a model with RANSAC</a></li>
-                    <li><a href="http://www.petercorke.com/MVTB/r3/html/icp.html">point cloud alignment with ICP</a></li>
+                    <li>[fitting points to a model with RANSAC](http://www.petercorke.com/MVTB/r3/html/ransac.html)</li>
+                    <li>[point cloud alignment with ICP](http://www.petercorke.com/MVTB/r3/html/icp.html)</li>
                 </ul>
                 MATLAB Computer Vision System Toolbox: 
                 <ul>
-                    <li><a href="https://fr.mathworks.com/help/vision/functionlist.html?s_cid=doc_ftr#bux46dr-1">fitting point clouds to geometric shapes with RANSAC</a></li>
-                    <li><a href="https://fr.mathworks.com/help/vision/ref/pcregrigid.html">fitting point clouds with ICP</a></li>
+                    <li>[fitting point clouds to geometric shapes with RANSAC](https://fr.mathworks.com/help/vision/functionlist.html?s_cid=doc_ftr#bux46dr-1)</li>
+                    <li>[fitting point clouds with ICP](https://fr.mathworks.com/help/vision/ref/pcregrigid.html)</li>
                 </ul>
                 MATLAB Statistics and Machine Learning Toolbox: 
                 <ul>
-                    <li><a href="https://fr.mathworks.com/help/stats/pca.html">PCA (can be used to initialise ICP)</a></li>
+                    <li>[PCA (can be used to initialise ICP)](https://fr.mathworks.com/help/stats/pca.html)</li>
                 </ul>
             </td>
         </tr>
@@ -146,19 +142,19 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>30 March 2017</td>
             <td>Image Processing (ch. 12), M. Van Droogenbroeck</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/11-image-processing.pdf">Slides</a>
+                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/11-image-processing.pdf)
             </td>
             <td class="small">
                 <strong>To go further</strong><br/>
-                <a href="http://h2r.cs.brown.edu/social-feedback-icra-2017/">Reducing Errors in Object-Fetching Interactions through Social Feedback</a>: <a href="https://www.youtube.com/watch?v=xuPZ9zKVIfw">video</a>, <a href="http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf">article</a>. <br/><br/>
+                [article](http://h2r.cs.brown.edu/social-feedback-icra-2017/">Reducing Errors in Object-Fetching Interactions through Social Feedback</a>: [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), <a href="http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf). <br/><br/>
                 <strong>For the project</strong><br/>
-                <a href="http://petercorke.com/RVC1/chaps/12/">Reference book</a><br/>
+                [Reference book](http://petercorke.com/RVC1/chaps/12/)<br/>
                 MATLAB Image Processing Toolbox: 
                 <ul>
-                    <li>display an image: <a href="https://fr.mathworks.com/help/images/ref/imshow.html">imshow</a>, <a href="https://fr.mathworks.com/help/images/image-coordinate-systems.html">the coordinate system</a></li>
-                    <li>colour space transformation: <a href="https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html">from RGB to HSV</a> and <a href="https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html">the reverse operation</a></li>
-                    <li><a href="https://fr.mathworks.com/help/images/morphological-filtering.html">morphological operations</a>, <a href="https://fr.mathworks.com/help/images/ref/imgaussfilt.html">Gaussian filtering</a></li>
-                    <li><a href="https://fr.mathworks.com/help/images/ref/edge.html">edge detection</a>, <a href="https://fr.mathworks.com/help/images/ref/imfindcircles.html">circles detection</a></li>
+                    <li>display an image: [the coordinate system](https://fr.mathworks.com/help/images/ref/imshow.html">imshow</a>, <a href="https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
+                    <li>colour space transformation: [the reverse operation](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html">from RGB to HSV</a> and <a href="https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
+                    <li>[Gaussian filtering](https://fr.mathworks.com/help/images/morphological-filtering.html">morphological operations</a>, <a href="https://fr.mathworks.com/help/images/ref/imgaussfilt.html)</li>
+                    <li>[circles detection](https://fr.mathworks.com/help/images/ref/edge.html">edge detection</a>, <a href="https://fr.mathworks.com/help/images/ref/imfindcircles.html)</li>
                 </ul>
             </td>
         </tr>
@@ -170,26 +166,26 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                 <span class="label label-danger">The course begins at 9:30</span>
             </td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf">Slides (20 MB)</a> (<a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf">previous version</a>)
+                [previous version](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf">Slides (20 MB)</a> (<a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))
             </td>
             <td class="small">
-                <a href="http://petercorke.com/RVC1/chaps/13/">Reference book</a><br/>
+                [Reference book](http://petercorke.com/RVC1/chaps/13/)<br/>
                 Peter Corke's Machine Vision Toolbox: 
                 <ul>
-                    <li>Feature extraction: <a href="http://www.petercorke.com/MVTB/r3/html/isift.html">SIFT</a>, <a href="http://www.petercorke.com/MVTB/r3/html/isurf.html">SURF</a>, <a href="http://www.petercorke.com/MVTB/r3/html/icorner.html">corner detector</a></li>
+                    <li>Feature extraction: [corner detector](http://www.petercorke.com/MVTB/r3/html/isift.html">SIFT</a>, <a href="http://www.petercorke.com/MVTB/r3/html/isurf.html">SURF</a>, <a href="http://www.petercorke.com/MVTB/r3/html/icorner.html)</li>
                 </ul>
                 MATLAB Computer Vision System Toolbox (high level): 
                 <ul>
-                    <li><a href="https://fr.mathworks.com/help/vision/examples/image-category-classification-using-bag-of-features.html">Image Category Classification Using Bag of Features</a></li>
-                    <li><a href="https://fr.mathworks.com/help/vision/ref/bagoffeatures-class.html">bagOfFeatures</a></li>
+                    <li>[Image Category Classification Using Bag of Features](https://fr.mathworks.com/help/vision/examples/image-category-classification-using-bag-of-features.html)</li>
+                    <li>[bagOfFeatures](https://fr.mathworks.com/help/vision/ref/bagoffeatures-class.html)</li>
                 </ul>
                 MATLAB Computer Vision System Toolbox (low level): 
                 <ul>
-                    <li><a href="https://fr.mathworks.com/help/vision/local-feature-extraction.html">Local Feature Extraction</a></li>
+                    <li>[Local Feature Extraction](https://fr.mathworks.com/help/vision/local-feature-extraction.html)</li>
                 </ul>
                 MATLAB Statistics and Machine Learning Toolbox: 
                 <ul>
-                    <li><a href="https://fr.mathworks.com/help/stats/classification.html">Classification</a></li>
+                    <li>[Classification](https://fr.mathworks.com/help/stats/classification.html)</li>
                 </ul>
             </td>
         </tr>
@@ -220,7 +216,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td colspan="3">
                 <span class="label label-danger">Danger</span> Project presentations<br/><br/>
                 The exam will mainly consist of a live demo of your solution on a house that differs from the one provided for training. Be ready to run your code on a laptop, with a different VREP file. Please also prepare videos showing the key elements of your solution, in case there is not enough time to run a full simulation sequence. Prepare two or three slides describing the key elements of your work. This defence shall last approximately ten to fifteen minutes per group.<br/>
-                One examiner residing in the USA, a videoconferencing system will be used, namely <a href="https://www.skype.com/en/">Skype</a>. Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).<br/>
+                One examiner residing in the USA, a videoconferencing system will be used, namely [Skype](https://www.skype.com/en/). Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).<br/>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
