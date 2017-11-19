@@ -1,6 +1,7 @@
 ---
 title: Introduction à l'algorithmique numérique (MATH0500), 2016-2017
 permalink: teaching-2016-2017-algorithmique-numerique
+layout: page
 ---
 
 # Introduction à l'algorithmique numérique (MATH0500), 2016-2017

@@ -1,6 +1,7 @@
 ---
 title: Introduction to intelligent robotics (INFO0948), 2016-2017
 permalink: teaching-2016-2017-intelligent-robotics
+layout: page
 ---
 
 # Introduction à l'algorithmique numérique (MATH0500), 2016-2017

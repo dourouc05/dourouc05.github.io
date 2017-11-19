@@ -1,6 +1,7 @@
 ---
 title: Research topics
 permalink: research
+layout: page
 ---
 
 # Research topics

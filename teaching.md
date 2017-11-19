@@ -1,6 +1,7 @@
 ---
 title: Teaching
 permalink: teaching
+layout: page
 ---
 
 # Teaching

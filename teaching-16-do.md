@@ -1,6 +1,7 @@
 ---
 title: Discrete Optimisation (MATH0462), 2016-2017
 permalink: teaching-2016-2017-discrete-optimisation
+layout: page
 ---
 
 # Discrete Optimisation (MATH0462), 2016-2017
