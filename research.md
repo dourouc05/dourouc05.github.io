@@ -4,8 +4,6 @@ permalink: research
 layout: page
 ---
 
-# Previous research topics
-
 ## InduStore
 
 The [InduStore research project](http://www.industore-project.be/) will allow industrials to add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
