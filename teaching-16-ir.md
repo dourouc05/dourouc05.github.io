@@ -4,8 +4,6 @@ permalink: teaching-2016-2017-intelligent-robotics
 layout: page
 ---
 
-# Introduction à l'algorithmique numérique (MATH0500), 2016-2017
-
 ## General information
 
 Lecturers: [B. Boigelot](http://www.montefiore.ulg.ac.be/~boigelot/), Ph. Latour, A. Lejeune, R. Marée, M. Van Droogenbroeck, [L. Wehenkel](http://montefiore.ulg.ac.be/~lwh/).

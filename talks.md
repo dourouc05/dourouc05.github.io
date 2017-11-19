@@ -4,8 +4,6 @@ permalink: talks
 layout: page
 ---
 
-# Talks
-
 ## Optimising workforce and energy costs by exploiting production flexibility (20 July 2017, IFORS)
 
 In a world where the electricity prices become more and more volatile, notably due to renewable energies, the industry is suffering from cost variations never seen before, especially when electro-intensive. Nevertheless, the plants can significantly reduce this impact: some electro-intensive factories could shift their production to time periods where the electricity is cheaper, resulting in large savings. At the same time, the grid operator can remunerate this consumption adaptation as a flexibility service.

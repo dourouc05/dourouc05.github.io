@@ -4,8 +4,6 @@ permalink: teaching
 layout: page
 ---
 
-# Teaching
-
 ## 2016-2017
 
 [Introduction to intelligent robotics](/teaching-2016-2017-intelligent-robotics)

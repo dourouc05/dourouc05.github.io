@@ -4,10 +4,6 @@ permalink: research
 layout: page
 ---
 
-# Research topics
-
-Not yet available. 
-
 # Previous research topics
 
 ## InduStore
