@@ -10,9 +10,6 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/bootstrap.bundle.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
-    
-    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,7 +17,7 @@
     
     <style type="text/css">h1 { padding: 2rem; } h2 { padding-top: 1rem; padding-bottom: 1rem; }</style>
   </head>
-  <body data-spy="scroll" data-target="#toc">
+  <body>
     <header>
       <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +50,6 @@
         </div>
       </nav>
     </header>
-    <nav id="toc" data-toggle="toc"></nav>
     <section>
       {{ content }}
     </section>

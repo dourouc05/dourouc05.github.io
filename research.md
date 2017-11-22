@@ -90,7 +90,7 @@ ISBN-13: 978-2-7440-2519-8.
 
 ## Car on the Hill (now: [CovoitULiège](https://covoituliege.ulg.ac.be/))
 
-The ULg campuses are not exactly the best in class when it comes to mobility. This is partly due to its highly decentralised organisation: some faculties are localised in the city centre (in different areas of the city), but also remote from the city (the Sart-Tilman campus). Public transportation is a partial answer to this problem, especially in the city centre, where the bus offer is extensive. However, only two buses serve the Sart-Tilman campus, and these are over-crowded during rush time.
+The ULg campuses are not exactly the best in class when it comes to mobility. This is partly due to its highly decentralised organisation: some faculties are localised in the city centre (in different areas of the city), but also remote from the city (the Sart-Tilman campus). Public transportation is a partial answer to this problem, especially in the city centre, where the bus offer is extensive. However, only two bus routes serve the Sart-Tilman campus, and these are over-crowded during rush time.
 
 The goal of the Car on the Hill project is to better exploit the capacity of the cars, i.e. to organise a carsharing activity at the scale of the university, exclusively for university staff and students. As such, drivers propose to drive other persons, and passengers indicate their needs. The platform then proposes to match drivers and passengers based on their respective constraints (origin, destination, precise time of arrival, and delay tolerances).
 
