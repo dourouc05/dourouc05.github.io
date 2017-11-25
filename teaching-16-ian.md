@@ -4,7 +4,9 @@ permalink: teaching-2016-2017-algorithmique-numerique
 layout: page
 ---
 
-## General information
+# Introduction à l'algorithmique numérique (MATH0500), 2016-2017
+
+## Informations générales
 
 Professeur : [Q. Louveaux](http://www.montefiore.ulg.ac.be/~louveaux).
 

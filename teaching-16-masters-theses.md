@@ -4,6 +4,8 @@ permalink: teaching-2016-2017-proposed-theses
 layout: page
 ---
 
+# Proposed master's theses (2016-2017)
+
 ## Open-source Contributions to Julia, a Scientific Programming Language, for Mathematical Optimisation
 
 In the world of programming languages, those that have good runtime performance (like C or Fortran) rarely have nice dynamic features, whereas languages that offer a better programmer productivity (like MATLAB or Python) lack performance. Julia is a newcomer in the field of scientific and technical computations that has a productivity-oriented syntax, but closely matches the performance of lower-level languages like C.

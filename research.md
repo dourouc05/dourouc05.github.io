@@ -1,6 +1,5 @@
 ---
 title: Research topics
-title_on_page: false
 permalink: research
 layout: page
 ---
