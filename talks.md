@@ -5,12 +5,12 @@ layout: page
 ---
 
 <div class="card">
-<div class="card-header" markdown="1">
+<div class="card-header" markdown="span">
 
 # Talks
 
 </div>
-<div class="card-body" markdown="1">
+<div class="card-body" markdown="span">
 
 ## Optimising workforce and energy costs by exploiting production flexibility (20 July 2017, IFORS)
 
@@ -37,12 +37,12 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 </div>
 </div>
 <div class="card">
-<div class="card-header" markdown="1">
+<div class="card-header" markdown="span">
 
 # Posters
 
 </div>
-<div class="card-body" markdown="1">
+<div class="card-body" markdown="span">
 
 ## Characterising industrial sites' flexibility with reservoir models (29 August 2017)
 
