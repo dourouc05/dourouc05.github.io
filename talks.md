@@ -4,7 +4,13 @@ permalink: talks
 layout: page
 ---
 
+<div class="card">
+<div class="card-header" markdown="1">
+
 # Talks
+
+</div>
+<div class="card-body" markdown="1>
 
 ## Optimising workforce and energy costs by exploiting production flexibility (20 July 2017, IFORS)
 
@@ -28,7 +34,15 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 
 <a href="http://orbi.ulg.ac.be/handle/2268/203491" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
 
+</div>
+</div>
+<div class="card">
+<div class="card-header" markdown="1>
+
 # Posters
+
+</div>
+<div class="card-body" markdown="1>
 
 ## Characterising industrial sites' flexibility with reservoir models (29 August 2017)
 
@@ -39,3 +53,6 @@ To this end, we propose a generic paradigm to help conceiving such models: reser
 Our first results show that the obtained reservoir models can give sufficiently good approximations for metallurgical and other processes.
 
 <a href="http://orbi.ulg.ac.be/handle/2268/212703" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
+
+</div>
+</div>
