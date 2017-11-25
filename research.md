@@ -1,8 +1,17 @@
 ---
 title: Research topics
+title_on_page: false
 permalink: research
 layout: page
 ---
+
+<div class="card">
+<div class="card-header">
+
+# Research topics
+
+</div>
+<div class="card-body">
 
 ## InduStore
 
@@ -32,7 +41,15 @@ Those two approaches are quite different, but have rarely seen a direct comparis
 
 My master's thesis was exactly about this comparison. [It was presented at the ORBEL30 conference](ttp://orbi.ulg.ac.be/handle/2268/197081). [The full text is also available online](http://orbi.ulg.ac.be/handle/2268/197090).
 
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+
 # Teaching material
+
+</div>
+<div class="card-body">
 
 ## Discrete optimisation
 Due to my teaching assistant role, I have developed an exercise book for the discrete optimisation course. It also contains a set of final answers and worked-out solutions, so that the book may readily be used in different contexts. It is [freely available on GitHub](https://github.com/dourouc05/OptimisationTeachingKit) (under a CC-NC 4 license). 
@@ -41,7 +58,15 @@ Due to my teaching assistant role, I have developed an exercise book for the dis
 
 Thanks to my teaching assistant role, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with [Mathieu Baijot](https://www.esat.kuleuven.be/micas/index.php/mathieu-baijot-cv)) and by creating videos showing the use of the simulator (they are being finalised). 
 
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+
 # Books
+
+</div>
+<div class="card-body">
 
 ## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
@@ -86,7 +111,15 @@ This book is a translation of Christian Bizer and Tom Heath's *Linked data: evol
 
 ISBN-13: 978-2-7440-2519-8. 
 
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+
 # Development projects
+
+</div>
+<div class="card-body">
 
 ## Car on the Hill (now: [CovoitULiège](https://covoituliege.ulg.ac.be/))
 
@@ -100,3 +133,5 @@ This project has had also some impact on the teaching activities of the departme
 
 The prototype has now developed and has been [deployed at the scale of the university](https://covoituliege.ulg.ac.be/).
 
+</div>
+</div>
