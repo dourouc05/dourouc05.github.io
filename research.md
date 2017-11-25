@@ -43,12 +43,12 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 </div>
 </div>
 <div class="card">
-<div class="card-header" markdown="1>
+<div class="card-header" markdown="1">
 
 # Teaching material
 
 </div>
-<div class="card-body" markdown="1>
+<div class="card-body" markdown="1">
 
 ## Discrete optimisation
 Due to my teaching assistant role, I have developed an exercise book for the discrete optimisation course. It also contains a set of final answers and worked-out solutions, so that the book may readily be used in different contexts. It is [freely available on GitHub](https://github.com/dourouc05/OptimisationTeachingKit) (under a CC-NC 4 license). 
@@ -60,12 +60,12 @@ Thanks to my teaching assistant role, I had the opportunity to contribute to Ren
 </div>
 </div>
 <div class="card">
-<div class="card-header" markdown="1>
+<div class="card-header" markdown="1">
 
 # Books
 
 </div>
-<div class="card-body" markdown="1>
+<div class="card-body" markdown="1">
 
 ## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
@@ -113,12 +113,12 @@ ISBN-13: 978-2-7440-2519-8.
 </div>
 </div>
 <div class="card">
-<div class="card-header" markdown="1>
+<div class="card-header" markdown="1">
 
 # Development projects
 
 </div>
-<div class="card-body" markdown="1>
+<div class="card-body" markdown="1">
 
 ## Car on the Hill (now: [CovoitULiège](https://covoituliege.ulg.ac.be/))
 
