@@ -4,7 +4,11 @@ permalink: research
 layout: page
 ---
 
-{% include card_begin.html title="Research topics" %}
+<div class="card">
+<div class="card-header">
+<h1>Research topics</h1>
+</div>
+<div class="card-body" markdown="block">
 
 ## InduStore
 
@@ -34,7 +38,8 @@ Those two approaches are quite different, but have rarely seen a direct comparis
 
 My master's thesis was exactly about this comparison. [It was presented at the ORBEL30 conference](ttp://orbi.ulg.ac.be/handle/2268/197081). [The full text is also available online](http://orbi.ulg.ac.be/handle/2268/197090).
 
-{% include card_end.html %}
+</div>
+</div>
 {% include card_begin.html title="Teaching material" %}
 
 ## Discrete optimisation
@@ -105,4 +110,4 @@ This project has had also some impact on the teaching activities of the departme
 
 The prototype has now developed and has been [deployed at the scale of the university](https://covoituliege.ulg.ac.be/).
 
-{% include card_begin.html title="Development projects" %}
+{% include card_end.html %}
