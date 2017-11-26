@@ -164,7 +164,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                 {% include danger.html label="The course begins at 9:30" %}
             </td>
             <td>
-                <span markdown="span">[Slides (20 MB)](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf) ([previous version]http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))</span>
+                <span markdown="span">[Slides (20 MB)](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf) ([previous version](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))</span>
             </td>
             <td class="small">
                 <span markdown="span">[Reference book](http://petercorke.com/RVC1/chaps/13/)</span><br/><br/>
