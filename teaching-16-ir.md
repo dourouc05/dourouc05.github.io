@@ -166,25 +166,25 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td markdown="span">
                 [Slides (20 MB)](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/slides-maree.pdf) ([previous version]http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/12-features.pdf))
             </td>
-            <td class="small" markdown="span">
-                [Reference book](http://petercorke.com/RVC1/chaps/13/)<br/>
+            <td class="small" markdown="block">
+                [Reference book](http://petercorke.com/RVC1/chaps/13/)
+                
                 Peter Corke's Machine Vision Toolbox: 
-                <ul>
-                    <li>Feature extraction: [SIFT](http://www.petercorke.com/MVTB/r3/html/isift.html), [SURF](http://www.petercorke.com/MVTB/r3/html/isurf.html), [corner detector](http://www.petercorke.com/MVTB/r3/html/icorner.html)</li>
-                </ul>
+                
+                  * Feature extraction: [SIFT](http://www.petercorke.com/MVTB/r3/html/isift.html), [SURF](http://www.petercorke.com/MVTB/r3/html/isurf.html), [corner detector](http://www.petercorke.com/MVTB/r3/html/icorner.html)
+                  
                 MATLAB Computer Vision System Toolbox (high level): 
-                <ul>
-                    <li>[Image Category Classification Using Bag of Features](https://fr.mathworks.com/help/vision/examples/image-category-classification-using-bag-of-features.html)</li>
-                    <li>[bagOfFeatures](https://fr.mathworks.com/help/vision/ref/bagoffeatures-class.html)</li>
-                </ul>
+                
+                  * [Image Category Classification Using Bag of Features](https://fr.mathworks.com/help/vision/examples/image-category-classification-using-bag-of-features.html)
+                  * [bagOfFeatures](https://fr.mathworks.com/help/vision/ref/bagoffeatures-class.html)
+                  
                 MATLAB Computer Vision System Toolbox (low level): 
-                <ul>
-                    <li>[Local Feature Extraction](https://fr.mathworks.com/help/vision/local-feature-extraction.html)</li>
-                </ul>
+                
+                  * [Local Feature Extraction](https://fr.mathworks.com/help/vision/local-feature-extraction.html
+                  
                 MATLAB Statistics and Machine Learning Toolbox: 
-                <ul>
-                    <li>[Classification](https://fr.mathworks.com/help/stats/classification.html)</li>
-                </ul>
+                
+                  * [Classification](https://fr.mathworks.com/help/stats/classification.html)
             </td>
         </tr>
         <tr id="course-9">
