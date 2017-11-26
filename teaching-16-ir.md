@@ -41,7 +41,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
         <tr>
             <td>Positions and Orientations (ch. 2), A. Lejeune</td>
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/2-pose.pdf)</td>
-            <td class="small" markdown="span">
+            <td class="small">
                 [Reference book](http://petercorke.com/RVC1/chaps/2/)<br/>
                 Peter Corke's Robotics Toolbox: [3D transforms](http://www.petercorke.com/RTB/r9/html/#3dtransforms), [quaternions](http://www.petercorke.com/RTB/r9/html/#quaternion), [homogeneous coordinates](http://www.petercorke.com/RTB/r9/html/#homogeneouspointsandlines)<br/>
                 MATLAB Robotics Toolbox: [coordinate system transforms](http://fr.mathworks.com/help/robotics/coordinate-system-transformations.html)
@@ -61,13 +61,13 @@ Several theoretical lessons make up this course. Their main purpose is to help r
         </tr>
         <tr>
             <td>Simulator presentation, M. Baijot and Th. Cuvelier</td>
-            <td colspan="2" markdown="span">
-                [Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/02_Project_and_simulator.pdf). Videos: 
+            <td colspan="2">
+                <span markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/02_Project_and_simulator.pdf). Videos: </span>
                 <ul>
-                  <li>[V-REP interface description](https://www.youtube.com/watch?v=6Oq55YYLwQs); [back-up link](/files/info0948-2016/V-REP%20overall.mp4)</li>
-                  <li>[Starting a simulation](https://www.youtube.com/watch?v=SgUfqFveJwQ) (last updated 2014-03-23 14:30); [back-up link](/files/info0948-2016/V-REP%20simulation.mp4)</li>
-                  <li>[Moving the camera](https://www.youtube.com/watch?v=FRN_Gj_lSqU); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4)</li>
-                  <li>[Moving objects and getting positions](https://www.youtube.com/watch?v=O8HNW9cXY6Q); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4)</li>
+                  <li markdown="span">[V-REP interface description](https://www.youtube.com/watch?v=6Oq55YYLwQs); [back-up link](/files/info0948-2016/V-REP%20overall.mp4)</li>
+                  <li markdown="span">[Starting a simulation](https://www.youtube.com/watch?v=SgUfqFveJwQ) (last updated 2014-03-23 14:30); [back-up link](/files/info0948-2016/V-REP%20simulation.mp4)</li>
+                  <li markdown="span">[Moving the camera](https://www.youtube.com/watch?v=FRN_Gj_lSqU); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20camera.mp4)</li>
+                  <li markdown="span">[Moving objects and getting positions](https://www.youtube.com/watch?v=O8HNW9cXY6Q); [back-up link](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/V-REP%20objects.mp4)</li>
                 </ul>
             </td>
         </tr>
@@ -142,17 +142,17 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>30 March 2017</td>
             <td>Image Processing (ch. 12), M. Van Droogenbroeck</td>
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/11-image-processing.pdf)</td>
-            <td class="small" markdown="span">
-                **To go further**<br/>
-                [Reducing Errors in Object-Fetching Interactions through Social Feedback](http://h2r.cs.brown.edu/social-feedback-icra-2017/">Reducing Errors in Object-Fetching Interactions through Social Feedback</a>: [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), [article](http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf). <br/><br/>
-                **For the project**<br/>
-                [Reference book](http://petercorke.com/RVC1/chaps/12/)<br/>
+            <td class="small">
+                <span markdown="span">**To go further**</span><br/>
+                <span markdown="span">[Reducing Errors in Object-Fetching Interactions through Social Feedback](http://h2r.cs.brown.edu/social-feedback-icra-2017/): [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), [article](http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf).</span><br/><br/>
+                <span markdown="span">**For the project**</span><br/>
+                <span markdown="span">[Reference book](http://petercorke.com/RVC1/chaps/12/)</span><br/>
                 MATLAB Image Processing Toolbox: 
                 <ul>
-                    <li>display an image: [imshow](https://fr.mathworks.com/help/images/ref/imshow.html), [the coordinate system](https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
-                    <li>colour space transformation: [from RGB to HSV](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html) and [the reverse operation](https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
-                    <li>[morphological operations](https://fr.mathworks.com/help/images/morphological-filtering.html), [Gaussian filtering](https://fr.mathworks.com/help/images/ref/imgaussfilt.html)</li>
-                    <li>[edge detection](https://fr.mathworks.com/help/images/ref/edge.html), [circles detection](https://fr.mathworks.com/help/images/ref/imfindcircles.html)</li>
+                    <li markdown="span">display an image: [imshow](https://fr.mathworks.com/help/images/ref/imshow.html), [the coordinate system](https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
+                    <li markdown="span">colour space transformation: [from RGB to HSV](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html) and [the reverse operation](https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
+                    <li markdown="span">[morphological operations](https://fr.mathworks.com/help/images/morphological-filtering.html), [Gaussian filtering](https://fr.mathworks.com/help/images/ref/imgaussfilt.html)</li>
+                    <li markdown="span">[edge detection](https://fr.mathworks.com/help/images/ref/edge.html), [circles detection](https://fr.mathworks.com/help/images/ref/imfindcircles.html)</li>
                 </ul>
             </td>
         </tr>
