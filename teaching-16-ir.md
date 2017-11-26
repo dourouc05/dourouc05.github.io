@@ -192,7 +192,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>27 April 2017</td>
             <td colspan="3">
                 Project follow-up: first a brief tour of what you have achieved so far since the first deadline (deeper for groups that had problems), then time for questions<br/>
-                <span class="label label-danger">The session begins at 10:00</span>
+                {% include danger.html label="The session begins at 10:00" %}
             </td>
         </tr>
         <tr id="submission">
@@ -205,123 +205,126 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                     <li>your source code for the whole project.</li>
                     <li>a PDF report (between five and ten pages) explaining which milestones you have implemented, the ideas behind your algorithms, why you think they should work in general for a map that respects the hypotheses of the project, what ideas you rejected (and why). Basically, everything that you would like to present during your defence should be in your report. If you want to, you may include links to videos.</li>
                 </ul>
-                <span class="label label-info">Note</span> If you want to, you can submit your project beforehand: such a late deadline does not mean we expect you to work full steam until mid-June, but rather that you should decide when you work on the project so that it does not interfere with your other academic requirements. For students with a heavy exam session, it would be preferable to hand in your project at the end of May, but the choice is up to you.
+                {% include note.html %} If you want to, you can submit your project beforehand: such a late deadline does not mean we expect you to work full steam until mid-June, but rather that you should decide when you work on the project so that it does not interfere with your other academic requirements. For students with a heavy exam session, it would be preferable to hand in your project at the end of May, but the choice is up to you.
             </td>
         </tr>
         <tr id="examination">
             <td></td>
             <td>14 June 2017</td>
             <td colspan="3" markdown="span">
-                <span class="label label-danger">Danger</span> Project presentations<br/><br/>
+                {% include danger.html %} Project presentations<br/><br/>
                 The exam will mainly consist of a live demo of your solution on a house that differs from the one provided for training. Be ready to run your code on a laptop, with a different VREP file. Please also prepare videos showing the key elements of your solution, in case there is not enough time to run a full simulation sequence. Prepare two or three slides describing the key elements of your work. This defence shall last approximately ten to fifteen minutes per group.<br/>
-                One examiner residing in the USA, a videoconferencing system will be used, namely [Skype](https://www.skype.com/en/). Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).<br/>
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Hour</th>
-                            <th>Group names</th>
-                            <th>First group member</th>
-                            <th>Second group member</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>15:00</td>
-                            <td>PitzAmraoui</td>
-                            <td>Adrien Pitz</td>
-                            <td>Issam Amraoui</td>
-                        </tr>
-                        <tr>
-                            <td>15:15</td>
-                            <td>MorelleScarlata</td>
-                            <td>clément Morelle</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>15:30</td>
-                            <td>s101052s150793</td>
-                            <td>Michaël Paquay</td>
-                            <td>Bryan Peeters</td>
-                        </tr>
-                        <tr>
-                            <td>15:45</td>
-                            <td>Group9999</td>
-                            <td>Enrico Ghidoli</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>16:00</td>
-                            <td>SWassermann</td>
-                            <td>Sarah Wassermann</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>16:15</td>
-                            <td>VanheeTasset</td>
-                            <td>Maxime TASSET</td>
-                            <td>Laurent Vanhee</td>
-                        </tr>
-                        <tr>
-                            <td>16:30</td>
-                            <td>group42</td>
-                            <td>Florian Peters</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>16:45</td>
-                            <td>s131529s133011</td>
-                            <td>Joris Sébastien</td>
-                            <td>Martin Castin</td>
-                        </tr>
-                        <tr>
-                            <td>17:00</td>
-                            <td>PierreAntoine</td>
-                            <td>Antoine Germay</td>
-                            <td>Pierre Nicolay</td>
-                        </tr>
-                        <tr>
-                            <td>17:15</td>
-                            <td>Mastrodicasarauw</td>
-                            <td>Rauw Stephane</td>
-                            <td>Simon Mastrodicasa</td>
-                        </tr>
-                        <tr>
-                            <td>17:30</td>
-                            <td>BoileauWauquaire</td>
-                            <td>Quentin Boileau</td>
-                            <td>Odile Wauquaire</td>
-                        </tr>
-                        <tr>
-                            <td>17:45</td>
-                            <td>paaur</td>
-                            <td>Pascal Leroy</td>
-                            <td>Aurelien Werenne</td>
-                        </tr>
-                        <tr>
-                            <td>18:00</td>
-                            <td>s134961s122239</td>
-                            <td>Florian Merchie</td>
-                            <td>quentin Diprima</td>
-                        </tr>
-                        <tr>
-                            <td>18:15</td>
-                            <td>DuboisWehenkel</td>
-                            <td>Antoine Wehenkel</td>
-                            <td>Dubois Antoine</td>
-                        </tr>
-                        <tr>
-                            <td>18:30</td>
-                            <td>RaletBricmont</td>
-                            <td>Bricmont Jordan</td>
-                            <td>ARNAUD RALET</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <span class="label label-info">Note</span> The group names, member names, and member orders have been taken from the submission platform. 
+                One examiner residing in the USA, a videoconferencing system will be used, namely [Skype](https://www.skype.com/en/). Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).
             </td>
         </tr>
     </tbody>
 </table>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Hour</th>
+            <th>Group names</th>
+            <th>First group member</th>
+            <th>Second group member</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>15:00</td>
+            <td>PitzAmraoui</td>
+            <td>Adrien Pitz</td>
+            <td>Issam Amraoui</td>
+        </tr>
+        <tr>
+            <td>15:15</td>
+            <td>MorelleScarlata</td>
+            <td>clément Morelle</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>15:30</td>
+            <td>s101052s150793</td>
+            <td>Michaël Paquay</td>
+            <td>Bryan Peeters</td>
+        </tr>
+        <tr>
+            <td>15:45</td>
+            <td>Group9999</td>
+            <td>Enrico Ghidoli</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:00</td>
+            <td>SWassermann</td>
+            <td>Sarah Wassermann</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:15</td>
+            <td>VanheeTasset</td>
+            <td>Maxime TASSET</td>
+            <td>Laurent Vanhee</td>
+        </tr>
+        <tr>
+            <td>16:30</td>
+            <td>group42</td>
+            <td>Florian Peters</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16:45</td>
+            <td>s131529s133011</td>
+            <td>Joris Sébastien</td>
+            <td>Martin Castin</td>
+        </tr>
+        <tr>
+            <td>17:00</td>
+            <td>PierreAntoine</td>
+            <td>Antoine Germay</td>
+            <td>Pierre Nicolay</td>
+        </tr>
+        <tr>
+            <td>17:15</td>
+            <td>Mastrodicasarauw</td>
+            <td>Rauw Stephane</td>
+            <td>Simon Mastrodicasa</td>
+        </tr>
+        <tr>
+            <td>17:30</td>
+            <td>BoileauWauquaire</td>
+            <td>Quentin Boileau</td>
+            <td>Odile Wauquaire</td>
+        </tr>
+        <tr>
+            <td>17:45</td>
+            <td>paaur</td>
+            <td>Pascal Leroy</td>
+            <td>Aurelien Werenne</td>
+        </tr>
+        <tr>
+            <td>18:00</td>
+            <td>s134961s122239</td>
+            <td>Florian Merchie</td>
+            <td>quentin Diprima</td>
+        </tr>
+        <tr>
+            <td>18:15</td>
+            <td>DuboisWehenkel</td>
+            <td>Antoine Wehenkel</td>
+            <td>Dubois Antoine</td>
+        </tr>
+        <tr>
+            <td>18:30</td>
+            <td>RaletBricmont</td>
+            <td>Bricmont Jordan</td>
+            <td>ARNAUD RALET</td>
+        </tr>
+    </tbody>
+</table>
+
+{% include note.html %}
+The group names, member names, and member orders have been taken from the submission platform. 
 
 The chapter numbers follow those of the reference book, [Robotics, Vision and Control](http://petercorke.com/RVC1/), first edition ([freely available when connected from the university network](https://link.springer.com/book/10.1007/978-3-642-20144-8)).
 
