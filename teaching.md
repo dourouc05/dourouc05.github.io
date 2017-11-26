@@ -4,7 +4,7 @@ permalink: teaching
 layout: page
 ---
 
-# Teaching
+{% include card_begin.html title="Teaching" %}
 
 ## 2016-2017
 
@@ -19,3 +19,5 @@ layout: page
 [Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
 [Discrete optimisation](/teaching-2015-2016-discrete-optimisation)
+
+{% include card_end.html %}

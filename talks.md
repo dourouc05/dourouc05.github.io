@@ -14,19 +14,19 @@ Our research goal is to optimise the operations of a factory around this flexibi
 
 Nevertheless, this methodology implies to have frequent production plan changes, which directly impacts the workers, as they may be asked to follow barely predictable schedules. This has a significant detrimental effect on their quality of life. As a consequence, the human aspect of flexibility must also be considered: we seek for production plans that consider both workforce and energy costs, and we then assign workers to work shifts while ensuring their well-being. This HR orientation is the most innovative contribution of this research project.
 
-<a href="http://orbi.ulg.ac.be/handle/2268/207330" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/207330" %}
 
 ## Modelling the industrial flexibility from the electricity consumption and HR points of view (21 April 2017, COMEX)
 
 Electro-intensive companies are very sensitive to electricity price variations. This is why flexibility is very important to them: they adapt their production to the price fluctuations, and can thus decrease their costs by a large amount. However, most studies of flexibility tend to ignore the human aspect of flexibility. Our approach reconciles both aspects: electricity costs and human resources management. 
 
-<a href="http://orbi.ulg.ac.be/handle/2268/209469" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/209469" %}
 
-## A Journey through Julia (17 November 2016, Geeks anonymes; 17 May 2017, IEEE Student Branch Liège)
+## A Journey through Julia (17 November 2016, [Geeks anonymes](https://www.recherche.uliege.be/cms/c_9463913/fr/geeks-anonymes); 17 May 2017, [IEEE Student Branch Liège](https://ieee.ulg.ac.be/en/))
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
-<a href="http://orbi.ulg.ac.be/handle/2268/203491" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Posters" %}
@@ -39,6 +39,6 @@ To this end, we propose a generic paradigm to help conceiving such models: reser
 
 Our first results show that the obtained reservoir models can give sufficiently good approximations for metallurgical and other processes.
 
-<a href="http://orbi.ulg.ac.be/handle/2268/212703" role="button" class="btn btn-primary btn-sm">See it on ORBI</a>
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/212703" %}
 
 {% include card_end.html %}
