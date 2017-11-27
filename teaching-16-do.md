@@ -231,7 +231,7 @@ An exercise book is being prepared for this course. The current version is [alre
         <tr>
             <td></td>
             <td>11 November 2016</td>
-            <td colspan="2">{% include info.html %} Day off.</td>
+            <td colspan="2">{% include note.html %} Day off.</td>
         </tr>
         <tr>
             <td>8</td>
@@ -252,7 +252,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>25 November 2016</td>
             <td>Cuts and valid inequalities</td>
             <td>
-                {% include info.html %} No theoretical course on this day: the exercise session begins at 14:00.<br/>
+                {% include note.html %} No theoretical course on this day: the exercise session begins at 14:00.<br/>
                 <span markdown="span">[Statement](/files/math0462-2016/R9_cuts.pdf)</span><br/>
                 <span class="small">Julia files: </span>
                 <ul class="small">
@@ -269,14 +269,14 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>2 December 2016</td>
             <td>Correction of the second project, modelling with flows</td>
             <td>
-                {% include info.html %} The course will exceptionnally take place in the R75 room. <br/>
+                {% include note.html %} The course will exceptionnally take place in the R75 room. <br/>
                 <span markdown="span">[Statement](/files/math0462-2016/R10_flows.pdf)</span>
             </td>
         </tr>
         <tr>
             <td></td>
             <td>9 December 2016</td>
-            <td colspan="2">{% include info.html %} No exercise session. </td>
+            <td colspan="2">{% include note.html %} No exercise session. </td>
         </tr>
         <tr>
             <td rowspan="2">11</td>
