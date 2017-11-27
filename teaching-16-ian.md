@@ -12,7 +12,7 @@ Professeur : [Q. Louveaux](http://www.montefiore.ulg.ac.be/~louveaux).
 
 [Page du cours](http://progcours.ulg.ac.be/cocoon/cours/MATH0500-1.html).
 
-N'hésitez pas à me contacter pour toute question sur Julia ou MATLAB. Les exercices sont pris en charge par [Dominique Lamy](dlamy@ulg.ac.be), le projet par Quentin Louveaux. 
+N'hésitez pas à me contacter pour toute question sur Julia ou MATLAB. Les exercices sont pris en charge par [Dominique Lamy](mailto:dlamy@ulg.ac.be), le projet par Quentin Louveaux. 
 
 ### Comment utiliser MATLAB et Julia sur les machines de l'université ? 
 

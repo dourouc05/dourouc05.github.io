@@ -59,9 +59,9 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>1</td>
             <td>23 September 2016</td>
             <td>A Gentle Introduction to Julia for Optimisation. </td>
-            <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R1_julia.pdf">Slides</a><br/>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R1_julia_full.pdf">More complete slides</a>. These also contain conic constraints and the Convex.jl modelling layer, which may be useful for the second project.</span>
+            <td markdown="span">
+                [Slides](/files/math0462-2016/R1_julia.pdf)<br/>
+                <span class="small">[More complete slides](/files/math0462-2016/R1_julia_full.pdf). These also contain conic constraints and the Convex.jl modelling layer, which may be useful for the second project.</span>
             </td>
         </tr>
         <tr>
@@ -69,15 +69,15 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>30 September 2016</td>
             <td>MILP modelling</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_modelling.pdf">Statement</a><br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R2_modelling.pdf)</span><br/>
                 <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_julia.zip">Julia files</a>: </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_hospital.jl">Data for exercise 1</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_hospital_model.jl">Solution</a>.</li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_nurses.jl">Data for exercise 2</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_nurses_model_part1.jl">Solution to part 1</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_nurses_model_part2.jl">Solution to part 2</a>.</li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_groups.jl">Data for exercise 3</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_groups_model.jl">Solution</a>.</li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_beams.jl">Data for exercise 4</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_beams_model_part1.jl">Solution to part 1</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_beams_model_part2.jl">Solution to part 2</a>.</li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_meat.jl">Data for exercise 5</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_meat_model.jl">Solution</a>.</li>
-                                                </ul>
+                    <li markdown="span">[Data for exercise 1](/files/math0462-2016/R2_hospital.jl). [Solution](/files/math0462-2016/R2_hospital_model.pdf).</li>
+                    <li markdown="span">[Data for exercise 2](/files/math0462-2016/R2_nurses.jl). [Solution to part 1](/files/math0462-2016/R2_nurses_model_part1.jl). [Solution to part 2](/math0462-2016/R2_nurses_model_part2.jl).</li>
+                    <li markdown="span">[Data for exercise 3](/files/math0462-2016/R2_groups.jl). [Solution](/files/math0462-2016/R2_groups_model.pdf).</li>
+                    <li markdown="span">[Data for exercise 4](/files/math0462-2016/R2_beams.jl). [Solution to part 1](/files/math0462-2016/R2_beams_model_part1.jl). [Solution to part 2](/files/math0462-2016/R2_beams_model_part2.jl).</li>
+                    <li markdown="span">[Data for exercise 5](/files/math0462-2016/R2_meat.jl). [Solution](/files/math0462-2016/R2_meat_model.pdf).</li>
+                </ul>
             </td>
         </tr>
         <tr>
@@ -85,10 +85,10 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>7 October 2016</td>
             <td>Advanced MILP modelling, presentation of the first project</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_modelling.pdf">Statement</a><br/>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_julia.zip">Julia files</a>: </span>
+                <span markdown="span">[Statement](/files/math0462-2016/R3_modelling.pdf)</span><br/>
+                <span class="small">[Julia files](/files/math0462-2016/R3_julia.zip): </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic.jl">Data for exercise 10</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_data.jl">Data generator</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_model.jl">Solution</a>.</li>
+                    <li>[Solution](/files/math0462-2016/R3_attic.jl">Data for exercise 10</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_data.jl">Data generator</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_model.pdf).</li>
                 </ul>
                 <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_figures.zip">Figures</a>: </span>
                 <ul class="small">
@@ -109,7 +109,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>14 October 2016</td>
             <td>Branch-and-bound algorithm</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_bnb.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R4_bnb.pdf)<br/>
                 <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_figures.zip">Figures</a>: </span>
                 <ul class="small">
                     <li>Graphical B&amp;B (exercise 1): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_0.png"/>feasible region</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_1.png"/>first branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_2.png"/>second branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_3.png"/>third branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_4.png"/>fourth branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_tree.png"/>B&amp;B tree</a>. </li>
@@ -127,7 +127,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>21 October 2016</td>
             <td>Formulation comparison</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R5_comparison.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R5_comparison.pdf)<br/>
                 <span class="small">Julia file: </span>
                 <ul class="small">
                     <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R5_fl.jl">Data and solutions for exercise 1</a>.</li>
@@ -188,7 +188,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>4 November 2016</td>
             <td>Constraint programming</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R7_cp.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R7_cp.pdf)<br/>
                 <span class="small">
                     <a href="http://www.eclipseclp.org/">ECLiPSe</a> is a constraint-programming modelling environment based on Prolog. Download it: 
                 </span>
@@ -219,7 +219,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>18 November 2016</td>
             <td>Correction of the first project, cuts and valid inequalities</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_cuts.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R8_cuts.pdf)<br/>
                 <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_figures.zip">Figures</a>: </span>
                 <ul class="small">
                     <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_1_1.png"/>Exercise 1.1</a>. </li>
@@ -234,10 +234,10 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>Cuts and valid inequalities</td>
             <td>
                 <span class="label label-info">Info</span> No theoretical course on this day: the exercise session begins at 14:00.<br/>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R9_cuts.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R9_cuts.pdf)<br/>
                 <span class="small">Julia files: </span>
                 <ul class="small">
-                    <li>PCTSP: <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R9_pctsp.jl">skeleton</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R9_pctsp_solution.jl">solution</a>.</li>
+                    <li>PCTSP: [Solution](/files/math0462-2016/R9_pctsp.jl">skeleton</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R9_pctsp_solution.pdf).</li>
                 </ul>
             </td>
         </tr>
@@ -251,7 +251,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>Correction of the second project, modelling with flows</td>
             <td>
                 <span class="label label-info">Info</span> The course will exceptionnally take place in the R75 room. <br/>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R10_flows.pdf">Statement</a>
+                [Statement](/files/math0462-2016/R10_flows.pdf)
             </td>
         </tr>
         <tr>
@@ -264,7 +264,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>16 December 2016</td>
             <td>Solving flow problems</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R11_flows.pdf">Statement</a><br/>
+                [Statement](/files/math0462-2016/R11_flows.pdf)<br/>
                 <span class="small">See also real implementations of these algorithms: </span>
                 <ul class="small">
                     <li><a href="http://juliagraphs.github.io/LightGraphs.jl/latest/flowcut/">LightGraphs.jl, in Julia</a></li>
