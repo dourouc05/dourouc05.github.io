@@ -41,7 +41,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
         <tr>
             <td>Positions and Orientations (ch. 2), A. Lejeune</td>
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/2-pose.pdf)</td>
-            <td class="small">
+            <td class="small" markdown="span">
                 [Reference book](http://petercorke.com/RVC1/chaps/2/)<br/>
                 Peter Corke's Robotics Toolbox: [3D transforms](http://www.petercorke.com/RTB/r9/html/#3dtransforms), [quaternions](http://www.petercorke.com/RTB/r9/html/#quaternion), [homogeneous coordinates](http://www.petercorke.com/RTB/r9/html/#homogeneouspointsandlines)<br/>
                 MATLAB Robotics Toolbox: [coordinate system transforms](http://fr.mathworks.com/help/robotics/coordinate-system-transformations.html)
@@ -98,28 +98,28 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>9 March 2017</td>
             <td>Fitting and Shape Matching (not in the reference book), Ph. Latour</td>
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf)</td>
-            <td class="small" markdown="span">
-                **To go further**<br/>
+            <td class="small">
+                <span markdown="span">**To go further**</span><br/>
                 For shape matching: 
                 <ul>
-                    <li>[total least squares](https://en.wikipedia.org/wiki/Total_least_squares) (avoid simple linear regression: see [Chapter 1](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
-                    <li>[Hausdorff distance](https://en.wikipedia.org/wiki/Hausdorff_distance)</li>
+                    <li markdown="span">[total least squares](https://en.wikipedia.org/wiki/Total_least_squares) (avoid simple linear regression: see [Chapter 1](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
+                    <li markdown="span">[Hausdorff distance](https://en.wikipedia.org/wiki/Hausdorff_distance)</li>
                 </ul>
-                An efficient data structure to work with many points: [the k-d tree](https://en.wikipedia.org/wiki/K-d_tree). <br/><br/>
-                **For the project**<br/>
+                <span markdown="span">An efficient data structure to work with many points: [the k-d tree](https://en.wikipedia.org/wiki/K-d_tree).</span><br/><br/>
+                <span markdown="span">**For the project**</span><br/>
                 Peter Corke's Machine Vision Toolbox: 
                 <ul>
-                    <li>[fitting points to a model with RANSAC](http://www.petercorke.com/MVTB/r3/html/ransac.html)</li>
-                    <li>[point cloud alignment with ICP](http://www.petercorke.com/MVTB/r3/html/icp.html)</li>
+                    <li markdown="span">[fitting points to a model with RANSAC](http://www.petercorke.com/MVTB/r3/html/ransac.html)</li>
+                    <li markdown="span">[point cloud alignment with ICP](http://www.petercorke.com/MVTB/r3/html/icp.html)</li>
                 </ul>
                 MATLAB Computer Vision System Toolbox: 
                 <ul>
-                    <li>[fitting point clouds to geometric shapes with RANSAC](https://fr.mathworks.com/help/vision/functionlist.html?s_cid=doc_ftr#bux46dr-1)</li>
-                    <li>[fitting point clouds with ICP](https://fr.mathworks.com/help/vision/ref/pcregrigid.html)</li>
+                    <li markdown="span">[fitting point clouds to geometric shapes with RANSAC](https://fr.mathworks.com/help/vision/functionlist.html?s_cid=doc_ftr#bux46dr-1)</li>
+                    <li markdown="span">[fitting point clouds with ICP](https://fr.mathworks.com/help/vision/ref/pcregrigid.html)</li>
                 </ul>
                 MATLAB Statistics and Machine Learning Toolbox: 
                 <ul>
-                    <li>[PCA (can be used to initialise ICP)](https://fr.mathworks.com/help/stats/pca.html)</li>
+                    <li markdown="span">[PCA (can be used to initialise ICP)](https://fr.mathworks.com/help/stats/pca.html)</li>
                 </ul>
             </td>
         </tr>
