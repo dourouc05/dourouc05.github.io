@@ -19,17 +19,17 @@ The practical part of this course is two-fold:
 
 Indeed, these projects focus on modelling and implementing models, which are the most important skills to get from this course; only the first one is evaluated during the exam.
 
-### How to use Julia on the university machines? 
+### How to use Julia on the university machines?
 
   - Thalès compute server address: `thales02.montefiore.ulg.ac.be`. Credentials (login starting with `od_group`) will be provided for the second project. To get access to the required tools, first type this command: `GUROBI_HOME=/usr/ julia -E "Pkg.add(\"JuMP\"); Pkg.add(\"CPLEX\"); Pkg.add(\"Gurobi\")"`. Julia is then available as `julia`.
   - [Lab accounts (MS800)](http://www.student.montefiore.ulg.ac.be/accounts.php). An old version of Julia is installed on these computers (0.3), along with the necessary tools for this course (albeit outdated).
 
-### What online courses do you recommend? 
+### What online courses do you recommend?
 
   - In English: Coursera's [Discrete Optimization](https://www.coursera.org/learn/discrete-optimization) and [Advanced Modeling for Discrete Optimization](https://www.coursera.org/learn/advancedmodeling)
   - In French: [EnsROtice](http://www.unit.eu/cours/EnsROtice/module_me/co/Mon_Module_1.html)
 
-You may also have a look at [a French portal on operational research](http://perso.ensta-paristech.fr/~diam/ro/), with many interesting links. It also includes [a Julia section](http://perso.ensta-paristech.fr/~diam/ro/?id=main#lang_julia). 
+You may also have a look at [a French portal on operational research](http://perso.ensta-paristech.fr/~diam/ro/), with many interesting links. It also includes [a Julia section](http://perso.ensta-paristech.fr/~diam/ro/?id=main#lang_julia).
 
 ## Publicly available slides for the theoretical course
 
@@ -70,7 +70,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>MILP modelling</td>
             <td>
                 <span markdown="span">[Statement](/files/math0462-2016/R2_modelling.pdf)</span><br/>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R2_julia.zip">Julia files</a>: </span>
+                <span class="small"><a href="/files/math0462-2016/R2_julia.zip">Julia files</a>: </span>
                 <ul class="small">
                     <li markdown="span">[Data for exercise 1](/files/math0462-2016/R2_hospital.jl). [Solution](/files/math0462-2016/R2_hospital_model.pdf).</li>
                     <li markdown="span">[Data for exercise 2](/files/math0462-2016/R2_nurses.jl). [Solution to part 1](/files/math0462-2016/R2_nurses_model_part1.jl). [Solution to part 2](/math0462-2016/R2_nurses_model_part2.jl).</li>
@@ -88,20 +88,23 @@ An exercise book is being prepared for this course. The current version is [alre
                 <span markdown="span">[Statement](/files/math0462-2016/R3_modelling.pdf)</span><br/>
                 <span class="small">[Julia files](/files/math0462-2016/R3_julia.zip): </span>
                 <ul class="small">
-                    <li>[Solution](/files/math0462-2016/R3_attic.jl">Data for exercise 10</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_data.jl">Data generator</a>. <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_attic_model.pdf).</li>
+                    <li markdown="span">[Data for exercise 10](/files/math0462-2016/R3_attic.jl). [Data generator](/files/math0462-2016/R3_attic_data.jl). [Solution](/files/math0462-2016/R3_attic_model.pdf).</li>
                 </ul>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_figures.zip">Figures</a>: </span>
+                <span class="small"><a href="/files/math0462-2016/R3_figures.zip">Figures</a>: </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_not.pdf">Illustration of the NOT constraint (exercise 1)</a>: y = NOT x. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_or.pdf">Illustration of the OR constraints (exercise 2)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_or.cdf">interactive 3D plot</a> <sup><a href="#cdf">CDF?</a></sup>: z = x OR y. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_and.pdf">Illustration of the AND constraints (exercise 3)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_and.cdf">interactive 3D plot</a> <sup><a href="#cdf">CDF?</a></sup>: z = x AND y. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_implication.pdf">Illustration of the implication (exercise 4)</a>: x IMPLIES y. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_if-then.pdf">Illustration of the if-then constraints (exercise 5) for M = 100 (tightest choice)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_if-then-50.pdf">M = 50 (too small: some points are not feasible while they should)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_if-then-200.pdf">M = 200 (too large: the formulation is not as tight as possible)</a>: IF y = 1 THEN x = 100. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_binary-activation.pdf">Illustration of the binary activation (exercise 6)</a>: IF y = 1 THEN x >= 100 ELSE x = 0. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_semicontinuous.pdf">Illustration of a semicontinuous variable (exercise 7)</a>: x IN 0 OR [50, 100]. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R3_if-greater-than.pdf">Illustration of a threshold detection (exercise 8)</a>: y = 1 IF x >= 50 ELSE 0. </li>
+                    <li markdown="span">[Illustration of the NOT constraint (exercise 1)](/files/math0462-2016/R3_not.pdf): y = NOT x. </li>
+                    <li markdown="span">[Illustration of the OR constraints (exercise 2)](/files/math0462-2016/R3_or.pdf), [interactive 3D plot](/files/math0462-2016/R3_or.cdf) <sup>[CDF?](#cdf)</sup>: z = x OR y. </li>
+                    <li markdown="span">[Illustration of the AND constraints (exercise 3)](/files/math0462-2016/R3_and.pdf), [interactive 3D plot](/files/math0462-2016/R3_and.cdf) <sup>[CDF?](#cdf)</sup>: z = x AND y. </li>
+                    <li markdown="span">[Illustration of the implication (exercise 4)](/files/math0462-2016/R3_implication.pdf): x IMPLIES y. </li>
+                    <li markdown="span">[Illustration of the if-then constraints (exercise 5) for M = 100 (tightest choice)](/files/math0462-2016/R3_if-then.pdf),
+                        [M = 50 (too small: some points are not feasible while they should)](/files/math0462-2016/R3_if-then-50.pdf),
+                        [M = 200 (too large: the formulation is not as tight as possible)](/files/math0462-2016/R3_if-then-200.pdf):
+                        IF y = 1 THEN x = 100. </li>
+                    <li markdown="span">[Illustration of the binary activation (exercise 6)](/files/math0462-2016/R3_binary-activation.pdf): IF y = 1 THEN x >= 100 ELSE x = 0. </li>
+                    <li markdown="span">[Illustration of a semicontinuous variable (exercise 7)](/files/math0462-2016/R3_semicontinuous.pdf): x IN 0 OR [50, 100]. </li>
+                    <li markdown="span">[Illustration of a threshold detection (exercise 8)](/files/math0462-2016/R3_if-greater-than.pdf): y = 1 IF x >= 50 ELSE 0. </li>
                 </ul>
-                <span class="small">See also: <a href="https://yalmip.github.io/tutorial/bigmandconvexhulls/">big M and convex hull</a>. </span>
+                <span class="small" markdown="span">See also: [big M and convex hull](https://yalmip.github.io/tutorial/bigmandconvexhulls/). </span>
             </td>
         </tr>
         <tr>
@@ -109,16 +112,32 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>14 October 2016</td>
             <td>Branch-and-bound algorithm</td>
             <td>
-                [Statement](/files/math0462-2016/R4_bnb.pdf)<br/>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_figures.zip">Figures</a>: </span>
+                <span markdown="span">[Statement](/files/math0462-2016/R4_bnb.pdf)</span><br/>
+                <span class="small" markdown="span">[Figures](/files/math0462-2016/R4_figures.zip): </span>
                 <ul class="small">
-                    <li>Graphical B&amp;B (exercise 1): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_0.png"/>feasible region</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_1.png"/>first branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_2.png"/>second branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_3.png"/>third branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_4.png"/>fourth branching</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_graphical_tree.png"/>B&amp;B tree</a>. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_tree.pdf"/>B&amp;B tree exploration node by node (exercise 2)</a>. </li>
-                    <li>B&amp;B inefficiency (exercise 3): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_0.png">step 0 (feasible area)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_1.png">step 1 (simplex solution)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_2.png">step 2 (after branching)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_3.png">step 3 (simplex solution)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_4.png">step 4 (after branching)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_5.png">step 5 (simplex solution)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_6.png">step 6 (after branching)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_7.png">step 7 (simplex solution)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_8.png">step 8 (after branching)</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R4_BB_inefficient_9.png">step 9 (simplex solution)</a>. </li>
+                    <li markdown="span">Graphical B&B (exercise 1):
+                        [feasible region](/files/math0462-2016/R4_BB_graphical_0.png),
+                        [first branching](/files/math0462-2016/R4_BB_graphical_1.png),
+                        [second branching](/files/math0462-2016/R4_BB_graphical_2.png),
+                        [third branching](/files/math0462-2016/R4_BB_graphical_3.png),
+                        [fourth branching](/files/math0462-2016/R4_BB_graphical_4.png),
+                        [B&B tree](/files/math0462-2016/R4_BB_graphical_tree.png). </li>
+                    <li markdown="span">[B&B tree exploration node by node (exercise 2)](/files/math0462-2016/R4_BB_tree.pdf). </li>
+                    <li markdown="span">B&B inefficiency (exercise 3):
+                        [step 0 (feasible area)](/files/math0462-2016/R4_BB_inefficient_0.png),
+                        [step 1 (simplex solution)](/files/math0462-2016/R4_BB_inefficient_1.png),
+                        [step 2 (after branching)](/files/math0462-2016/R4_BB_inefficient_2.png),
+                        [step 3 (simplex solution)](/files/math0462-2016/R4_BB_inefficient_3.png),
+                        [step 4 (after branching)](/files/math0462-2016/R4_BB_inefficient_4.png),
+                        [step 5 (simplex solution)](/files/math0462-2016/R4_BB_inefficient_5.png),
+                        [step 6 (after branching)](/files/math0462-2016/R4_BB_inefficient_6.png),
+                        [step 7 (simplex solution)](/files/math0462-2016/R4_BB_inefficient_7.png),
+                        [step 8 (after branching)](/files/math0462-2016/R4_BB_inefficient_8.png),
+                        [step 9 (simplex solution)](/files/math0462-2016/R4_BB_inefficient_9.png). </li>
                 </ul>
                 <span class="small">See also: </span>
                 <ul class="small">
-                    <li><a href="http://www.gurobi.com/resources/getting-started/mip-basics">basic principles behind a modern MIP solver</a> (includes branch and bound, but also more advanced topics covered in the following lectures)</li>
+                    <li markdown="span">[basic principles behind a modern MIP solver](http://www.gurobi.com/resources/getting-started/mip-basics) (includes branch and bound, but also more advanced topics covered in the following lectures)</li>
                 </ul>
             </td>
         </tr>
@@ -127,19 +146,19 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>21 October 2016</td>
             <td>Formulation comparison</td>
             <td>
-                [Statement](/files/math0462-2016/R5_comparison.pdf)<br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R5_comparison.pdf)</span><br/>
                 <span class="small">Julia file: </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R5_fl.jl">Data and solutions for exercise 1</a>.</li>
+                    <li markdown="span">[Data and solutions for exercise 1](/files/math0462-2016/R5_fl.jl).</li>
                 </ul>
                 <span class="small">See also: </span>
                 <ul class="small">
                     <li>
-                        About the TSP: 
+                        About the TSP:
                         <ul>
-                            <li><a href="https://spokutta.wordpress.com/2012/01/05/1311/">no polynomial formulation exists</a></li>
-                            <li><a href="http://www.cs.uleth.ca/~benkoczi/OR/read/tsp-dantzig-fulkerson-johnson-54.pdf">original formulation (subtour elimination) due to Dantzig, Fulkerson, Johnson</a></li>
-                            <li><a href="http://eprints.lse.ac.uk/9349/1/WP67_A_Survey_of_DifferentFormulationsoftheTSPJuly20051LSEROVERSION.pdf">a survey of various models</a></li>
+                            <li markdown="span">[no polynomial formulation exists](https://spokutta.wordpress.com/2012/01/05/1311/)</li>
+                            <li markdown="span">[original formulation (subtour elimination) due to Dantzig, Fulkerson, Johnson](http://www.cs.uleth.ca/~benkoczi/OR/read/tsp-dantzig-fulkerson-johnson-54.pdf)</li>
+                            <li markdown="span">[a survey of various models](http://eprints.lse.ac.uk/9349/1/WP67_A_Survey_of_DifferentFormulationsoftheTSPJuly20051LSEROVERSION.pdf)</li>
                         </ul>
                     </li>
                 </ul>
@@ -150,34 +169,34 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>28 October 2016</td>
             <td>Advanced solver usage, Q&amp;A for the project and the exercise sessions</td>
             <td>
-                <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R6_solver.pdf">Slides</a><br/>
+                [Slides](/files/math0462-2016/R6_solver.pdf)<br/>
                 <span class="small">Julia files: </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R6_iis.jl">small infeasible problem</a> (<a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R6_iis.lp">corresponding LP file</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R6_iis.ilp">IIS in LP format</a>),</li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R6_subtour.jl">solving the TSP with subtour elimination constraints added lazily</a>.</li>
+                    <li markdown="span">[small infeasible problem](/files/math0462-2016/R6_iis.jl) ([corresponding LP file](/files/math0462-2016/R6_iis.lp), [IIS in LP format](/files/math0462-2016/R6_iis.ilp)),</li>
+                    <li markdown="span">[solving the TSP with subtour elimination constraints added lazily](/files/math0462-2016/R6_subtour.jl).</li>
                 </ul>
                 <span class="small">See also: </span>
                 <ul class="small">
                     <li>
-                        About MIP start: 
+                        About MIP start:
                         <ul>
-                            <li><a href="https://www.gurobi.com/documentation/7.0/examples/mip_starts.html">Gurobi example (C and Python)</a></li>
-                            <li><a href="http://www.ibm.com/support/knowledgecenter/SSSA5P_12.6.3/ilog.odms.cplex.help/CPLEX/UsrMan/topics/discr_optim/mip/para/49_mipStarts.html">CPLEX documentation</a></li>
+                            <li markdown="span">[Gurobi example (C and Python)](https://www.gurobi.com/documentation/7.0/examples/mip_starts.html)</li>
+                            <li markdown="span">[CPLEX documentation](http://www.ibm.com/support/knowledgecenter/SSSA5P_12.6.3/ilog.odms.cplex.help/CPLEX/UsrMan/topics/discr_optim/mip/para/49_mipStarts.html)</li>
                         </ul>
                     </li>
                     <li>
-                        About infeasibility detection: 
+                        About infeasibility detection:
                         <ul>
-                            <li><a href="http://www.sce.carleton.ca/faculty/chinneck/docs/GuieuChinneck.pdf">algorithms to analyse the cause of infeasibility</a></li>
-                            <li><a href="https://github.com/JuliaOpt/JuMP.jl/blob/master/examples/iis.jl">complete example of IIS retrival within JuMP using Gurobi</a></li>
+                            <li markdown="span">[algorithms to analyse the cause of infeasibility](http://www.sce.carleton.ca/faculty/chinneck/docs/GuieuChinneck.pdf)</li>
+                            <li markdown="span">[complete example of IIS retrival within JuMP using Gurobi](https://github.com/JuliaOpt/JuMP.jl/blob/master/examples/iis.jl)</li>
                         </ul>
                     </li>
                     <li>
-                        About lazy constraints and cutting planes: 
+                        About lazy constraints and cutting planes:
                         <ul>
-                            <li><a href="http://orinanobworld.blogspot.be/2012/08/user-cuts-versus-lazy-constraints.html">cutting planes vs lazy constraints</a></li>
-                            <li><a href="http://iaindunning.com/blog/mip-callback.html">worked example of lazy constraints</a> (old version of JuMP; <a href="#julia-syntax-differences">syntax translation guide</a>)</li>
-                            <li><a href="http://sbebo.github.io/blog/blog/2015/06/10/julia/">worked example of user cut</a> (old version of JuMP; <a href="#julia-syntax-differences">syntax translation guide</a>)</li>
+                            <li markdown="span">[cutting planes vs lazy constraints](http://orinanobworld.blogspot.be/2012/08/user-cuts-versus-lazy-constraints.html)</li>
+                            <li markdown="span">[worked example of lazy constraints](http://iaindunning.com/blog/mip-callback.html) (old version of JuMP; [syntax translation guide](#julia-syntax-differences))</li>
+                            <li markdown="span">[worked example of user cut](http://sbebo.github.io/blog/blog/2015/06/10/julia/) (old version of JuMP; [syntax translation guide](#julia-syntax-differences))</li>
                         </ul>
                     </li>
                 </ul>
@@ -189,42 +208,42 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>Constraint programming</td>
             <td>
                 [Statement](/files/math0462-2016/R7_cp.pdf)<br/>
-                <span class="small">
-                    <a href="http://www.eclipseclp.org/">ECLiPSe</a> is a constraint-programming modelling environment based on Prolog. Download it: 
+                <span class="small" markdown="span">
+                    [ECLiPSe](http://www.eclipseclp.org/) is a constraint-programming modelling environment based on Prolog. Download it:
                 </span>
                 <ul class="small">
-                    <li><a href="http://eclipseclp.org/Distribution/6.1_222/x86_64_nt/ECLiPSe_6.1_222_x86_64_nt.exe">ECLiPSe Windows x64</a>,</li>
-                    <li><a href="http://eclipseclp.org/Distribution/6.1_222/x86_64_linux/eclipse_basic.tgz">ECLiPSe Linux and macOS x64</a>.</li>
+                    <li markdown="span">[ECLiPSe Windows x64](http://eclipseclp.org/Distribution/6.1_222/x86_64_nt/ECLiPSe_6.1_222_x86_64_nt.exe),</li>
+                    <li markdown="span">[ECLiPSe Linux and macOS x64](http://eclipseclp.org/Distribution/6.1_222/x86_64_linux/eclipse_basic.tgz).</li>
                 </ul>
                 <span class="small">ECLiPSe solutions: </span>
                 <ul class="small">
-                    <li>sudoku (exercise 1): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R7_sudoku.ecl">skeleton</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R7_sudoku_solution.ecl">solution</a>,</li>
-                    <li>magic squares (exercise 2): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R7_magic_solution.ecl">solution</a>,</li>
-                    <li>N queens (exercise 3): <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R7_queens_solution.ecl">solution</a>.</li>
+                    <li markdown="span">sudoku (exercise 1): [skeleton](/files/math0462-2016/R7_sudoku.ecl), [solution](/files/math0462-2016/R7_sudoku_solution.ecl),</li>
+                    <li markdown="span">magic squares (exercise 2): [solution](/files/math0462-2016/R7_magic_solution.ecl),</li>
+                    <li markdown="span">N queens (exercise 3): [solution](/files/math0462-2016/R7_queens_solution.ecl).</li>
                 </ul>
-                <span class="small"><a href="http://sofdem.github.io/gccat/gccat/sec5.html">A catalogue of existing global constraint with propagator algorithms and existing implementations</a></span>
+                <span class="small" markdown="span">[A catalogue of existing global constraint with propagator algorithms and existing implementations](http://sofdem.github.io/gccat/gccat/sec5.html)</span>
             </td>
         </tr>
         <tr>
             <td>4 November 2016</td>
-            <td colspan="2"><span class="label label-danger">Danger</span> Deadline for the first project</td>
+            <td colspan="2">{% include danger.html %} Deadline for the first project</td>
         </tr>
         <tr>
             <td></td>
             <td>11 November 2016</td>
-            <td colspan="2"><span class="label label-info">Info</span> Day off.</td>
+            <td colspan="2">{% include info.html %} Day off.</td>
         </tr>
         <tr>
             <td>8</td>
             <td>18 November 2016</td>
             <td>Correction of the first project, cuts and valid inequalities</td>
             <td>
-                [Statement](/files/math0462-2016/R8_cuts.pdf)<br/>
-                <span class="small"><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_figures.zip">Figures</a>: </span>
+                <span markdown="span">[Statement](/files/math0462-2016/R8_cuts.pdf)</span><br/>
+                <span class="small" markdown="span">[Figures](/files/math0462-2016/R8_figures.zip): </span>
                 <ul class="small">
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_1_1.png"/>Exercise 1.1</a>. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_1_2.png"/>Exercise 1.2</a>. </li>
-                    <li><a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R8_1_3.png"/>Exercise 1.3</a>. </li>
+                    <li markdown="span">[Exercise 1.1](/files/math0462-2016/R8_1_1.png). </li>
+                    <li markdown="span">[Exercise 1.2](/files/math0462-2016/R8_1_2.png). </li>
+                    <li markdown="span">[Exercise 1.3](/files/math0462-2016/R8_1_3.png). </li>
                 </ul>
             </td>
         </tr>
@@ -233,63 +252,63 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>25 November 2016</td>
             <td>Cuts and valid inequalities</td>
             <td>
-                <span class="label label-info">Info</span> No theoretical course on this day: the exercise session begins at 14:00.<br/>
-                [Statement](/files/math0462-2016/R9_cuts.pdf)<br/>
+                {% include info.html %} No theoretical course on this day: the exercise session begins at 14:00.<br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R9_cuts.pdf)</span><br/>
                 <span class="small">Julia files: </span>
                 <ul class="small">
-                    <li>PCTSP: [Solution](/files/math0462-2016/R9_pctsp.jl">skeleton</a>, <a href="http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2016/R9_pctsp_solution.pdf).</li>
+                    <li markdown="span">PCTSP: [skeleton](/files/math0462-2016/R9_pctsp.jl), [Solution](/files/math0462-2016/R9_pctsp_solution.pdf).</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>25 November 2016</td>
-            <td colspan="2"><span class="label label-danger">Danger</span> Deadline for the first part of the second project</td>
+            <td colspan="2">{% include danger.html %} Deadline for the first part of the second project</td>
         </tr>
         <tr>
             <td>10</td>
             <td>2 December 2016</td>
             <td>Correction of the second project, modelling with flows</td>
             <td>
-                <span class="label label-info">Info</span> The course will exceptionnally take place in the R75 room. <br/>
-                [Statement](/files/math0462-2016/R10_flows.pdf)
+                {% include info.html %} The course will exceptionnally take place in the R75 room. <br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R10_flows.pdf)</span>
             </td>
         </tr>
         <tr>
             <td></td>
             <td>9 December 2016</td>
-            <td colspan="2"><span class="label label-info">Info</span> No exercise session. </td>
+            <td colspan="2">{% include info.html %} No exercise session. </td>
         </tr>
         <tr>
             <td rowspan="2">11</td>
             <td>16 December 2016</td>
             <td>Solving flow problems</td>
             <td>
-                [Statement](/files/math0462-2016/R11_flows.pdf)<br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R11_flows.pdf)</span><br/>
                 <span class="small">See also real implementations of these algorithms: </span>
                 <ul class="small">
-                    <li><a href="http://juliagraphs.github.io/LightGraphs.jl/latest/flowcut/">LightGraphs.jl, in Julia</a></li>
-                    <li><a href="https://networkx.readthedocs.io/en/stable/reference/algorithms.flow.html">NetworkX, in Python</a></li>
-                    <li><a href="http://www.boost.org/doc/libs/1_62_0/libs/graph/doc/graph_theory_review.html#sec:network-flow-algorithms">Boost Graph Library, in C++</a></li>
+                    <li markdown="span">[LightGraphs.jl, in Julia](http://juliagraphs.github.io/LightGraphs.jl/latest/flowcut/)</li>
+                    <li markdown="span">[NetworkX, in Python](https://networkx.readthedocs.io/en/stable/reference/algorithms.flow.html)</li>
+                    <li markdown="span">[Boost Graph Library, in C++](http://www.boost.org/doc/libs/1_62_0/libs/graph/doc/graph_theory_review.html#sec:network-flow-algorithms)</li>
                 </ul>
             </td>
         </tr>
         <tr>
             <td>16 December 2016</td>
-            <td colspan="2"><span class="label label-danger">Danger</span> Deadline for the second part of the second project</td>
+            <td colspan="2">{% include danger.html %} Deadline for the second part of the second project</td>
         </tr>
         <tr>
             <td></td>
             <td>23 December 2016</td>
-            <td colspan="2"><span class="label label-danger">Danger</span> Project presentations</td>
+            <td colspan="2">{% include danger.html %} Project presentations</td>
         </tr>
     </tbody>
 </table>
 
-Those exercises come in large part from Sébastien Mathieu's work, and have been modified with his consent. 
+Those exercises come in large part from Sébastien Mathieu's work, and have been modified with his consent.
 
-### How to open CDF files? 
+### How to open CDF files?
 
-You may use Mathematica ([the university offers a license for students](http://www.ulg.ac.be/cms/c_6690851/fr/mathematica-instructions-pour-les-etudiants)) or the [CDF Player](https://www.wolfram.com/cdf-player/). 
+You may use Mathematica ([the university offers a license for students](http://www.ulg.ac.be/cms/c_6690851/fr/mathematica-instructions-pour-les-etudiants)) or the [CDF Player](https://www.wolfram.com/cdf-player/).
 
 ## Projects
 
@@ -301,9 +320,9 @@ This first project is about the video game Anno 1404. Available files:
   - [the code skeleton](/files/math0462-2016/P1_skeleton.jl),
   - [the data file](/files/math0462-2016/P1_data.jl).
 
-The project must be submitted on the [submission platform](http://submit.run.montefiore.ulg.ac.be/). The platform is not yet updated for this year. Submissions will be accepted till 4 November, 2016, 23:59:59. 
+The project must be submitted on the [submission platform](http://submit.run.montefiore.ulg.ac.be/). The platform is not yet updated for this year. Submissions will be accepted till 4 November, 2016, 23:59:59.
 
-[An implementation of a solution is available](/files/math0462-2016/P1_solution.jl). 
+[An implementation of a solution is available](/files/math0462-2016/P1_solution.jl).
 
 ### Project 2: paper scheduling
 
@@ -339,7 +358,7 @@ Debugging a MIP model: [Detecting the Sources of Model Infeasibility using Gurob
 
 [Julia](http://julialang.org/) is a technical computing programming language, completely free and open-source. Its syntax should be very familiar to MATLAB users. Its environment includes a strong mathematical optimisation community, [JuliaOpt](http://www.juliaopt.org/).
 
-**Hint:** a working version of Julia is available on the MS800 machines, albeit far from recent. It is not necessary to follow this procedure on those computers (including Gurobi with a network license). This version of Julia should be sufficient for most of your work (except the new JuMP syntax or lazy constraints). 
+**Hint:** a working version of Julia is available on the MS800 machines, albeit far from recent. It is not necessary to follow this procedure on those computers (including Gurobi with a network license). This version of Julia should be sufficient for most of your work (except the new JuMP syntax or lazy constraints).
 
 First, download Julia 0.4 for your platform [from their webpage](http://julialang.org/downloads/oldreleases.html) and [install it](https://julialang.org/downloads/platform.html):
 
@@ -347,7 +366,7 @@ First, download Julia 0.4 for your platform [from their webpage](http://julialan
   - For OS X: download the DMG image, mount it, copy the application to your Applications folder.
   - For Linux: select the right package type.
 
-Then, install the optimisation packages: [JuMP](https://github.com/JuliaOpt/JuMP.jl) as a modelling layer, [Cbc](https://projects.coin-or.org/Cbc) as a free open-source solver. From the Julia prompt: 
+Then, install the optimisation packages: [JuMP](https://github.com/JuliaOpt/JuMP.jl) as a modelling layer, [Cbc](https://projects.coin-or.org/Cbc) as a free open-source solver. From the Julia prompt:
 
 ```julia
 julia> Pkg.update()
@@ -363,7 +382,7 @@ julia> Pkg.add("Gurobi")
 
 For an introduction to the language, see [the documentation](http://docs.julialang.org/en/release-0.4/#manual) or [Andrew Collier's Month of Julia](http://www.exegetic.biz/blog/tag/monthofjulia/). For an introduction to JuMP, [see the documentation](http://jump.readthedocs.org/en/latest/). More detailed examples are available as [notebooks (they are not necessarily MILPs!)](http://www.juliaopt.org/notebooks/index.html).
 
-Julia also has a more comfortable way of working than a text editor and a console: [Juno](http://junolab.org/) is a recent IDE for Julia (there is no need to reinstall the packages within Juno), there is also [an experimental Eclipse extension for Julia](https://github.com/JuliaComputing/JuliaDT). 
+Julia also has a more comfortable way of working than a text editor and a console: [Juno](http://junolab.org/) is a recent IDE for Julia (there is no need to reinstall the packages within Juno), there is also [an experimental Eclipse extension for Julia](https://github.com/JuliaComputing/JuliaDT).
 
 #### How to use JuMP?
 
@@ -444,14 +463,15 @@ z: 2 dimensions:
 
 ### What are the differences in syntax between JuMP 0.12- and 0.13+?
 
-Between the versions 0.12 and 0.13, JuMP changed its syntax. Using the old syntax still works with the new versions, but emit warnings; however, the new syntax does not work with the older versions. The difference is important, as an old version of JuMP is installed on the MS800 machines: only the old syntax works there. 
+Between the versions 0.12 and 0.13, JuMP changed its syntax. Using the old syntax still works with the new versions, but emit warnings; however, the new syntax does not work with the older versions. The difference is important, as an old version of JuMP is installed on the MS800 machines: only the old syntax works there.
 
 <table>
     <thead>
         <tr>
             <th>Meaning</th>
-            <th>JuMP 0.12-</th>
-            <th>JuMP 0.13+</th>
+            <th>JuMP up to 0.12</th>
+            <th>JuMP between 0.13 and 0.18</th>
+            <!-- TODO: JuMP 0.19 -->
         </tr>
     </thead>
     <tbody>
@@ -485,4 +505,4 @@ Between the versions 0.12 and 0.13, JuMP changed its syntax. Using the old synta
 
 ### Some tricks
 
-In the REPL, type `;` to have access to a standard UNIX shell; type `?` for the help mode (equivalent to using the `help()` function). 
+In the REPL, type `;` to have access to a standard UNIX shell; type `?` for the help mode (equivalent to using the `help()` function).
