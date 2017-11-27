@@ -169,7 +169,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>28 October 2016</td>
             <td>Advanced solver usage, Q&amp;A for the project and the exercise sessions</td>
             <td>
-                [Slides](/files/math0462-2016/R6_solver.pdf)<br/>
+                <span markdown="span">[Slides](/files/math0462-2016/R6_solver.pdf)</span><br/>
                 <span class="small">Julia files: </span>
                 <ul class="small">
                     <li markdown="span">[small infeasible problem](/files/math0462-2016/R6_iis.jl) ([corresponding LP file](/files/math0462-2016/R6_iis.lp), [IIS in LP format](/files/math0462-2016/R6_iis.ilp)),</li>
@@ -207,7 +207,7 @@ An exercise book is being prepared for this course. The current version is [alre
             <td>4 November 2016</td>
             <td>Constraint programming</td>
             <td>
-                [Statement](/files/math0462-2016/R7_cp.pdf)<br/>
+                <span markdown="span">[Statement](/files/math0462-2016/R7_cp.pdf)</span><br/>
                 <span class="small" markdown="span">
                     [ECLiPSe](http://www.eclipseclp.org/) is a constraint-programming modelling environment based on Prolog. Download it:
                 </span>
