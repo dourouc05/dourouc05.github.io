@@ -6,6 +6,8 @@ layout: page
 
 {% include card_begin.html title="Research topics" %}
 
+## Combinatorial bandits
+
 ## InduStore
 
 The [InduStore research project](http://www.industore-project.be/) will allow industrials to add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
@@ -24,7 +26,7 @@ More specifically, this research aims to include flooding models inside mathemat
 
 For now, the models have a rather low level of detail, but include uncertainty in the inflow. 
 
-The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under a MIT license). 
+The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under a MIT license). The uncertain models have been compared in [an article to appear in the Water Resources Management journal](https://orbi.uliege.be/handle/2268/219394). 
 
 ## Master's thesis: stochastic and robust programming
 
