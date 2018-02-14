@@ -6,6 +6,12 @@ layout: page
 
 {% include card_begin.html title="Talks" %}
 
+## Feedback from a Julia user: Research and teaching activities in operational research (21 February 2018, ROADEF)
+
+Julia is a recent programming language with a dynamic community, especially in operational research and mathematical optimisation in particular. Albeit new, it already has many advantages over its competitors, both for research and teaching. This presentation offers some feedback on several years of using Julia.
+
+{% include button.html url="https://orbi.uliege.be/handle/2268/220267" %}
+
 ## Voyage incertain : découvrir l’optimisation stochastique et robuste (5 February 2018, Orange Labs)
 
 Stochastic and robust optimisation are the two main approaches to take into account the uncertainty within mathematical optimisation. This presentation highlights the main ideas about each paradigm, the algorithms that are used, and gives examples of their use, mostly in a networking context. 
