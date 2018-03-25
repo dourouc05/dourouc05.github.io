@@ -134,7 +134,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td colspan="3">
                 {% include danger.html %} Milestone A1<br/><br/>
                 You are expected to produce a 5-minute video of your robot that explores the map and eventually shows the map, with an audio comment explaining your implementation (why you chose a given path finding algorithm, how you decide the next point to explore, rather than what function you called). Ideally, the video should also show how your robot is making decisions (for example, show the map being built, the next point to explore, the trajectory). <br/>
-                Your submission must include both <em>your</em> source code and the video (either directly as a file, or a link to an external website where you hosted your video — in this case, smake sure that we can access the video at any time after your submission). 
+                Your submission must include both <em>your</em> source code and the video (either directly as a file, or a link to an external website where you hosted your video — in this case, make sure that we can access the video at any time after your submission). 
             </td>
         </tr>
         <tr id="course-7">
