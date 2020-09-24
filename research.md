@@ -28,7 +28,7 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 * RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02265426/)
 * ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
-*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019.
+*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02375296)
 * RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [PDF](https://hal.archives-ouvertes.fr/hal-02932839)
 
 ## InduStore
