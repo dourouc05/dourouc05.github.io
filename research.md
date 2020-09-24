@@ -8,15 +8,21 @@ layout: page
 
 ## Combinatorial bandits
 
+Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to the cases where the agent takes decision in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.), i.e. decisions that are made of many individual components (a path is a sequence of edges, e.g.). This field generalises online combinatorial optimisation. 
+
+Most algorithms for combinatorial bandits use mathematical-optimisation tools in some way. However, current algorithms either have an excellent operational performance (but taking a decision takes a very long time: these algorithms include [ESCB](https://papers.nips.cc/paper/5831-combinatorial-bandits-revisited) and [OSSB](https://papers.nips.cc/paper/6773-minimal-exploration-in-structured-stochastic-bandits)) or have great computational properties (but the solutions they take can be arbitrarily worse than those played by the first algorithms, like [Thompson sampling](https://papers.nips.cc/paper/7670-an-information-theoretic-analysis-for-thompson-sampling-with-many-actions) or [CUCB](http://proceedings.mlr.press/v38/kveton15.html)). More precisely, the first kind of algorithm typically has an exponential computational complexity (with respect to the dimension of the problem, i.e. the number of components of a solution). 
+
+Developing new advanced tools in the field of mathematical optimisation (solving nonlinear programs using budgeted linear problems), I reduce the bandit-problem complexity to polynomial in many useful cases, for two state-of-the-art algorithms (ESCB and OSSB). The result of this work is available as [open-source software](https://github.com/dourouc05/CombinatorialBandits.jl) (under an MIT license). The techniques behind a polynomial-time implementation of ESCB have been presented [at the SNAPP seminar](https://www.youtube.com/watch?v=7flMukHqfW4).
+
 ## InduStore
 
-The [InduStore research project](http://www.industore-project.be/) will allow industrials to add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
+The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
 
 These developments started with easing the modelling of industrial processes with generic block-diagram models and their associated mathematical formulation. Thanks to this kind of models, those processes can be used in mathematical-programming-based solutions for optimising plants. Currently, a seemingly good candidate for this modelling is the reservoir, which can model many kinds of processes.
 
 Once the process models are developed, they should be integrated within a complete plant model to actually exploit the flexibility. Outside the processes, two elements must be considered: the order book, but also the workers, as they are at the heart of the production. Industrial sites tend to use shift work to be able to produce twenty-four hours a day; however, this requires to organise the shifts according to legal constraints. Our approach considers the two faces of the coin: production and shift work. The first one exploits the flexibility, while the second optimises the schedule for the workers' well-being.
 
-The source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/IndustrialProcessFlexibilisation.jl) (under a MIT license). The production-HR coupling has been presented [at the COMEX workshop](http://orbi.ulg.ac.be/handle/2268/209469) and [at the IFORS conference](http://orbi.ulg.ac.be/handle/2268/207330). The modelling methodology has been presented [at the DS3 summer school](http://orbi.ulg.ac.be/handle/2268/212703). 
+The source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/IndustrialProcessFlexibilisation.jl) (under an MIT license). The production-HR coupling has been presented [at the COMEX workshop](http://orbi.ulg.ac.be/handle/2268/209469) and [at the IFORS conference](http://orbi.ulg.ac.be/handle/2268/207330). The modelling methodology has been presented [at the DS3 summer school](http://orbi.ulg.ac.be/handle/2268/212703). 
 
 ## Reservoir management
 
@@ -26,7 +32,7 @@ More specifically, this research aims to include flooding models inside mathemat
 
 For now, the models have a rather low level of detail, but include uncertainty in the inflow. 
 
-The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under a MIT license). The uncertain models have been compared in [an article to appear in the Water Resources Management journal](https://orbi.uliege.be/handle/2268/219394). 
+The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under an MIT license). The uncertain models have been compared in [an article to appear in the Water Resources Management journal](https://orbi.uliege.be/handle/2268/219394). 
 
 ## Master's thesis: stochastic and robust programming
 
@@ -40,11 +46,11 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 {% include card_begin.html title="Teaching material" %}
 
 ## Discrete optimisation
-Due to my teaching assistant role, I have developed an exercise book for the discrete optimisation course. It also contains a set of final answers and worked-out solutions, so that the book may readily be used in different contexts. It is [freely available on GitHub](https://github.com/dourouc05/OptimisationTeachingKit) (under a CC-NC 4 license). 
+Due to my teaching-assistant role, I have developed an exercise book for the discrete optimisation course. It also contains a set of final answers and worked-out solutions, so that the book may readily be used in different contexts. It is [freely available on GitHub](https://github.com/dourouc05/OptimisationTeachingKit) (under a CC-NC 4 license). 
 
 ## Robotics
 
-Thanks to my teaching assistant role, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with [Mathieu Baijot](https://www.esat.kuleuven.be/micas/index.php/mathieu-baijot-cv)) and by creating videos showing the use of the simulator (they are being finalised). 
+Thanks to my teaching-assistant role, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with [Mathieu Baijot](https://www.esat.kuleuven.be/micas/index.php/mathieu-baijot-cv)) and by creating videos showing the use of the simulator (they are being finalised). 
 
 {% include card_end.html %}
 {% include card_begin.html title="Books" %}
