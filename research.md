@@ -14,6 +14,10 @@ Most algorithms for combinatorial bandits use mathematical-optimisation tools in
 
 Developing new advanced tools in the field of mathematical optimisation (solving nonlinear programs using budgeted linear problems), I reduce the bandit-problem complexity to polynomial in many useful cases, for two state-of-the-art algorithms (ESCB and OSSB). The result of this work is available as [open-source software](https://github.com/dourouc05/CombinatorialBandits.jl) (under an MIT license). The techniques behind a polynomial-time implementation of ESCB have been presented [at the SNAPP seminar](https://www.youtube.com/watch?v=7flMukHqfW4) and [in an arXiv preprint](https://arxiv.org/abs/2002.07258).
 
+**List of publications**: 
+
+* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Eric Gourdin. arXiv preprint arXiv:2002.07258. 2020. [PDF](https://arxiv.org/abs/2002.07258)
+
 ## Active learning
 
 Active learning is the field of supervised machine learning where the learning algorithm can query an oracle (a human user or another information source) for new labels of previously unlabelled samples. In particular, in stream-based active learning, samples are sequentially presented to the algorithm. This field is highly related to optimal experimental design.
