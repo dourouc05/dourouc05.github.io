@@ -20,6 +20,13 @@ Active learning is the field of supervised machine learning where the learning a
 
 We propose a new algorithm, RAL (reinforced active learning), for stream-based active learning based on reinforcement learning, more specifically on contextual bandits with expert advice, that can outperform current techniques. RAL uses bandit algorithms to merge several existing active-learning algorithms in an adaptive ensemble. We provide [a Python implementation of RAL](https://github.com/SAWassermann/RAL/). We studied RAL's performance and provided a theoretical analysis [at the IAL (interactive adaptive learning) workshop](https://hal.archives-ouvertes.fr/hal-02265426/). 
 
+List of publications: 
+
+* RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02265426/)
+* ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
+*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019.
+* RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [PDF](https://hal.archives-ouvertes.fr/hal-02932839)
+
 ## InduStore
 
 The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
