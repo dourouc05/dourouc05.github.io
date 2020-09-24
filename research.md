@@ -14,6 +14,12 @@ Most algorithms for combinatorial bandits use mathematical-optimisation tools in
 
 Developing new advanced tools in the field of mathematical optimisation (solving nonlinear programs using budgeted linear problems), I reduce the bandit-problem complexity to polynomial in many useful cases, for two state-of-the-art algorithms (ESCB and OSSB). The result of this work is available as [open-source software](https://github.com/dourouc05/CombinatorialBandits.jl) (under an MIT license). The techniques behind a polynomial-time implementation of ESCB have been presented [at the SNAPP seminar](https://www.youtube.com/watch?v=7flMukHqfW4) and [in an arXiv preprint](https://arxiv.org/abs/2002.07258).
 
+## Active learning
+
+Active learning is the field of supervised machine learning where the learning algorithm can query an oracle (a human user or another information source) for new labels of previously unlabelled samples. In particular, in stream-based active learning, samples are sequentially presented to the algorithm. This field is highly related to optimal experimental design.
+
+We propose a new algorithm, RAL (reinforced active learning), for stream-based active learning based on reinforcement learning, more specifically on contextual bandits with expert advice, that can outperform current techniques. RAL uses bandit algorithms to merge several existing active-learning algorithms in an adaptive ensemble. We provide [a Python implementation of RAL](https://github.com/SAWassermann/RAL/). We studied RAL's performance and provided a theoretical analysis [at the IAL (interactive adaptive learning) workshop](https://hal.archives-ouvertes.fr/hal-02265426/). 
+
 ## InduStore
 
 The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
