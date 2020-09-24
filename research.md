@@ -41,6 +41,12 @@ Once the process models are developed, they should be integrated within a comple
 
 The source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/IndustrialProcessFlexibilisation.jl) (under an MIT license). The production-HR coupling has been presented [at the COMEX workshop](http://orbi.ulg.ac.be/handle/2268/209469) and [at the IFORS conference](http://orbi.ulg.ac.be/handle/2268/207330). The modelling methodology has been presented [at the DS3 summer school](http://orbi.ulg.ac.be/handle/2268/212703). 
 
+**List of publications**: 
+
+* Optimising workforce and energy costs by exploiting production flexibility. Thibaut Cuvelier and Quentin Louveaux. 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017. [PDF](http://hdl.handle.net/2268/207330)
+* Modelling the industrial flexibility from the electricity consumption and HR points of view. Thibaut Cuvelier and Quentin Louveaux. 22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. [PDF](http://hdl.handle.net/2268/209469)
+* Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuvelier. DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017. [PDF](http://hdl.handle.net/2268/212703)
+
 ## Reservoir management
 
 Current dam management techniques that use optimisation either are based on mathematical programming and have a low level of detail, or heavily use metaheuristics to include physical phenomena. The latter completely lose the traditional convergence properties of mathematical optimisation, and both still lack provably reliable uncertainty modelling. 
