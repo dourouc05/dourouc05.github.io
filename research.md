@@ -70,6 +70,10 @@ Those two approaches are quite different, but have rarely seen a direct comparis
 
 My master's thesis was exactly about this comparison. [It was presented at the ORBEL30 conference](ttp://orbi.ulg.ac.be/handle/2268/197081). [The full text is also available online](http://orbi.ulg.ac.be/handle/2268/197090).
 
+**List of publications**:
+
+* Optimisation and uncertainty: comparing stochastic and robust programming. Thibaut Cuvelier. 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. [PDF](http://hdl.handle.net/2268/197081)
+
 {% include card_end.html %}
 {% include card_begin.html title="Teaching material" %}
 
