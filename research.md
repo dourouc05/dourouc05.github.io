@@ -143,6 +143,6 @@ My part in the project was to develop a prototype for this application as a webs
 
 This project has had also some impact on the teaching activities of the department, as it was also the subject of [the integrated software project 2015-2016](http://web.archive.org/web/20160811161723/http://www.montefiore.ulg.ac.be/~proj0010/) (a large software development project for computer science master students). Its algorithmic part was a project<!-- http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2015/P2_statement.pdf --> for the discrete optimisation course. 
 
-The prototype has now developed and has been [deployed at the scale of the university](https://covoituliege.ulg.ac.be/).
+The prototype has now developed and has been deployed at the scale of the university and can be licensed by third parties.
 
 {% include card_end.html %}
