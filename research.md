@@ -133,7 +133,7 @@ ISBN-13: 978-2-7440-2519-8.
 {% include card_end.html %}
 {% include card_begin.html title="Development projects" %}
 
-## Car on the Hill (now: [CovoitULiège](https://covoituliege.ulg.ac.be/))
+## Car on the Hill (became [CovoitULiège](https://covoituliege.ulg.ac.be/), now [UGo](https://ugo.be/))
 
 The ULg campuses are not exactly the best in class when it comes to mobility. This is partly due to its highly decentralised organisation: some faculties are localised in the city centre (in different areas of the city), but also remote from the city (the Sart-Tilman campus). Public transportation is a partial answer to this problem, especially in the city centre, where the bus offer is extensive. However, only two bus routes serve the Sart-Tilman campus, and these are over-crowded during rush time.
 
