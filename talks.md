@@ -4,7 +4,7 @@ permalink: talks
 layout: page
 ---
 
-{% include card_begin.html title="Talks" %}
+{% include card_begin.html title="Talks" id="talks" %}
 
 ## Feedback from a Julia user: Research and teaching activities in operational research (21 February 2018, ROADEF)
 
@@ -43,7 +43,7 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 {% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" %}
 
 {% include card_end.html %}
-{% include card_begin.html title="Posters" %}
+{% include card_begin.html title="Posters" id="posters" %}
 
 ## Characterising industrial sites' flexibility with reservoir models (29 August 2017)
 
