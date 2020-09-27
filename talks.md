@@ -6,7 +6,7 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
-## Improving Stream-Based Active Learning with Reinforcement Learning
+## Improving Stream-Based Active Learning with Reinforcement Learning (8 December 2019, WiML workshop)
 
 One of the main challenges associated with supervised learning under dynamic scenarios is that of periodically getting access to labels of fresh, previously unseen  samples. Labeling ne  data is usually an expensive and cumbersome process, while not all data points are equally valuable. Active learning aims at labeling only the  most informative samples to reduce cost. In this paradigm, a learner can choose from which new samples it wants to learn, and can obtain the ground truth by asking an oracle for the corresponding labels. We introduce RAL – Reinforcedstream-based Active Learning –, a new active-learning approach, coupling stream-based active learning with reinforcement-learning concepts. In particular, we model active learning as a contextual-bandit problem, in which rewards are based on the usefulness of the system's querying behavior. Empirical evaluations on multiple datasets confirm that RAL outperforms the state of the art, both by improving learning accuracy andby reducing the number of requested labels. As an additional contribution, we release RAL as an open-source Python package to the machine-learning community.
 
