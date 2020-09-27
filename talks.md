@@ -6,6 +6,12 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
+## RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis (11 August 2020, SIGCOMM)
+
+Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes. 
+
+{% include button.html url="https://hal.archives-ouvertes.fr/hal-02932839" %}
+
 ## Feedback from a Julia user: Research and teaching activities in operational research (21 February 2018, ROADEF)
 
 Julia is a recent programming language with a dynamic community, especially in operational research and mathematical optimisation in particular. Albeit new, it already has many advantages over its competitors, both for research and teaching. This presentation offers some feedback on several years of using Julia.
