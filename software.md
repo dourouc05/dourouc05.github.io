@@ -18,7 +18,13 @@ I co-developed the [RAL Python package](https://github.com/SAWassermann/RAL) for
 {% include card_end.html %}
 {% include card_begin.html title="Research-support software" id="research-support-software" %}
 
-I developed or significantly contributed to the following Julia packages 
+I developed or significantly contributed to the following Julia packages when working on the previous packages: 
+
+* [NonsmoothOptim.jl](https://github.com/dourouc05/NonsmoothOptim.jl) for nonsmooth optimisation, especially subgradient method and bundle method
+* [Kombinator.jl](https://github.com/dourouc05/Kombinator.jl) for combinatorial optimisation: exact and approximation algorithms and linear-programming formulations for several combinatorial problems
+* Constraint programming: 
+* Mathematical programming: 
+* Mathematical-optimisation solvers: [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
 
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
