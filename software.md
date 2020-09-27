@@ -1,6 +1,6 @@
 ---
 title: Software
-permalink: Software
+permalink: software
 layout: page
 ---
 
@@ -17,6 +17,8 @@ I co-developed the [RAL Python package](https://github.com/SAWassermann/RAL) for
 
 {% include card_end.html %}
 {% include card_begin.html title="Research-support software" id="research-support-software" %}
+
+I developed or significantly contributed to the following Julia packages 
 
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
