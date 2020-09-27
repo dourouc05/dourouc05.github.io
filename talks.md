@@ -10,13 +10,13 @@ layout: page
 
 Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes. 
 
-{% include button.html url="https://hal.archives-ouvertes.fr/hal-02932839" %}
+{% include button.html url="https://hal.archives-ouvertes.fr/hal-02932839" title="See it on HAL" %}
 
 ## Feedback from a Julia user: Research and teaching activities in operational research (21 February 2018, ROADEF)
 
 Julia is a recent programming language with a dynamic community, especially in operational research and mathematical optimisation in particular. Albeit new, it already has many advantages over its competitors, both for research and teaching. This presentation offers some feedback on several years of using Julia.
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/220267" %}
+{% include button.html url="https://orbi.uliege.be/handle/2268/220267" title="See it on ORBi" %}
 
 ## Voyage incertain : découvrir l’optimisation stochastique et robuste (5 February 2018, Orange Labs)
 
@@ -24,7 +24,7 @@ Stochastic and robust optimisation are the two main approaches to take into acco
 
 In French. 
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/219824" %}
+{% include button.html url="https://orbi.uliege.be/handle/2268/219824" title="See it on ORBi" %}
 
 ## Optimising workforce and energy costs by exploiting production flexibility (20 July 2017, IFORS)
 
@@ -34,19 +34,19 @@ Our research goal is to optimise the operations of a factory around this flexibi
 
 Nevertheless, this methodology implies to have frequent production plan changes, which directly impacts the workers, as they may be asked to follow barely predictable schedules. This has a significant detrimental effect on their quality of life. As a consequence, the human aspect of flexibility must also be considered: we seek for production plans that consider both workforce and energy costs, and we then assign workers to work shifts while ensuring their well-being. This HR orientation is the most innovative contribution of this research project.
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/207330" %}
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/207330" title="See it on ORBi" %}
 
 ## Modelling the industrial flexibility from the electricity consumption and HR points of view (21 April 2017, COMEX)
 
 Electro-intensive companies are very sensitive to electricity price variations. This is why flexibility is very important to them: they adapt their production to the price fluctuations, and can thus decrease their costs by a large amount. However, most studies of flexibility tend to ignore the human aspect of flexibility. Our approach reconciles both aspects: electricity costs and human resources management. 
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/209469" %}
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/209469" title="See it on ORBi" %}
 
 ## A Journey through Julia (17 November 2016, [Geeks anonymes](https://www.recherche.uliege.be/cms/c_9463913/fr/geeks-anonymes); 17 May 2017, [IEEE Student Branch Liège](https://ieee.ulg.ac.be/en/))
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" %}
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" title="See it on ORBi" %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Posters" id="posters" %}
@@ -59,6 +59,6 @@ To this end, we propose a generic paradigm to help conceiving such models: reser
 
 Our first results show that the obtained reservoir models can give sufficiently good approximations for metallurgical and other processes.
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/212703" %}
+{% include button.html url="http://orbi.ulg.ac.be/handle/2268/212703" title="See it on ORBi" %}
 
 {% include card_end.html %}
