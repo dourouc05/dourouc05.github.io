@@ -39,3 +39,18 @@ I contributed to [LyX, a WYSIWYM LaTeX editor](https://www.lyx.org/), especially
 Both projects lead me to propose and support until acceptance of several propositions to [the DocBook OASIS standard](https://github.com/docbook/docbook).
 
 {% include card_end.html %}
+{% include card_begin.html title="Development projects" %}
+
+## Car on the Hill (became [CovoitULiège](https://covoituliege.ulg.ac.be/), now [UGo](https://ugo.be/))
+
+The ULg campuses are not exactly the best in class when it comes to mobility. This is partly due to its highly decentralised organisation: some faculties are localised in the city centre (in different areas of the city), but also remote from the city (the Sart-Tilman campus). Public transportation is a partial answer to this problem, especially in the city centre, where the bus offer is extensive. However, only two bus routes serve the Sart-Tilman campus, and these are over-crowded during rush time.
+
+The goal of the Car on the Hill project is to better exploit the capacity of the cars, i.e. to organise a carsharing activity at the scale of the university, exclusively for university staff and students. As such, drivers propose to drive other persons, and passengers indicate their needs. The platform then proposes to match drivers and passengers based on their respective constraints (origin, destination, precise time of arrival, and delay tolerances).
+
+My part in the project was to develop a prototype for this application as a website that could also be used as a mobile application, during the summer 2015. It was programmed in Python using the Django Web framework. An API has been developed to interact with the application; it was used for a master thesis in 2015-2016 about the development of a native Android application. The actual development of the application started in September 2016.
+
+This project has had also some impact on the teaching activities of the department, as it was also the subject of [the integrated software project 2015-2016](http://web.archive.org/web/20160811161723/http://www.montefiore.ulg.ac.be/~proj0010/) (a large software development project for computer science master students). Its algorithmic part was a project<!-- http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2015/P2_statement.pdf --> for the discrete optimisation course. 
+
+The prototype has now developed and has been deployed at the scale of the university and can be licensed by third parties.
+
+{% include card_end.html %}
