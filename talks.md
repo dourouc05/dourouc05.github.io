@@ -6,9 +6,32 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
-## Feedback from a Julia user: Research and teaching activities in operational research (21 February 2018, ROADEF)
+## Improving Stream-Based Active Learning with Reinforcement Learning
+
+One of the main challenges associated with supervised learning under dynamic scenarios is that of periodically getting access to labels of fresh, previously unseen  samples. Labeling ne  data is usually an expensive and cumbersome process, while not all data points are equally valuable. Active learning aims at labeling only the  most informative samples to reduce cost. In this paradigm, a learner can choose from which new samples it wants to learn, and can obtain the ground truth by asking an oracle for the corresponding labels. We introduce RAL – Reinforcedstream-based Active Learning –, a new active-learning approach, coupling stream-based active learning with reinforcement-learning concepts. In particular, we model active learning as a contextual-bandit problem, in which rewards are based on the usefulness of the system's querying behavior. Empirical evaluations on multiple datasets confirm that RAL outperforms the state of the art, both by improving learning accuracy andby reducing the number of requested labels. As an additional contribution, we release RAL as an open-source Python package to the machine-learning community.
+
+{% include button.html url="https://hal.archives-ouvertes.fr/hal-02375296" title="See it on HAL" %}
+
+## Operation rules of the Vesdre reservoir revisited (24 July 2020, International Symposium on Hydrological Modelling of the Meuse basin)
+
+{% include button.html url="https://orbi.uliege.be/handle/2268/239415" title="See it on ORBi" %}
+
+## Comparing Oblivious and Robust Routing Approaches (20 November 2018, PGMO Days)
+
+Network routing is an already well-studied problem: the routers in the network know which path a packet must follow in order to reach its destination. Traffic engineering attempts to tune the routing to meet some requirements, such as avoiding congestion or a reducing end-to-end delays. Several approaches have been devised to perform these adaptations, but only few of them deal with the uncertainty in some parameters. Mostly, the uncertainty lies in the demand, the total amount of traffic that goes through the network; however, links and nodes may also fail.
+Robust routing approaches have been proposed to tackle this issue: indeed, they consider that traffic matrices are not know precisely but that they lie in an uncertainty space that can be analytically described.
+
+Oblivious routing is the extreme case where the uncertainty space is the whole set of possible traffic matrices and the prescribed routing must be as close as p ossible to the optimum routing, whatever traffic matrix effectively occurs. It has been proved that oblivious routing achieves a polylogarithmic competitive ratio with respect to congestion.
+
+Several variants of robust or oblivious routing approaches will be considered and compared on series of realistic instances, some of which are based on Orange network topologies. Future works include dealing with other sources of uncertainty (for instance, survivability to failures) within a common robustness framework. 
+
+{% include button.html url="https://orbi.uliege.be/handle/2268/229784" title="See it on ORBi" %}
+
+## Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle (21 February 2018, ROADEF)
 
 Julia is a recent programming language with a dynamic community, especially in operational research and mathematical optimisation in particular. Albeit new, it already has many advantages over its competitors, both for research and teaching. This presentation offers some feedback on several years of using Julia.
+
+In French. 
 
 {% include button.html url="https://orbi.uliege.be/handle/2268/220267" title="See it on ORBi" %}
 
