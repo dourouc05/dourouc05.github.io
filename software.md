@@ -32,4 +32,10 @@ I developed or significantly contributed to the following Julia packages when wo
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
 
+I developed [QtDocTools](https://github.com/dourouc05/QtDocTools/), a simple CLI tool that was initially written to help manage [the translation of Qt’s documentation into French](https://qt.developpez.com/doc/) by automating many operations on DocBook documents, and outgrew to handle the whole publication chain (roundtrip to DOCX format for proofreading, generation of whole websites, etc.). When working on this tool, I also made a few contributions to [Apache POI](https://github.com/apache/poi) and to [Qt's qdoc](https://www.qt.io/). 
+
+I contributed to [LyX, a WYSIWYM LaTeX editor](https://www.lyx.org/), especially regarding its DocBook 5 support. 
+
+Both projects lead me to propose and support until acceptance of several propositions to [the DocBook OASIS standard](https://github.com/docbook/docbook).
+
 {% include card_end.html %}
