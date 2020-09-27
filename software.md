@@ -23,10 +23,10 @@ I developed or significantly contributed to the following Julia packages when wo
 * [NonsmoothOptim.jl](https://github.com/dourouc05/NonsmoothOptim.jl) for nonsmooth optimisation, especially subgradient method and bundle method
 * [Kombinator.jl](https://github.com/dourouc05/Kombinator.jl) for combinatorial optimisation: exact and approximation algorithms and linear-programming formulations for several combinatorial problems
 * Constraint programming: 
-  * [ConstraintProgrammingExtensions.jl](https://github.com/dourouc05/ConstraintProgrammingExtensions.jl), providing a solver interface for constraint programming (an extension of MathOptInterface)
-  * [JuCP.jl](https://github.com/dourouc05/JuCP.jl), a modelling layer for constraint programming (an extension of JuMP)
+  * [ConstraintProgrammingExtensions.jl](https://github.com/dourouc05/ConstraintProgrammingExtensions.jl), providing a solver interface for constraint programming (an extension of [MathOptInterface](https://github.com/jump-dev/MathOptInterface.jl))
+  * [JuCP.jl](https://github.com/dourouc05/JuCP.jl), a modelling layer for constraint programming (an extension of [JuMP](https://github.com/jump-dev/JuMP.jl))
   * [CPLEXCP.jl](https://github.com/dourouc05/CPLEXCP.jl), a solver wrapper for CPLEX CP Optimizer
-* Mathematical programming: 
+* Mathematical programming: [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
 * Mathematical-optimisation solvers: [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
 
 {% include card_end.html %}
