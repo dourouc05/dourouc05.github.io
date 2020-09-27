@@ -6,7 +6,7 @@ layout: page
 
 {% include card_begin.html title="Teaching" %}
 
-## 2016-2017 {#2016-2017}
+## 2016-2017 ## {#2016-2017}
 
 [Introduction to intelligent robotics](/teaching-2016-2017-intelligent-robotics)
 
@@ -14,7 +14,7 @@ layout: page
 
 [Proposed master's theses](/teaching-2016-2017-proposed-theses)
 
-## 2015-2016 {#2015-2016}
+## 2015-2016 ## {#2015-2016}
 
 [Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
