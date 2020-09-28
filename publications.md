@@ -16,6 +16,14 @@ layout: page
 
 <h2 id="poster">Posters</h2>
 
+RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [PDF](https://hal.archives-ouvertes.fr/hal-02932839)
+
+Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures. Thibaut Cuvelier and Éric Gourdin. Network Traffic Measurement and Analysis (TMA) PhD School 2019, Paris (France), June 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02161708/)
+
+Oblivious Routing: Worst-Case Routing is not Breaking the Internet's Legs. Thibaut Cuvelier. Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018. [PDF](http://hdl.handle.net/2268/227128)
+
+Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuvelier. DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017. [PDF](http://hdl.handle.net/2268/212703)
+
 <h2 id="book">Books</h2>
 
 Créer des applications graphiques en Python avec PyQt5, published by D-BookeR, March 2017. Thibaut Cuvelier, Pierre Denis. ISBN-13: 978-2-8227-0518-9. 
