@@ -12,6 +12,10 @@ layout: page
 
 <h2 id="workshop">Workshop articles</h2>
 
+RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02265426/)
+
+NETPerfTrace — Predicting Internet Path Dynamics and Performance with Machine Learning. Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet. ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017. [PDF](http://hdl.handle.net/2268/211667)
+
 <h2 id="abstract">Abstracts</h2>
 
 Improving Stream-Based Active Learning with Reinforcement Learning. 
