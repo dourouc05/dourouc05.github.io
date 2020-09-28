@@ -14,6 +14,42 @@ layout: page
 
 <h2 id="abstract">Abstracts</h2>
 
+Improving Stream-Based Active Learning with Reinforcement Learning. 
+Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. 
+Workshop for Women in Machine Learning (WiML) 2019.
+[PDF](https://hal.archives-ouvertes.fr/hal-02375296)
+
+Operation rules of the Vesdre reservoir revisited. 
+Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux.
+6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019.
+[PDF](http://hdl.handle.net/2268/239415)
+
+Comparing Oblivious and Robust Routing Approaches. 
+Thibaut Cuvelier and Éric Gourdin. 
+Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018. 
+[PDF](http://hdl.handle.net/2268/229784)
+
+Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle. 
+Thibaut Cuvelier. 
+Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2018, February 2018. 
+[PDF](http://hdl.handle.net/2268/220267)
+
+Optimising workforce and energy costs by exploiting production flexibility. 
+Thibaut Cuvelier and Quentin Louveaux. 
+21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017. 
+[PDF](http://hdl.handle.net/2268/207330)
+
+Modelling the industrial flexibility from the electricity consumption and HR points of view. 
+Thibaut Cuvelier and Quentin Louveaux. 
+22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. 
+[PDF](http://hdl.handle.net/2268/209469)
+
+Optimisation and uncertainty: comparing stochastic and robust programming. 
+Thibaut Cuvelier. 
+30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. 
+[PDF](http://hdl.handle.net/2268/197081)
+
+
 <h2 id="poster">Posters</h2>
 
 RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [PDF](https://hal.archives-ouvertes.fr/hal-02932839)
