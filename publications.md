@@ -20,4 +20,10 @@ layout: page
 
 <h2 id="talk">Talks</h2>
 
+Voyage incertain : découvrir l’optimisation stochastique et robuste, February 2018, Orange Labs (internal), Châtillon (France). [PDF](http://hdl.handle.net/2268/219824)
+
+A Journey through Julia, May 2017, IEEE Student Branch Liège (Belgium). [PDF](http://hdl.handle.net/2268/210211)
+
+A Journey through Julia, November 2016, Geeks anonymes, Liège (Belgium). [PDF](http://hdl.handle.net/2268/203491)
+
 {% include card_end.html %}
