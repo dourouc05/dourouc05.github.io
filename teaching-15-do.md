@@ -128,7 +128,7 @@ For the resit, the written exam has the same modalities as the first session. It
             <td>12</td>
             <td>11th December 2015</td>
             <td>Constraint programming, project Q&amp;A</td>
-            <td markdown="span">[PDF]/files/math0462-2015/R12_cp.pdf</td>
+            <td markdown="span">[PDF](/files/math0462-2015/R12_cp.pdf)</td>
             <td markdown="span">[ECLiPSe Windows x64](http://www.mirrorservice.org/sites/eclipseclp.org/Distribution/Current/6.1_216_x86_64_nt/ECLiPSe_6.1_216_x86_64_nt.exe), [ECLiPSe Linux x64](http://www.mirrorservice.org/sites/eclipseclp.org/Distribution/Current/6.1_216_x86_64_linux/eclipse_basic.tgz)<br/>
             [skeleton for the sudokus](/files/math0462-2015/R12_sudoku.ecl), [solution for the sudokus](/files/math0462-2015/R12_sudoku_solution.ecl), [solution for the magic squares](/files/math0462-2015/R12_magic_solution.ecl), [solution for the n queens](/files/math0462-2015/R12_queens_solution.ecl)</td>
         </tr>
