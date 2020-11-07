@@ -167,7 +167,8 @@ The project must be submitted on [the submission platform](http://submit.run.mon
 This second project is about carsharing. Available files:
 
   - [the statement](/files/math0462-2015/P2_statement.pdf)
-  - an example of input: the graph ([nodes](/files/math0462-2015/P2_graph_nodes.csv) and [edges](/files/math0462-2015/P2_graph_edges.csv)) and [some users](/files/math0462-2015/P2_users.csv).
+  - an example of input: the graph ([nodes](/files/math0462-2015/P2_graph_nodes.csv) and [edges](/files/math0462-2015/P2_graph_edges.csv)) and [some users](/files/math0462-2015/P2_users.csv)
+  - [more test inputs](/files/math0462-2015/testcases.7z)
 
 The project must be submitted on the submission platform. Submissions will be accepted till 22nd November, 2015, 23:59 for the first part, and 13th December, 2015, 23:59 for the second part.
 
