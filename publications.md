@@ -11,12 +11,11 @@ layout: page
 Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas.
 IEEE Transactions on Network and Service Management, November 2020. [IEEE Xplore](https://ieeexplore.ieee.org/document/9256319)
 
-
-Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [PDF](http://hdl.handle.net/2268/219394)
+Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [Springer Link](https://link.springer.com/article/10.1007/s11269-017-1893-1), [PDF](http://hdl.handle.net/2268/219394)
 
 <h2 id="conference">Conference articles</h2>
 
-ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
+ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [IEEE Xplore](https://ieeexplore.ieee.org/document/9012675), [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
 
 <h2 id="workshop">Workshop articles</h2>
 
