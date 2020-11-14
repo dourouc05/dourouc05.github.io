@@ -51,9 +51,9 @@ Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuve
 
 <h2 id="book">Books</h2>
 
-Créer des applications graphiques en Python avec PyQt5, published by D-BookeR, March 2017. Thibaut Cuvelier, Pierre Denis. ISBN-13: 978-2-8227-0518-9. 
+Créer des applications graphiques en Python avec PyQt5, published by D-BookeR, March 2017. Thibaut Cuvelier, Pierre Denis. ISBN-13: 978-2-8227-0518-9. [D-BookeR](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html)
 
-Créer des applications avec Qt 5 – les essentiels, published by D-BookeR, November 2013. Guillaume Belz, Thibaut Cuvelier, Ilya Diallo, Louis du Verdier, Vincent Meyer, Florent Renault. ISBN-13: 978-2-8227-0108-2. 
+Créer des applications avec Qt 5 – les essentiels, published by D-BookeR, November 2013. Guillaume Belz, Thibaut Cuvelier, Ilya Diallo, Louis du Verdier, Vincent Meyer, Florent Renault. ISBN-13: 978-2-8227-0108-2. [D-BookeR](https://www.d-booker.fr/qt-5-les-essentiels/110-qt-5-les-essentiels.html)
 
 Web sémantique : méthodes et outils pour le Web de données, published by Pearson, May 2012. Translated by Thibaut Cuvelier, Julien Plu, Antoine Seilles. Original title: Linked Data: Evolving the Web into a Global Data Space. Tom Heath and Christian Bizier. ISBN-13: 978-2-7440-2519-8. 
 
