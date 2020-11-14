@@ -8,6 +8,10 @@ layout: page
 
 <h2 id="journal">Journal articles</h2>
 
+Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas.
+IEEE Transactions on Network and Service Management, November 2020. [IEEE Xplore](https://ieeexplore.ieee.org/document/9256319)
+
+
 Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [PDF](http://hdl.handle.net/2268/219394)
 
 <h2 id="conference">Conference articles</h2>
