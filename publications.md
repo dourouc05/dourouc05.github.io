@@ -11,7 +11,7 @@ layout: page
 Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas.
 IEEE Transactions on Network and Service Management, November 2020. [IEEE Xplore](https://ieeexplore.ieee.org/document/9256319)
 
-Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [Springer Link](https://link.springer.com/article/10.1007/s11269-017-1893-1), [PDF](http://hdl.handle.net/2268/219394)
+Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [Springer Link](https://link.springer.com/article/10.1007/s11269-017-1893-1), [PDF](http://hdl.handle.net/2268/219394), [arXiv](https://arxiv.org/abs/1801.08892)
 
 <h2 id="conference">Conference articles</h2>
 
@@ -38,7 +38,6 @@ Optimising workforce and energy costs by exploiting production flexibility. Thib
 Modelling the industrial flexibility from the electricity consumption and HR points of view. Thibaut Cuvelier and Quentin Louveaux. 22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. [PDF](http://hdl.handle.net/2268/209469)
 
 Optimisation and uncertainty: comparing stochastic and robust programming. Thibaut Cuvelier. 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. [PDF](http://hdl.handle.net/2268/197081)
-
 
 <h2 id="poster">Posters</h2>
 
