@@ -14,7 +14,8 @@ group :jekyll_plugins do
   gem 'jekyll-titles-from-headings'
   gem 'jekyll-relative-links'
   
-  # Other useful plugins.
+  # Other useful plugins, including the theme.
+  gem 'jekyll-theme-minimal'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
