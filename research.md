@@ -16,8 +16,8 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 **List of publications**: 
 
-* Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time . Thibaut Cuvelier, Richard Combes, Éric Gourdin. Algorithmic Learning Theory (ALT), Paris (France), March 2021. Also available as an arXiv preprint: arXiv:2102.07254. [Journal of Machine Learning](http://proceedings.mlr.press/v132/cuvelier21a.html), [PDF](https://arxiv.org/abs/2102.07254)
-* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. ACM SIGMETRICS 2021, Beijing (China), June 2021. Also available as an arXiv preprint: arXiv:2002.07258. [ACM Digital Library](https://dl.acm.org/doi/10.1145/3447387), [PDF](https://arxiv.org/abs/2002.07258)
+* Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time . Thibaut Cuvelier, Richard Combes, Éric Gourdin. Algorithmic Learning Theory (ALT), Paris (France), March 2021. Also available as an arXiv preprint: arXiv:2102.07254. [Journal of Machine Learning](http://proceedings.mlr.press/v132/cuvelier21a.html), [arXiv (PDF)](https://arxiv.org/abs/2102.07254)
+* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. ACM SIGMETRICS 2021, Beijing (China), June 2021. Also available as an arXiv preprint: arXiv:2002.07258. [ACM Digital Library](https://dl.acm.org/doi/10.1145/3447387), [arXiv (PDF)](https://arxiv.org/abs/2002.07258)
 
 ## Active learning
 
@@ -27,10 +27,10 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 **List of publications**: 
 
-* RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [PDF](https://hal.archives-ouvertes.fr/hal-02932839)
-* ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
-*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02375296)
-* RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02265426/)
+* RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02932839)
+* ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02301393)
+*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02375296)
+* RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02265426/)
 
 ## InduStore
 
@@ -44,9 +44,10 @@ The source code of the integrated models is [freely available on GitHub](https:/
 
 **List of publications**: 
 
-* Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuvelier. DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017. [PDF](http://hdl.handle.net/2268/212703)
-* Modelling the industrial flexibility from the electricity consumption and HR points of view. Thibaut Cuvelier and Quentin Louveaux. 22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. [PDF](http://hdl.handle.net/2268/209469)
-* Optimising workforce and energy costs by exploiting production flexibility. Thibaut Cuvelier and Quentin Louveaux. 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017. [PDF](http://hdl.handle.net/2268/207330)
+* Embedding reservoirs in industrial models to exploit their flexibility. Thibaut Cuvelier. SN Applied Sciences, volume 2, article number 2171, December 2020. [Springer](https://link.springer.com/article/10.1007/s42452-020-03925-2), [DOI](https://doi.org/10.1007/s42452-020-03925-2), [HAL](https://hal.archives-ouvertes.fr/hal-03053322)
+* Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuvelier. DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017. [ORBi (PDF)](http://hdl.handle.net/2268/212703)
+* Modelling the industrial flexibility from the electricity consumption and HR points of view. Thibaut Cuvelier and Quentin Louveaux. 22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. [ORBi (PDF)](http://hdl.handle.net/2268/209469)
+* Optimising workforce and energy costs by exploiting production flexibility. Thibaut Cuvelier and Quentin Louveaux. 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017. [ORBi (PDF)](http://hdl.handle.net/2268/207330)
 
 ## Reservoir management
 
@@ -56,12 +57,12 @@ More specifically, this research aims to include flooding models inside mathemat
 
 For now, the models have a rather low level of detail, but include uncertainty in the inflow. 
 
-The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under an MIT license). The uncertain models have been compared in [an article published in the Water Resources Management journal](https://orbi.uliege.be/handle/2268/219394). 
+The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under an MIT license). The uncertain models have been compared in [an article published in the Water Resources Management journal](http://hdl.handle.net/2268/219394). 
 
 **List of publications**: 
 
-* Operation rules of the Vesdre reservoir revisited. Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux. 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019. [PFD](http://hdl.handle.net/2268/239415)
-* Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [PDF](http://hdl.handle.net/2268/219394)
+* Operation rules of the Vesdre reservoir revisited. Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux. 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019. [ORBi (PDF)](http://hdl.handle.net/2268/239415)
+* Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [ORBi (PDF)](http://hdl.handle.net/2268/219394)
 
 ## Master's thesis: stochastic and robust programming
 
@@ -69,11 +70,11 @@ Formal optimisation can take into account the uncertainty in two main ways: eith
 
 Those two approaches are quite different, but have rarely seen a direct comparison, be it for their actual performance when solving the resulting optimisation problems, but also for the robustness of their solution against unforeseen uncertainty.
 
-My master's thesis was exactly about this comparison. [It was presented at the ORBEL30 conference](ttp://orbi.ulg.ac.be/handle/2268/197081). [The full text is also available online](http://orbi.ulg.ac.be/handle/2268/197090).
+My master's thesis was exactly about this comparison. [It was presented at the ORBEL30 conference](http://hdl.handle.net/2268/197081). [The full text is also available online](http://hdl.handle.net/2268/197090).
 
 **List of publications**:
 
-* Optimisation and uncertainty: comparing stochastic and robust programming. Thibaut Cuvelier. 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. [PDF](http://hdl.handle.net/2268/197081)
+* Optimisation and uncertainty: comparing stochastic and robust programming. Thibaut Cuvelier. 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. [ORBi (PDF)](http://hdl.handle.net/2268/197081)
 
 {% include card_end.html %}
 {% include card_begin.html title="Teaching material" id="teaching-material" %}
