@@ -16,8 +16,8 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 **List of publications**: 
 
-* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. arXiv preprint arXiv:2002.07258. 2020. [PDF](https://arxiv.org/abs/2002.07258)
-*  	Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time . Thibaut Cuvelier, Richard Combes, Éric Gourdin. arXiv preprint arXiv:2102.07254. 2021. [PDF](https://arxiv.org/abs/2102.07254)
+* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. ACM SIGMETRICS 2021, Beijing (China), June 2021. Also available as an arXiv preprint: arXiv:2002.07258. [ACM Digital Library](https://dl.acm.org/doi/10.1145/3447387), [PDF](https://arxiv.org/abs/2002.07258)
+* Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time . Thibaut Cuvelier, Richard Combes, Éric Gourdin. Algorithmic Learning Theory (ALT), Paris (France), March 2021. Also available as an arXiv preprint: arXiv:2102.07254. [Journal of Machine Learning](http://proceedings.mlr.press/v132/cuvelier21a.html), [PDF](https://arxiv.org/abs/2102.07254)
 
 ## Active learning
 
