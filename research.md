@@ -16,7 +16,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 **List of publications**: 
 
-* {% include_relative articles/bandits_alt21.md %}
+* {% include reference.md key='bandits_alt21' %}
 * Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. ACM SIGMETRICS 2021, Beijing (China), June 2021. Also available as an arXiv preprint: arXiv:2002.07258. [ACM Digital Library](https://dl.acm.org/doi/10.1145/3447387), [arXiv (PDF)](https://arxiv.org/abs/2002.07258)
 
 ## Active learning
