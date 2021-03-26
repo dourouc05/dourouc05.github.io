@@ -1,3 +1,4 @@
 Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time. Thibaut Cuvelier, Richard Combes, Éric Gourdin. Algorithmic Learning Theory (ALT), Paris (France), March 2021. [Journal of Machine Learning](http://proceedings.mlr.press/v132/cuvelier21a.html), [arXiv (PDF)](https://arxiv.org/abs/2102.07254), [presentation at ALT 2021](https://www.youtube.com/watch?v=Q9b1zIkqlew)
 
 {% assign article = site.data.articles['bandits_alt21'] %}
+{{ article.title }}. {{ article.authors }}. {{ article.venue }}. {{ article.links }}
