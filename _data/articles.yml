@@ -19,6 +19,7 @@ bandits_sigmetrics2021:
       url: https://dl.acm.org/doi/10.1145/3447387
     arxiv: 2002.07258
     hal: hal-03162127
+    
 ral_sigcomm2020:
     title: RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
@@ -39,3 +40,28 @@ ral_ecml2019:
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
     venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019
     hal: hal-02265426
+    
+industore_snas2020: 
+    title: Embedding reservoirs in industrial models to exploit their flexibility
+    authors: Thibaut Cuvelier
+    venue: SN Applied Sciences, volume 2, article number 2171, December 2020
+    venue_link: 
+      name: Springer
+      url: https://link.springer.com/article/10.1007/s42452-020-03925-2
+    doi: 10.1007/s42452-020-03925-2
+    hal: hal-03053322
+industore_dsss2017: 
+    title: Characterising Industrial Sites' Flexibility with Reservoir Models
+    authors: Thibaut Cuvelier
+    venue: DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017
+    orbi: 2268/212703
+industore_comex2017: 
+    title: Modelling the industrial flexibility from the electricity consumption and HR points of view
+    authors: Thibaut Cuvelier, Quentin Louveaux
+    venue: "22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017"
+    orbi: 2268/209469
+industore_ifors2017: 
+    title: Optimising workforce and energy costs by exploiting production flexibility
+    authors: Thibaut Cuvelier, Quentin Louveaux
+    venue: 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017
+    orbi: 2268/207330
