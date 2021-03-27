@@ -1,11 +1,9 @@
 {% assign article = site.data.articles[include.key] %}
-{% assign links = "" %}
-{% if article.venue_link %}{% assign links = links | push ("[" | append article.venue_link.name | append "](" | append article.venue_link.url | append ")") %}{% endif %}
 {{ article.title }}. 
 {{ article.authors }}. 
 {{ article.venue }}. 
-{% if article.venue_link %}[{{article.venue_link.name}}]({{article.venue_link.url}}){% endif %}
-{% if article.arxiv %}[arXiv (PDF)](https://arxiv.org/abs/{{article.arxiv}}){% endif %}
-{% if article.orbi %}[ORBi (PDF)](http://hdl.handle.net/{{article.orbi}}){% endif %}
-{% if article.hal %}[HAL (PDF)](https://hal.archives-ouvertes.fr/{{article.hal}}){% endif %}
-{% for link in links %}[{{link.name}}]({{link.url}}){% endfor %}
+{% if article.venue_link %}[{{article.venue_link.name}}]({{article.venue_link.url}}). {% endif %}
+{% if article.arxiv %}[arXiv (PDF)](https://arxiv.org/abs/{{article.arxiv}}). {% endif %}
+{% if article.orbi %}[ORBi (PDF)](http://hdl.handle.net/{{article.orbi}}). {% endif %}
+{% if article.hal %}[HAL (PDF)](https://hal.archives-ouvertes.fr/{{article.hal}}). {% endif %}
+{% for link in links %}[{{link.name}}]({{link.url}}). {% endfor %}
