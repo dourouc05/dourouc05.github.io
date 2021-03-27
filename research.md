@@ -44,10 +44,10 @@ The source code of the integrated models is [freely available on GitHub](https:/
 
 **List of publications**: 
 
-* Embedding reservoirs in industrial models to exploit their flexibility. Thibaut Cuvelier. SN Applied Sciences, volume 2, article number 2171, December 2020. [Springer](https://link.springer.com/article/10.1007/s42452-020-03925-2), [DOI](https://doi.org/10.1007/s42452-020-03925-2), [HAL](https://hal.archives-ouvertes.fr/hal-03053322)
-* Characterising Industrial Sites' Flexibility with Reservoir Models. Thibaut Cuvelier. DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017. [ORBi (PDF)](http://hdl.handle.net/2268/212703)
-* Modelling the industrial flexibility from the electricity consumption and HR points of view. Thibaut Cuvelier and Quentin Louveaux. 22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017. [ORBi (PDF)](http://hdl.handle.net/2268/209469)
-* Optimising workforce and energy costs by exploiting production flexibility. Thibaut Cuvelier and Quentin Louveaux. 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017. [ORBi (PDF)](http://hdl.handle.net/2268/207330)
+* {% include reference.md key='industore_snas2020' %}
+* {% include reference.md key='industore_dsss2017' %}
+* {% include reference.md key='industore_comex2017' %}
+* {% include reference.md key='industore_ifors2017' %}
 
 ## Reservoir management
 
