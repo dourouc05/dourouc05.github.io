@@ -25,7 +25,7 @@ ral_sigcomm2020:
     venue: Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020
     hal: hal-02932839
 ral_cnsm2019:
-    title: ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring
+    title: "ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring"
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka
     venue: 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019
     hal: hal-02301393
@@ -35,7 +35,7 @@ ral_wiml2019:
     venue: Workshop for Women in Machine Learning (WiML) 2019
     hal: hal-02375296
 ral_ecml2019:
-    title: RAL: Improving Stream-Based Active Learning by Reinforcement Learning
+    title: "RAL: Improving Stream-Based Active Learning by Reinforcement Learning"
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
     venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019
     hal: hal-02265426
