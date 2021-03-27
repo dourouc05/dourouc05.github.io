@@ -17,7 +17,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 **List of publications**: 
 
 * {% include reference.md key='bandits_alt21' %}
-* Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits. Thibaut Cuvelier, Richard Combes, Éric Gourdin. ACM SIGMETRICS 2021, Beijing (China), June 2021. Also available as an arXiv preprint: arXiv:2002.07258. [ACM Digital Library](https://dl.acm.org/doi/10.1145/3447387), [arXiv (PDF)](https://arxiv.org/abs/2002.07258)
+* {% include reference.md key='bandits_sigmetrics2021' %}
 
 ## Active learning
 
@@ -27,10 +27,10 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 **List of publications**: 
 
-* RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02932839)
-* ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02301393)
-*	Improving Stream-Based Active Learning with Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. Workshop for Women in Machine Learning (WiML) 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02375296)
-* RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [HAL (PDF)](https://hal.archives-ouvertes.fr/hal-02265426/)
+* {% include reference.md key='ral_sigcomm2020' %}
+* {% include reference.md key='ral_cnsm2019' %}
+* {% include reference.md key='ral_wiml2019' %}
+* {% include reference.md key='ral_ecml2019' %}
 
 ## InduStore
 
