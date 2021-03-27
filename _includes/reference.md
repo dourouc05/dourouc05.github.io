@@ -2,18 +2,8 @@
 {{ article.title }}. 
 {{ article.authors }}. 
 {{ article.venue }}. 
-{% if article.venue_link %}
-  [{{article.venue_link.name}}]({{article.venue_link.url}})
-{% endif %}
-{% if article.arxiv %}
-  [https://arxiv.org/abs/{{article.arxiv}}](arXiv (PDF))
-{% endif %}
-{% if article.orbi %}
-  [http://hdl.handle.net/{{article.orbi}}](ORBi (PDF))
-{% endif %}
-{% if article.hal %}
-  [https://hal.archives-ouvertes.fr/{{article.hal}}](HAL (PDF))
-{% endif %}
-{% for link in article.links %}
-  [{{link.url}}]({{link.name}})
-{% endfor %}
+{% if article.venue_link %}[{{article.venue_link.name}}]({{article.venue_link.url}}){% endif %}
+{% if article.arxiv %}[arXiv (PDF)](https://arxiv.org/abs/{{article.arxiv}}){% endif %}
+{% if article.orbi %}[ORBi (PDF)](http://hdl.handle.net/{{article.orbi}}){% endif %}
+{% if article.hal %}[HAL (PDF)](https://hal.archives-ouvertes.fr/{{article.hal}}){% endif %}
+{% for link in article.links %}[{{link.name}}]({{link.url}}){% endfor %}
