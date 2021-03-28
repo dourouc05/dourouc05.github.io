@@ -37,6 +37,7 @@ routing_tma2018:
     authors: Thibaut Cuvelier, Éric Gourdin
     venue: Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018
     orbi: 2268/227128
+    hal: hal-02265432
     
 ral_tnsm2020:
     title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
