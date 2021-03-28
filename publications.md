@@ -8,20 +8,25 @@ layout: page
 
 <h2 id="journal">Journal articles</h2>
 
-Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis. Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas.
-IEEE Transactions on Network and Service Management, November 2020. [IEEE Xplore](https://ieeexplore.ieee.org/document/9256319)
+{% include reference.md key='industore_snas2020' %}
 
-Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [Springer Link](https://link.springer.com/article/10.1007/s11269-017-1893-1), [PDF](http://hdl.handle.net/2268/219394), [arXiv](https://arxiv.org/abs/1801.08892)
+{% include reference.md key='ral_tnsm2020' %}
+
+{% include reference.md key='dams_wrm2018' %}
 
 <h2 id="conference">Conference articles</h2>
 
-ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka. 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019. [IEEE Xplore](https://ieeexplore.ieee.org/document/9012675), [PDF](https://hal.archives-ouvertes.fr/hal-02301393)
+{% include reference.md key='bandits_alt21' %}
+
+{% include reference.md key='bandits_sigmetrics2021' %}
+
+{% include reference.md key='ral_cnsm2019' %}
 
 <h2 id="workshop">Workshop articles</h2>
 
-RAL: Improving Stream-Based Active Learning by Reinforcement Learning. Sarah Wassermann, Thibaut Cuvelier, Pedro Casas. European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019. [PDF](https://hal.archives-ouvertes.fr/hal-02265426/)
+{% include reference.md key='ral_ecml2019' %}
 
-NETPerfTrace — Predicting Internet Path Dynamics and Performance with Machine Learning. Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet. ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017. [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3098593.3098599), [PDF](http://hdl.handle.net/2268/211667)
+{% include reference.md key='netperftrace_bigdama2017' %}
 
 <h2 id="abstract">Abstracts</h2>
 
