@@ -23,6 +23,9 @@ bandits_amazon2021:
     title: "Polynomial-Time Combinatorial Bandits: Computationally Tractable Reinforcement Learning in Complex Environments"
     authors: Thibaut Cuvelier
     venue: Amazon Transport Services, Luxembourg (Luxembourg), March 2021
+    venue_link: 
+      name: PDF
+      url: /files/bandits_ats2021.pdf
     
 routing_tma2019:
     title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
