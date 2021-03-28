@@ -20,6 +20,14 @@ bandits_sigmetrics2021:
     arxiv: 2002.07258
     hal: hal-03162127
     
+ral_tnsm2020:
+    title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
+    authors: Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas
+    venue: IEEE Transactions on Network and Service Management, November 2020
+    venue_link: 
+      name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/9256319
+    hal: hal-03110834
 ral_sigcomm2020:
     title: RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
