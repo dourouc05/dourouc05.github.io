@@ -110,6 +110,11 @@ tfe_pgmo2018:
     authors: Thibaut Cuvelier, Éric Gourdin
     venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
     orbi: 2268/229784
+tfe_orange2018:
+    title: Voyage incertain : découvrir l’optimisation stochastique et robuste
+    authors: Thibaut Cuvelier
+    venue: Orange Labs, Châtillon (France), February 2018
+    orbi: 2268/219824
 tfe_orbel2016: 
     title: "Optimisation and uncertainty: comparing stochastic and robust programming"
     authors: Thibaut Cuvelier
@@ -126,6 +131,22 @@ netperftrace_bigdama2017:
     authors: Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet
     venue: ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017
     orbi: 2268/211667
+    
+julia_roadef2018:
+    title: Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle
+    authors: Thibaut Cuvelier
+    venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2018, February 2018
+    orbi: 2268/220267
+julia_ieee2017:
+    title: A Journey through Julia
+    authors: Thibaut Cuvelier
+    venue: IEEE Student Branch Liège (Belgium), May 2017
+    orbi: 2268/210211
+julia_geeks017:
+    title: A Journey through Julia
+    authors: Thibaut Cuvelier
+    venue: Geeks anonymes, Liège (Belgium), November2016
+    orbi: 2268/203491
 
 pyqt5:
     title: Créer des applications graphiques en Python avec PyQt5
