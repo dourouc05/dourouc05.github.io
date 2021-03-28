@@ -75,6 +75,7 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 **List of publications**:
 
 * {% include reference.md key='tfe_orbel2016' %}
+* {% include reference.md key='tfe' %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Books" id="books" %}
