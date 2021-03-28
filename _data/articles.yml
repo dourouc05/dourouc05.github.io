@@ -133,6 +133,9 @@ netperftrace_bigdama2017:
     title: NETPerfTrace — Predicting Internet Path Dynamics and Performance with Machine Learning
     authors: Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet
     venue: ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017
+    venue_link:
+      name: ACM Digital Library
+      url: https://dl.acm.org/doi/10.1145/3098593.3098599
     orbi: 2268/211667
     
 julia_roadef2018:
