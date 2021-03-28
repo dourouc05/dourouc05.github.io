@@ -20,7 +20,7 @@ bandits_sigmetrics2021:
     arxiv: 2002.07258
     hal: hal-03162127
 bandits_amazon2021: 
-    title: Polynomial-Time Combinatorial Bandits: Computationally Tractable Reinforcement Learning in Complex Environments
+    title: "Polynomial-Time Combinatorial Bandits: Computationally Tractable Reinforcement Learning in Complex Environments"
     authors: Thibaut Cuvelier
     venue: Amazon Transport Services, Luxembourg (Luxembourg), March 2021
     
