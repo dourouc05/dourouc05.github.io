@@ -20,6 +20,17 @@ bandits_sigmetrics2021:
     arxiv: 2002.07258
     hal: hal-03162127
     
+routing_tma2019:
+    title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
+    authors: Thibaut Cuvelier, Éric Gourdin
+    venue: Network Traffic Measurement and Analysis (TMA) PhD School 2019, Paris (France), June 2019
+    hal: hal-02161708
+routing_tma2018:
+    title: "Oblivious Routing: Worst-Case Routing is not Breaking the Internet's Legs"
+    authors: Thibaut Cuvelier, Éric Gourdin
+    venue: Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018
+    orbi: 2268/227128
+    
 ral_tnsm2020:
     title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
     authors: Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas
@@ -29,7 +40,7 @@ ral_tnsm2020:
       url: https://ieeexplore.ieee.org/document/9256319
     hal: hal-03110834
 ral_sigcomm2020:
-    title: RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis
+    title: RAL — Reinforcement Active Learning for Network Traffic Monitoring and Analysis
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
     venue: Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020
     hal: hal-02932839
