@@ -61,8 +61,8 @@ The Julia source code of the integrated models is [freely available on GitHub](h
 
 **List of publications**: 
 
-* Operation rules of the Vesdre reservoir revisited. Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux. 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019. [ORBi (PDF)](http://hdl.handle.net/2268/239415)
-* Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty. Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux. Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018. [ORBi (PDF)](http://hdl.handle.net/2268/219394)
+* {% include reference.md key='dams_ishmm2019' %}
+* {% include reference.md key='dams_wrm2018' %}
 
 ## Master's thesis: stochastic and robust programming
 
