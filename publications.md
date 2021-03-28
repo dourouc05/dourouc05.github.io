@@ -54,6 +54,10 @@ layout: page
 
 {% include reference.md key='industore_dsss2017' %}
 
+<h2 id="dissertation">Dissertations</h2>
+
+{% include reference.md key='tfe' %}
+
 <h2 id="book">Books</h2>
 
 {% include reference.md key='pyqt5' %}
