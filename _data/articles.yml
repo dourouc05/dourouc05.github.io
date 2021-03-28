@@ -65,3 +65,19 @@ industore_ifors2017:
     authors: Thibaut Cuvelier, Quentin Louveaux
     venue: 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017
     orbi: 2268/207330
+    
+dams_ishmm2019: 
+    title: Operation rules of the Vesdre reservoir revisited
+    authors: Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux
+    venue: 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019
+    orbi: 2268/239415
+dams_wrm2018: 
+    title: Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty
+    authors: Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux
+    venue: Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018
+    venue_link: 
+      name: Springer
+      url: https://link.springer.com/article/10.1007/s11269-017-1893-1
+    orbi: 2268/219394
+    hal: hal-02265436
+    arxiv: 1801.08892
