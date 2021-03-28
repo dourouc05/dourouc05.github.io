@@ -90,6 +90,11 @@ dams_wrm2018:
     hal: hal-02265436
     arxiv: 1801.08892
 
+tfe_pgmo2018:
+    title: Comparing Oblivious and Robust Routing Approaches
+    authors: Thibaut Cuvelier, Éric Gourdin
+    venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
+    orbi: 2268/229784
 tfe_orbel2016: 
     title: "Optimisation and uncertainty: comparing stochastic and robust programming"
     authors: Thibaut Cuvelier
