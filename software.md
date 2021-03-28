@@ -26,8 +26,9 @@ I developed or significantly contributed to the following Julia packages when wo
   * [ConstraintProgrammingExtensions.jl](https://github.com/dourouc05/ConstraintProgrammingExtensions.jl), providing a solver interface for constraint programming (an extension of [MathOptInterface](https://github.com/jump-dev/MathOptInterface.jl))
   * [JuCP.jl](https://github.com/dourouc05/JuCP.jl), a modelling layer for constraint programming (an extension of [JuMP](https://github.com/jump-dev/JuMP.jl))
   * [CPLEXCP.jl](https://github.com/dourouc05/CPLEXCP.jl), a solver wrapper for CPLEX CP Optimizer
-* Mathematical programming: I contributed to [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
-* Mathematical-optimisation solvers: I contributed to [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
+* Mathematical programming: 
+  * Modelling: I contributed to [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
+  * Solver wrappers: I contributed to [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
 
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
