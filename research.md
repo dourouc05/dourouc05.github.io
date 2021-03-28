@@ -74,7 +74,7 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 
 **List of publications**:
 
-* Optimisation and uncertainty: comparing stochastic and robust programming. Thibaut Cuvelier. 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016. [ORBi (PDF)](http://hdl.handle.net/2268/197081)
+* {% include reference.md key='tfe_orbel2016' %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Books" id="books" %}
