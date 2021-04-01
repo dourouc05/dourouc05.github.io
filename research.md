@@ -6,7 +6,9 @@ layout: page
 
 {% include card_begin.html title="Research topics" id="research-topics" %}
 
-## Combinatorial bandits
+## Machine learning
+
+### Reinforcement learning: Combinatorial bandits
 
 Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to the cases where the agent takes decision in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.), i.e. decisions that are made of many individual components (a path is a sequence of edges, e.g.). This field generalises online combinatorial optimisation. 
 
@@ -20,7 +22,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 * {% include reference.md key='bandits_alt21' %}
 * {% include reference.md key='bandits_sigmetrics2021' %}
 
-## Active learning
+### Active learning
 
 Active learning is the field of supervised machine learning where the learning algorithm can query an oracle (a human user or another information source) for new labels of previously unlabelled samples. In particular, in stream-based active learning, samples are sequentially presented to the algorithm. This field is highly related to optimal experimental design.
 
@@ -34,7 +36,9 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 * {% include reference.md key='ral_wiml2019' %}
 * {% include reference.md key='ral_ecml2019' %}
 
-## InduStore
+## Operational research
+
+### Electrical flexibility for the industry
 
 The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
 
@@ -51,7 +55,7 @@ The source code of the integrated models is [freely available on GitHub](https:/
 * {% include reference.md key='industore_comex2017' %}
 * {% include reference.md key='industore_ifors2017' %}
 
-## Reservoir management
+### Water reservoir management
 
 Current dam management techniques that use optimisation either are based on mathematical programming and have a low level of detail, or heavily use metaheuristics to include physical phenomena. The latter completely lose the traditional convergence properties of mathematical optimisation, and both still lack provably reliable uncertainty modelling. 
 
@@ -82,6 +86,8 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 
 {% include card_end.html %}
 {% include card_begin.html title="Books" id="books" %}
+
+### Technical books
 
 ## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
