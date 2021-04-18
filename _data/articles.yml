@@ -67,6 +67,9 @@ ral_ecml2019:
     title: "RAL: Improving Stream-Based Active Learning by Reinforcement Learning"
     authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
     venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019
+    venue_link:
+      name: IAL 2019 proceedings
+      url: https://p.ies.uni-kassel.de/ial2019/ialatecml2019.pdf
     hal: hal-02265426
     
 industore_snas2020: 
