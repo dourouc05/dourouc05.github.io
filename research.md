@@ -21,6 +21,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 * {% include reference.md key='bandits_amazon2021' %}
 * {% include reference.md key='bandits_alt21' %}
 * {% include reference.md key='bandits_sigmetrics2021' %}
+* {% include reference.md key='bandits_sigmetrics2021_abstract' %}
 
 ### Active learning
 
