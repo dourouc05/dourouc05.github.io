@@ -8,6 +8,8 @@ layout: page
 
 <h2 id="journal">Journal articles</h2>
 
+{% include reference.md key='bandits_sigmetrics2021' %}
+
 {% include reference.md key='industore_snas2020' %}
 
 {% include reference.md key='ral_tnsm2020' %}
@@ -18,7 +20,7 @@ layout: page
 
 {% include reference.md key='bandits_alt21' %}
 
-{% include reference.md key='bandits_sigmetrics2021' %}
+{% include reference.md key='bandits_sigmetrics2021_abstract' %}
 
 {% include reference.md key='ral_cnsm2019' %}
 
