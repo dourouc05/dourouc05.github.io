@@ -8,7 +8,7 @@ bandits_alt21:
     arxiv: 2102.07254
     hal: hal-03162140
     links: 
-      - name: presentation at ALT 2021
+      - name: Presentation at ALT 2021
         url: https://www.youtube.com/watch?v=Q9b1zIkqlew
 bandits_sigmetrics2021: 
     title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
