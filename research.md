@@ -18,6 +18,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 **List of publications**: 
 
+* {% include reference.md key='phd' %}
 * {% include reference.md key='bandits_amazon2021' %}
 * {% include reference.md key='bandits_alt21' %}
 * {% include reference.md key='bandits_sigmetrics2021' %}
