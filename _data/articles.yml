@@ -37,6 +37,11 @@ bandits_amazon2021:
     venue_link: 
       name: PDF
       url: /files/bandits_ats2021.pdf
+phd:
+    title: "Polynomial-Time Algorithms for Combinatorial Semibandits: Computationally Tractable Reinforcement Learning in Complex Environments (official title: Algorithmes en temps polynomial pour les semi-bandits combinatoires : apprentissage par renforcement efficace dans des environnements complexes)"
+    authors: Thibaut Cuvelier
+    venue: PhD dissertation, university Paris-Saclay, June 2021
+    hal: tel-03296009
     
 routing_tma2019:
     title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
