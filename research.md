@@ -123,7 +123,6 @@ This book will present:
   - QGraphicsView
   - Qt Creator
 
-
 ISBN-13: 978-2-8227-0108-2.
 
 ## Web sémantique : méthodes et outils pour le Web de données, T. Health and C. Bizier, translated by T. Cuvelier, J. Plu, A. Seilles
