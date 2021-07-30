@@ -32,6 +32,8 @@ layout: page
 
 <h2 id="abstract">Abstracts</h2>
 
+{% include reference.md key='julia_juliacon2021' %}
+
 {% include reference.md key='ral_wiml2019' %}
 
 {% include reference.md key='dams_ishmm2019' %}
