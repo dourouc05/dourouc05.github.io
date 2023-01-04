@@ -161,7 +161,7 @@ netperftrace_bigdama2017:
     orbi: 2268/211667
     
 julia_juliacon2021:
-    title: Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle
+    title: ConstraintProgrammingExtensions.jl: An MOI/JuMP extension for constraint programming
     authors: Thibaut Cuvelier
     venue: JuliaCon 2021, July 2021
     hal: hal-03306211v1
