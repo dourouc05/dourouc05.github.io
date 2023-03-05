@@ -6,6 +6,12 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
+## OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (23 February 2023, ROADEF)
+
+OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2015, being in development since 2008. This toolkit provides a uniform interface to several solvers, both first- and third-party. In particular, it offers a high-level interface for vehicle-routing problems (VRPs). OR-Tools contains several solvers, in particular two CP solvers, CP* (since the first open-source release) and CP-SAT (gold-medal winner at several MiniZinc competitions, developed since 2009), but also two linear solvers: the simplex-based Glop (since 2014), and PDLP, a first-order large-scale linear solver. OR-Tools is being actively developed, with approximately quarterly releases. Outside Google, the solver suite is easily accessible via Google Cloud, either for solving VRPs or mixed-integer linear programs, although the latter API is not yet in general access.
+
+<!-- TODO: {% include button.html url="https://orbi.uliege.be/handle/2268/220267" title="See it on ORBi" %} -->
+
 ## Improving Stream-Based Active Learning with Reinforcement Learning (8 December 2019, WiML workshop)
 
 One of the main challenges associated with supervised learning under dynamic scenarios is that of periodically getting access to labels of fresh, previously unseen  samples. Labeling ne  data is usually an expensive and cumbersome process, while not all data points are equally valuable. Active learning aims at labeling only the  most informative samples to reduce cost. In this paradigm, a learner can choose from which new samples it wants to learn, and can obtain the ground truth by asking an oracle for the corresponding labels. We introduce RAL – Reinforcedstream-based Active Learning –, a new active-learning approach, coupling stream-based active learning with reinforcement-learning concepts. In particular, we model active learning as a contextual-bandit problem, in which rewards are based on the usefulness of the system's querying behavior. Empirical evaluations on multiple datasets confirm that RAL outperforms the state of the art, both by improving learning accuracy andby reducing the number of requested labels. As an additional contribution, we release RAL as an open-source Python package to the machine-learning community.
