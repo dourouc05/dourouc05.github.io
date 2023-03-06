@@ -10,7 +10,7 @@ layout: page
 
 OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2015, being in development since 2008. This toolkit provides a uniform interface to several solvers, both first- and third-party. In particular, it offers a high-level interface for vehicle-routing problems (VRPs). OR-Tools contains several solvers, in particular two CP solvers, CP* (since the first open-source release) and CP-SAT (gold-medal winner at several MiniZinc competitions, developed since 2009), but also two linear solvers: the simplex-based Glop (since 2014), and PDLP, a first-order large-scale linear solver. OR-Tools is being actively developed, with approximately quarterly releases. Outside Google, the solver suite is easily accessible via Google Cloud, either for solving VRPs or mixed-integer linear programs, although the latter API is not yet in general access.
 
-<!-- TODO: {% include button.html url="https://orbi.uliege.be/handle/2268/220267" title="See it on ORBi" %} -->
+<!-- TODO: {% include reference_box.md key="ral_wiml2019" %} -->
 
 ## Improving Stream-Based Active Learning with Reinforcement Learning (8 December 2019, WiML workshop)
 
