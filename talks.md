@@ -16,6 +16,7 @@ OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2
 
 One of the main challenges associated with supervised learning under dynamic scenarios is that of periodically getting access to labels of fresh, previously unseen  samples. Labeling ne  data is usually an expensive and cumbersome process, while not all data points are equally valuable. Active learning aims at labeling only the  most informative samples to reduce cost. In this paradigm, a learner can choose from which new samples it wants to learn, and can obtain the ground truth by asking an oracle for the corresponding labels. We introduce RAL – Reinforcedstream-based Active Learning –, a new active-learning approach, coupling stream-based active learning with reinforcement-learning concepts. In particular, we model active learning as a contextual-bandit problem, in which rewards are based on the usefulness of the system's querying behavior. Empirical evaluations on multiple datasets confirm that RAL outperforms the state of the art, both by improving learning accuracy andby reducing the number of requested labels. As an additional contribution, we release RAL as an open-source Python package to the machine-learning community.
 
+{% include reference_box.md key="ral_wiml2019" %}
 {% include button.html url="https://hal.archives-ouvertes.fr/hal-02375296" title="See it on HAL" %}
 
 ## Operation rules of the Vesdre reservoir revisited (24 July 2020, International Symposium on Hydrological Modelling of the Meuse basin)
