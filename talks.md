@@ -69,6 +69,8 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
+{% include reference_box.md key="julia_ieee2017" %}
+
 {% include reference_box.md key="julia_geeks2017" %}
 
 {% include card_end.html %}
