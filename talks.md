@@ -69,8 +69,7 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
-{% include reference_box.md key="tfe_pgmo2018" %}
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" title="See it on ORBi" %}
+{% include reference_box.md key="julia_geeks2017" %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Posters" id="posters" %}
@@ -79,17 +78,17 @@ Electro-intensive companies are very sensitive to electricity price variations. 
 
 Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes. 
 
-{% include button.html url="https://hal.archives-ouvertes.fr/hal-02932839" title="See it on HAL" %}
+{% include reference_box.md key="ral_sigcomm2020" %}
 
 ## Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures (25 June 2019, TMA)
 
 Network routing considers the problem of finding one or multiple paths to transfer packets from their source to their destination, ideally making the best use of the available resources (for instance, by minimising the congestion in the network). Oblivious routing is a technique that generates static routing schemes that are independent of the traffic, but still have strong theoretical guarantees about its performance (for instance, measured by link congestion). This work presents a numerical study of oblivious routing, in both synthetic and realistic networks. It also contains a novel extension to link failures, to which the routing should be immunised. 
 
-{% include button.html url="https://hal.archives-ouvertes.fr/hal-02161708" title="See it on HAL" %}
+{% include reference_box.md key="routing_tma2019" %}
 
 ## Oblivious Routing: Worst-Case Routing is not Breaking the Internet's Legs (25 June 2018, TMA)
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/227128" title="See it on ORBi" %}
+{% include reference_box.md key="routing_tma2018" %}
 
 ## Characterising industrial sites' flexibility with reservoir models (29 August 2017)
 
@@ -99,6 +98,6 @@ To this end, we propose a generic paradigm to help conceiving such models: reser
 
 Our first results show that the obtained reservoir models can give sufficiently good approximations for metallurgical and other processes.
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/212703" title="See it on ORBi" %}
+{% include reference_box.md key="industore_dsss2017" %}
 
 {% include card_end.html %}
