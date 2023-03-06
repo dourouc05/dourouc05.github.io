@@ -17,11 +17,10 @@ OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2
 One of the main challenges associated with supervised learning under dynamic scenarios is that of periodically getting access to labels of fresh, previously unseen  samples. Labeling ne  data is usually an expensive and cumbersome process, while not all data points are equally valuable. Active learning aims at labeling only the  most informative samples to reduce cost. In this paradigm, a learner can choose from which new samples it wants to learn, and can obtain the ground truth by asking an oracle for the corresponding labels. We introduce RAL – Reinforcedstream-based Active Learning –, a new active-learning approach, coupling stream-based active learning with reinforcement-learning concepts. In particular, we model active learning as a contextual-bandit problem, in which rewards are based on the usefulness of the system's querying behavior. Empirical evaluations on multiple datasets confirm that RAL outperforms the state of the art, both by improving learning accuracy andby reducing the number of requested labels. As an additional contribution, we release RAL as an open-source Python package to the machine-learning community.
 
 {% include reference_box.md key="ral_wiml2019" %}
-{% include button.html url="https://hal.archives-ouvertes.fr/hal-02375296" title="See it on HAL" %}
 
 ## Operation rules of the Vesdre reservoir revisited (24 July 2020, International Symposium on Hydrological Modelling of the Meuse basin)
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/239415" title="See it on ORBi" %}
+{% include reference_box.md key="dams_ishmm2019" %}
 
 ## Comparing Oblivious and Robust Routing Approaches (20 November 2018, PGMO Days)
 
@@ -32,7 +31,7 @@ Oblivious routing is the extreme case where the uncertainty space is the whole s
 
 Several variants of robust or oblivious routing approaches will be considered and compared on series of realistic instances, some of which are based on Orange network topologies. Future works include dealing with other sources of uncertainty (for instance, survivability to failures) within a common robustness framework. 
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/229784" title="See it on ORBi" %}
+{% include reference_box.md key="tfe_pgmo2018" %}
 
 ## Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle (21 February 2018, ROADEF)
 
@@ -40,7 +39,7 @@ Julia is a recent programming language with a dynamic community, especially in o
 
 In French. 
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/220267" title="See it on ORBi" %}
+{% include reference_box.md key="julia_roadef2018" %}
 
 ## Voyage incertain : découvrir l’optimisation stochastique et robuste (5 February 2018, Orange Labs)
 
@@ -48,7 +47,7 @@ Stochastic and robust optimisation are the two main approaches to take into acco
 
 In French. 
 
-{% include button.html url="https://orbi.uliege.be/handle/2268/219824" title="See it on ORBi" %}
+{% include reference_box.md key="tfe_orange2018" %}
 
 ## Optimising workforce and energy costs by exploiting production flexibility (20 July 2017, IFORS)
 
@@ -58,18 +57,19 @@ Our research goal is to optimise the operations of a factory around this flexibi
 
 Nevertheless, this methodology implies to have frequent production plan changes, which directly impacts the workers, as they may be asked to follow barely predictable schedules. This has a significant detrimental effect on their quality of life. As a consequence, the human aspect of flexibility must also be considered: we seek for production plans that consider both workforce and energy costs, and we then assign workers to work shifts while ensuring their well-being. This HR orientation is the most innovative contribution of this research project.
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/207330" title="See it on ORBi" %}
+{% include reference_box.md key="industore_ifors2017" %}
 
 ## Modelling the industrial flexibility from the electricity consumption and HR points of view (21 April 2017, COMEX)
 
 Electro-intensive companies are very sensitive to electricity price variations. This is why flexibility is very important to them: they adapt their production to the price fluctuations, and can thus decrease their costs by a large amount. However, most studies of flexibility tend to ignore the human aspect of flexibility. Our approach reconciles both aspects: electricity costs and human resources management. 
 
-{% include button.html url="http://orbi.ulg.ac.be/handle/2268/209469" title="See it on ORBi" %}
+{% include reference_box.md key="industore_comex2017" %}
 
 ## A Journey through Julia (17 November 2016, [Geeks anonymes](https://www.recherche.uliege.be/cms/c_9463913/fr/geeks-anonymes); 17 May 2017, [IEEE Student Branch Liège](https://ieee.ulg.ac.be/en/))
 
 [Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
 
+{% include reference_box.md key="tfe_pgmo2018" %}
 {% include button.html url="http://orbi.ulg.ac.be/handle/2268/203491" title="See it on ORBi" %}
 
 {% include card_end.html %}
