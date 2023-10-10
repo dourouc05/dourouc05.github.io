@@ -48,7 +48,12 @@ phd:
     authors: Thibaut Cuvelier
     venue: PhD dissertation, university Paris-Saclay, June 2021
     hal: tel-03296009
-    
+
+routing_juliadays2023:
+    title: Seleroute.jl, a generic package for network-routing optimisation
+    authors: Thibaut Cuvelier
+    venue: Julia and Optimization Days 2023
+    hal: hal-04231900
 routing_tma2019:
     title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
     authors: Thibaut Cuvelier, Éric Gourdin
