@@ -40,13 +40,27 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 ## Operational research
 
+### Network routing under uncertainty
+
+In computer networks, traffic engineering concerns the efficient use of existing network equipment so that users get the best experience when using the network. Most of the parameters have some level of uncertainty: for instance, operators cannot predict with an extremely high accuracy the traffic that their network will have to withstand. Therefore, this uncertainty must be built into the mathematical models that are used when making traffic-engineering decisions. 
+
+There are several ways to cope with the variability of parameters, such as robust optimisation. Oblivious routing is an often-disregarded paradigm, especially due to its computational cost. Other approaches include fairness, with the idea that a fair solution should withstand more traffic. 
+
+My implementation of many network-routing models is [freely available on GitHub in the Seleroute.jl package](https://github.com/dourouc05/Seleroute.jl) (under an MIT license). Preliminary have been presented at [the TMA conference](hal.archives-ouvertes.fr/hal-02161708). Details of the Julia implementation have been discussed at [the Julia Days 2023](https://hal.science/hal-04231900).
+
+**List of publications**: 
+
+* {% include reference.md key='routing_juliadays2023' %}
+* {% include reference.md key='routing_tma2019' %}
+* {% include reference.md key='routing_tma2018' %}
+
 ### Electrical flexibility for the industry
 
 The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
 
 These developments started with easing the modelling of industrial processes with generic block-diagram models and their associated mathematical formulation. Thanks to this kind of models, those processes can be used in mathematical-programming-based solutions for optimising plants. Currently, a seemingly good candidate for this modelling is the reservoir, which can model many kinds of processes.
 
-Once the process models are developed, they should be integrated within a complete plant model to actually exploit the flexibility. Outside the processes, two elements must be considered: the order book, but also the workers, as they are at the heart of the production. Industrial sites tend to use shift work to be able to produce twenty-four hours a day; however, this requires to organise the shifts according to legal constraints. Our approach considers the two faces of the coin: production and shift work. The first one exploits the flexibility, while the second optimises the schedule for the workers' well-being.
+Once the process models are developed, they should be integrated within a complete plant model to actually exploit the flexibility. Outside the processes, two elements must be considered: the order book, but also the workers, as they are at the heart of the production. Industrial sites tend to use shift work to be able to produce twenty-four hours a day; however, this requires to organise the shifts according to legal constraints. Our approach considers the two faces of the same coin: production and shift work. The first one exploits the flexibility, while the second optimises the schedule for the workers' well-being.
 
 The source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/IndustrialProcessFlexibilisation.jl) (under an MIT license). The production-HR coupling has been presented [at the COMEX workshop](http://orbi.ulg.ac.be/handle/2268/209469) and [at the IFORS conference](http://orbi.ulg.ac.be/handle/2268/207330). The modelling methodology has been presented [at the DS3 summer school](http://orbi.ulg.ac.be/handle/2268/212703). 
 
