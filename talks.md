@@ -10,7 +10,7 @@ layout: page
 
 Optimisation is used to take actions in many high-stakes situations. However, if practitioners disregard the uncertainty in their data, their solution will not have the best possible business impact. In this presentation, I will present my journey through the field of optimisation under uncertainty, starting with modelling ambiguities and moving to efficient learning in uncertain environments. 
 
-{% include reference_box.md key="uncertainty_ats2023" %}
+{% include reference_box.md key="uncertainty_amazon2023" %}
 
 ## OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (23 February 2023, ROADEF)
 
