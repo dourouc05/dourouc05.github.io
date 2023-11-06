@@ -55,7 +55,7 @@ routing_juliadays2023:
     venue: Julia and Optimization Days 2023
     hal: hal-04231900
 routing_tma2019:
-title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
+    title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
     authors: Thibaut Cuvelier, Éric Gourdin
     venue: Network Traffic Measurement and Analysis (TMA) PhD School 2019, Paris (France), June 2019
     hal: hal-02161708
