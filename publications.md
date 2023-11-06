@@ -76,6 +76,12 @@ layout: page
 
 <h2 id="talk">Talks</h2>
 
+{% include reference.md key='uncertainty_amazon2023' %}
+
+{% include reference.md key='ortools_roadef2023' %}
+
+{% include reference.md key='routing_juliadays2023' %}
+
 {% include reference.md key='bandits_amazon2021' %}
 
 {% include reference.md key='tfe_orange2018' %}
