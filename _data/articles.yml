@@ -141,6 +141,13 @@ dams_wrm2018:
     hal: hal-02265436
     arxiv: 1801.08892
 
+uncertainty_amazon2023: 
+    title: A Journey through Uncertain Optimisation
+    authors: Thibaut Cuvelier
+    venue: Amazon Transport Services, Luxembourg (Luxembourg), November 2°23
+    venue_link: 
+      name: PDF
+      url: /files/uncertainty_ats2023.pdf
 tfe_pgmo2018:
     title: Comparing Oblivious and Robust Routing Approaches
     authors: Thibaut Cuvelier, Éric Gourdin
