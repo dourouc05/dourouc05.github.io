@@ -6,11 +6,27 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
+## A Journey through Uncertain Optimisation (6 November 2023, Amazon Transport Services)
+
+Optimisation is used to take actions in many high-stakes situations. However, if practitioners disregard the uncertainty in their data, their solution will not have the best possible business impact. In this presentation, I will present my journey through the field of optimisation under uncertainty, starting with modelling ambiguities and moving to efficient learning in uncertain environments. 
+
+{% include reference_box.md key="uncertainty_ats2023" %}
+
 ## OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (23 February 2023, ROADEF)
 
 OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2015, being in development since 2008. This toolkit provides a uniform interface to several solvers, both first- and third-party. In particular, it offers a high-level interface for vehicle-routing problems (VRPs). OR-Tools contains several solvers, in particular two CP solvers, CP* (since the first open-source release) and CP-SAT (gold-medal winner at several MiniZinc competitions, developed since 2009), but also two linear solvers: the simplex-based Glop (since 2014), and PDLP, a first-order large-scale linear solver. OR-Tools is being actively developed, with approximately quarterly releases. Outside Google, the solver suite is easily accessible via Google Cloud, either for solving VRPs or mixed-integer linear programs, although the latter API is not yet in general access.
 
 <!-- TODO: {% include reference_box.md key="ral_wiml2019" %} -->
+
+## Polynomial-Time Algorithms for Combinatorial Semibandits: Computationally Tractable Reinforcement Learning in Complex Environments (9 March 2021, Amazon Transport Services)
+
+Sequential decision making is a core component of many real-world applications, from computer-network operations to online ads. The major tool for this use is reinforcement learning: an agent takes a sequence of decisions in order to achieve its goal, with typically noisy measurements of the evolution of the environment. For instance, a self-driving car can be controlled by such an agent; the environment is the city in which the car manœuvers. Bandit problems are a class of reinforcement learning for which very strong theoretical properties can be shown. The focus of bandit algorithms is on the exploration-exploitation dilemma: in order to have good performance, the agent must have a deep knowledge of its environment (exploration); however, it should also play actions that bring it closer to its goal (exploitation).
+
+This talk focuses on combinatorial bandits, which are bandits whose decisions are highly structured (a ‘combinatorial’ structure). These include cases where the learning agent determines a path to follow (on a road, in a computer network, etc.) or ads to display on a Website. Such situations share their computational complexity: while it is often easy to determine the optimum decision when the parameters are known (the time to cross a road, the monetary gain of displaying an ad at a given place), the bandit variant (when the parameters must be determined through interactions with the environment) is more complex.
+
+I present two new algorithms to tackle these problems by mathematical-optimisation techniques. Based on weak hypotheses, they have a polynomial time complexity, and yet perform well compared to state-of-the-art algorithms for the same problems. They also enjoy excellent statistical properties, meaning that they find a balance between exploration and exploitation that is close to the theoretical optimum. Previous work on combinatorial bandits had to make a choice between computational burden and statistical performance; our algorithms show that there is no need for such a quandary.
+
+{% include reference_box.md key="bandits_amazon2021" %}
 
 ## Improving Stream-Based Active Learning with Reinforcement Learning (8 December 2019, WiML workshop)
 
