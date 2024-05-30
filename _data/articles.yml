@@ -1,6 +1,15 @@
+rl_or_cnrs2024:
+    title: "Applications of Reinforcement Learning to Combinatorial Optimization"
+    authors: Thibaut Cuvelier, Bruno De Backer, Onno Eberhard, Aymane Lotf
+    venue: CNRS + Google, May 2024
+    hal: hal-04015496
+    venue_link: 
+      name: PDF
+      url: /files/rl_or_cnrs2024.pdf
+
 ortools_roadef2023:
     title: "OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems"
-    authors:  Thibaut Cuvelier, Frederic Didier, Vincent Furnon, Steven Gay, Sarah Mohajeri, Laurent Perron
+    authors: Thibaut Cuvelier, Frederic Didier, Vincent Furnon, Steven Gay, Sarah Mohajeri, Laurent Perron
     venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2023, February 2023
     hal: hal-04015496
 
