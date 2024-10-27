@@ -18,7 +18,9 @@ I co-developed the [RAL Python package](https://github.com/SAWassermann/RAL) for
 {% include card_end.html %}
 {% include card_begin.html title="Research-support software" id="research-support-software" %}
 
-I developed or significantly contributed to the following Julia packages when working on the previous packages: 
+In C++, I contribute to the [OR-Tools](https://or-tools.org) software suite. My work focuses on graph algorithms, the routing and the set-covering solvers.
+
+In Julia, I developed or significantly contributed to the following Julia packages when working on the previous packages: 
 
 * [NonsmoothOptim.jl](https://github.com/dourouc05/NonsmoothOptim.jl) for nonsmooth optimisation, especially subgradient method and bundle method
 * [Kombinator.jl](https://github.com/dourouc05/Kombinator.jl) for combinatorial optimisation: exact and approximation algorithms and linear-programming formulations for several combinatorial problems
