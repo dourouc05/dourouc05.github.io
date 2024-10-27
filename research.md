@@ -12,6 +12,19 @@ layout: page
 
 Reinforcement learning is a paradigm in machine learning where an agent learns an algorithm to make good decisions that are not known beforehand (unlike supervised learning, where the expected result of the model are known in advance, or unsupervised learning, where no decisions are made). Combinatorial optimisation achieves the same goal of making good decisions while relying on human experience to derive a mathematical model or to design heuristics. 
 
+I am currently involved in a team effort to bring these two worlds together. Each of them has its own drawbacks and advantages: combinatorial optimisation algorithms can make good decision in large dimension (but the computation times can grow impractical) while reinforcement learning cannot natively deal with the huge dimensionality of combinatorial sets; reinforcement learning cannot enforce constraints in the same way combinatorial optimisation models can; heuristics for combinatorial optimisations are designed by humans whereas reinforcement learning learns better policies over time. 
+
+The application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We tried approaching the problem as a whole (finding a good path for each shipment through the entire graph) or decomposing it and solving the individual components using reinforcement learning (finding feasible paths in a time-expanded graph and covering the shipments with paths).
+
+Along the way, we also developed an instance generator for middle-mile logistics. This generator can create new random instances with any level of hardness; it does so while defining an exchangeable data format to compare solvers easily (in the same way routing problems has formats such as TSPLIB, CARP, NEARP, or LiLim).
+
+**List of publications**: 
+
+* {% include reference.md key='rl_or_cnrs2024' %}
+* {% include reference.md key='data_mm_euro2024' %}
+* {% include reference.md key='rl_mm_euro2024' %}
+* {% include reference.md key='rl_mm_neurips2023' %}
+
 ### Reinforcement learning: Combinatorial bandits
 
 Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to situations where the agent makes decision that are chosen in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.). These decisions have a very specific structure, as they are made of many individual components (for instance, a path is a sequence of edges: the cost of the path is obtained as the sum of the cost of each edge). This field generalises online combinatorial optimisation. 
