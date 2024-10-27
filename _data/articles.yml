@@ -6,6 +6,11 @@ rl_or_cnrs2024:
     venue_link: 
       name: PDF
       url: /files/rl_or_cnrs2024.pdf
+data_mm_euro2024:
+    title: "A Novel Instance Generator for Simulating Middle-Mile Logistics Networks"
+    authors:  Aymane Lotfi, Petris Matteo, Thibaut Cuvelier, Bruno De Backer, Claudia Archetti 
+    venue: 33rd European Conference on Operational Research 
+    hal: hal-04755189
 rl_mm_euro2024:
     title: "A Tale of Middle-Mile Logistics, Graph Neural Networks, and Reinforcement Learning"
     authors: Onno Eberhard, Thibaut Cuvelier, Bruno De Backer
