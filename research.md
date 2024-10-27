@@ -10,7 +10,7 @@ layout: page
 
 ### Reinforcement learning for combinatorial optimisation
 
-
+Reinforcement learning is a paradigm in machine learning where an agent learns an algorithm to make good decisions that are not known beforehand (unlike supervised learning, where the expected result of the model are known in advance, or unsupervised learning, where no decisions are made). Combinatorial optimisation achieves the same goal of making good decisions while relying on human experience to derive a mathematical model or to design heuristics. 
 
 ### Reinforcement learning: Combinatorial bandits
 
