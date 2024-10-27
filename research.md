@@ -8,9 +8,13 @@ layout: page
 
 ## Machine learning
 
+### Reinforcement learning for combinatorial optimisation
+
+
+
 ### Reinforcement learning: Combinatorial bandits
 
-Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to the cases where the agent takes decision in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.), i.e. decisions that are made of many individual components (a path is a sequence of edges, e.g.). This field generalises online combinatorial optimisation. 
+Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to situations where the agent makes decision that are chosen in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.). These decisions have a very specific structure, as they are made of many individual components (for instance, a path is a sequence of edges: the cost of the path is obtained as the sum of the cost of each edge). This field generalises online combinatorial optimisation. 
 
 Most algorithms for combinatorial bandits use mathematical-optimisation tools in some way. However, current algorithms either have an excellent operational performance (but taking a decision takes a very long time: these algorithms include [ESCB](https://papers.nips.cc/paper/5831-combinatorial-bandits-revisited) and [OSSB](https://papers.nips.cc/paper/6773-minimal-exploration-in-structured-stochastic-bandits)) or have great computational properties (but the solutions they take can be arbitrarily worse than those played by the first algorithms, like [Thompson sampling](https://papers.nips.cc/paper/7670-an-information-theoretic-analysis-for-thompson-sampling-with-many-actions) or [CUCB](http://proceedings.mlr.press/v38/kveton15.html)). More precisely, the first kind of algorithm typically has an exponential computational complexity (with respect to the dimension of the problem, i.e. the number of components of a solution). 
 
