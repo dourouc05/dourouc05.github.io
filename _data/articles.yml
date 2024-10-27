@@ -72,6 +72,16 @@ phd:
     authors: Thibaut Cuvelier
     venue: PhD dissertation, university Paris-Saclay, June 2021
     hal: tel-03296009
+bandits_snapp2020: 
+    title: Statistically Efficient, Polynomial-Time Algorithms for Combinatorial Semi-Bandits
+    authors: Richard Combes, Thibaut Cuvelier, Éric Gourdin
+    venue: Stochastic Networks, Applied Probability, and Performance Seminar, September 2020
+    venue_link: 
+      name: SNAPP Seminar
+      url: https://sites.google.com/view/snappseminar/past-seminars/fall-2020
+    links: 
+      - name: Recorded presentation
+        url: https://www.youtube.com/watch?v=7flMukHqfW4
 
 routing_juliadays2023:
     title: Seleroute.jl, a generic package for network-routing optimisation
