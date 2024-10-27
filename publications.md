@@ -92,6 +92,8 @@ layout: page
 
 {% include reference.md key='bandits_amazon2021' %}
 
+{% include reference.md key='bandits_snapp2020' %}
+
 {% include reference.md key='tfe_orange2018' %}
 
 {% include reference.md key='julia_ieee2017' %}
