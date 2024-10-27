@@ -6,6 +6,14 @@ rl_or_cnrs2024:
     venue_link: 
       name: PDF
       url: /files/rl_or_cnrs2024.pdf
+rl_mm_neurips2023:
+    title: "Middle-Mile Logistics Through the Lens of Goal-Conditioned Reinforcement Learning"
+    authors: Onno Eberhard, Thibaut Cuvelier, Michal Valko, Bruno De Backer
+    venue: NeurIPS 2023 Workshop on Goal-Conditioned Reinforcement Learning, November 2023
+    hal: hal-04755187
+    venue_link: 
+      name: PDF
+      url: /files/rl_or_cnrs2024.pdf
 
 ortools_roadef2023:
     title: "OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems"
