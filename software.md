@@ -18,7 +18,7 @@ I co-developed the [RAL Python package](https://github.com/SAWassermann/RAL) for
 {% include card_end.html %}
 {% include card_begin.html title="Research-support software" id="research-support-software" %}
 
-In C++, I contribute to the [OR-Tools](https://or-tools.org) software suite. My work focuses on graph algorithms, the routing and the set-covering solvers.
+In C++, I contribute to the [OR-Tools](https://or-tools.org) software suite. My work focuses on graph algorithms, on the routing and the set-covering solvers, and on the Julia interface.
 
 In Julia, I developed or significantly contributed to the following Julia packages when working on the previous packages: 
 
