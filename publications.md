@@ -26,6 +26,8 @@ layout: page
 
 <h2 id="workshop">Workshop articles</h2>
 
+{% include reference.md key='rl_mm_neurips2023' %}
+
 {% include reference.md key='ral_ecml2019' %}
 
 {% include reference.md key='netperftrace_bigdama2017' %}
