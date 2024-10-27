@@ -16,7 +16,7 @@ I am currently involved in a team effort to bring these two worlds together. Eac
 
 The application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We tried approaching the problem as a whole (finding a good path for each shipment through the entire graph) or decomposing it and solving the individual components using reinforcement learning (finding feasible paths in a time-expanded graph and covering the shipments with paths).
 
-Along the way, we also developed an instance generator for middle-mile logistics. This generator can create new random instances with any level of hardness; it does so while defining an exchangeable data format to compare solvers easily (in the same way routing problems has formats such as TSPLIB, CARP, NEARP, or LiLim).
+Along the way, we also developed an instance generator for middle-mile logistics. This generator can create new random instances with any level of hardness; it does so while defining an exchangeable data format to compare solvers easily (in the same way routing problems has formats such as [TSPLIB, CARP, NEARP, or LiLim](http://vrp.galgos.inf.puc-rio.br/index.php/en/)).
 
 **List of publications**: 
 
