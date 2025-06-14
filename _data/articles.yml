@@ -224,7 +224,7 @@ julia_datacraft2021:
       name: Datacraft
       url: https://datacraft.paris/workshops/a-la-decouverte-de-julia/
     links: 
-      - name: Presentation
+      - name: Presentation (PDF)
         url: /files/datacraft2022.pdf
       - name: YouTube recording
         url: https://www.youtube.com/watch?v=rSrhKkk70M0
