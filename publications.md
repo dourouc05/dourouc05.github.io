@@ -90,6 +90,8 @@ layout: page
 
 {% include reference.md key='routing_juliadays2023' %}
 
+{% include reference.md key='julia_datacraft2021' %}
+
 {% include reference.md key='bandits_amazon2021' %}
 
 {% include reference.md key='bandits_snapp2020' %}
