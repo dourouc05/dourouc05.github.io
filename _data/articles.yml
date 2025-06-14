@@ -215,7 +215,19 @@ netperftrace_bigdama2017:
       name: ACM Digital Library
       url: https://dl.acm.org/doi/10.1145/3098593.3098599
     orbi: 2268/211667
-    
+
+julia_datacraft2021:
+    title: "À la découverte de Julia"
+    authors: Thibaut Cuvelier
+    venue: Datacraft, November 2022
+    venue_link:
+      name: Datacraft
+      url: https://datacraft.paris/workshops/a-la-decouverte-de-julia/
+    links: 
+      - name: YouTube recording
+        url: https://www.youtube.com/watch?v=rSrhKkk70M0
+      - name: Notebooks
+        url: https://github.com/datacraft-paris/2211-Cuvelier-Julia
 julia_juliacon2021:
     title: "ConstraintProgrammingExtensions.jl: An MOI/JuMP extension for constraint programming"
     authors: Thibaut Cuvelier
