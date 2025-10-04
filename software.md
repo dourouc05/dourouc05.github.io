@@ -23,6 +23,13 @@ In C++, I contribute to several packages:
 * The [OR-Tools](https://or-tools.org) software suite. My work focuses on graph algorithms, on the routing and the set-covering solvers, and on the Julia interface.
 * [MilleMiglia](https://github.com/or-tools/millemiglia), an instance generator and a generic file format for middle-mile logistics in the domain of supply chain.
 
+List of publications:
+
+* {% include reference.md key='ortools_juliaconparis2025' %}
+* {% include reference.md key='ortools_juliacon2025' %}
+* {% include reference.md key='tpc2025' %}
+* {% include reference.md key='ortools_roadef2023' %}
+
 In Julia, I developed or significantly contributed to the following Julia packages when working on the previous packages: 
 
 * [NonsmoothOptim.jl](https://github.com/dourouc05/NonsmoothOptim.jl) for nonsmooth optimisation, especially subgradient method and bundle method
@@ -37,8 +44,8 @@ In Julia, I developed or significantly contributed to the following Julia packag
 
 List of publications:
 
-* {% include reference.md key='ortools_juliaconparis2025' %}
-* {% include reference.md key='ortools_juliacon2025' %}
+* {% include reference.md key='routing_juliadays2023' %}
+* {% include reference.md key='julia_juliacon2021' %}
 
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
