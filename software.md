@@ -47,7 +47,7 @@ I developed [QtDocTools](https://github.com/dourouc05/QtDocTools/), a simple CLI
 
 I contributed to [LyX, a WYSIWYM LaTeX editor](https://www.lyx.org/), especially regarding its DocBook 5 support (premiered in LyX 2.4.0). I now also help maintain the support for the XHTML and MathML formats.
 
-Both projects lead me to propose and support until acceptance of several propositions to [the DocBook OASIS standard](https://github.com/docbook/docbook).
+Both projects lead me to [propose](https://github.com/docbook/docbook/issues/111) and support until acceptance of several propositions to [the DocBook OASIS standard](https://github.com/docbook/docbook).
 
 {% include card_end.html %}
 {% include card_begin.html title="Development projects" %}
