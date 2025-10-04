@@ -34,6 +34,10 @@ layout: page
 
 <h2 id="abstract">Abstracts</h2>
 
+{% include reference.md key='ortools_juliaconparis2025' %}
+
+{% include reference.md key='ortools_juliacon2025' %}
+
 {% include reference.md key='data_mm_euro2024' %}
 
 {% include reference.md key='rl_mm_euro2024' %}
