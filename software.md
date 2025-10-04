@@ -38,6 +38,7 @@ In Julia, I developed or significantly contributed to the following Julia packag
   * [ConstraintProgrammingExtensions.jl](https://github.com/dourouc05/ConstraintProgrammingExtensions.jl), providing a solver interface for constraint programming (an extension of [MathOptInterface](https://github.com/jump-dev/MathOptInterface.jl)) -- a large part of this groundwork has been integrated in [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl) since [version 1.8.0](https://github.com/jump-dev/MathOptInterface.jl/releases/tag/v1.8.0)
   * [JuCP.jl](https://github.com/dourouc05/JuCP.jl), a modelling layer for constraint programming (an extension of [JuMP](https://github.com/jump-dev/JuMP.jl))
   * [CPLEXCP.jl](https://github.com/dourouc05/CPLEXCP.jl), a solver wrapper for CPLEX CP Optimizer
+  * [ORTools.jl](https://github.com/google/or-tools/tree/stable/ortools/julia/ORTools.jl), a solver wrapper for CP-SAT, Glop, and PDLP (all part of the OR-Tools software suite)
 * Mathematical programming: 
   * Modelling: I contributed to [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
   * Solver wrappers: I contributed to [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
