@@ -35,6 +35,11 @@ In Julia, I developed or significantly contributed to the following Julia packag
   * Modelling: I contributed to [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
   * Solver wrappers: I contributed to [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
 
+List of publications:
+
+* {% include reference.md key='ortools_juliaconparis2025' %}
+* {% include reference.md key='ortools_juliacon2025' %}
+
 {% include card_end.html %}
 {% include card_begin.html title="Documentation tools" id="documentation-tools" %}
 
