@@ -86,6 +86,8 @@ layout: page
 
 <h2 id="talk">Talks</h2>
 
+{% include reference.md key='ortools_jumpdev2025' %}
+
 {% include reference.md key='rl_or_cnrs2024' %}
 
 {% include reference.md key='uncertainty_amazon2023' %}
