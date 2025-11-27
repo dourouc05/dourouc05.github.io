@@ -31,7 +31,7 @@ ortools_jumpdev2025:
     venue: JuMP-dev 2025, November 2025
     links: 
       - name: Presentation (PDF)
-        url: /files/ortools_jumpdev2025.pdf
+        url: /files/ortools-jumpdev2025.pdf
 ortools_juliaconparis2025:
     title: "ORTools.jl: access Google's solvers through JuMP"
     authors: Thibaut Cuvelier, Warren Ochibobo
