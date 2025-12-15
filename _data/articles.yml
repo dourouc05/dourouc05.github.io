@@ -237,6 +237,13 @@ netperftrace_bigdama2017:
       url: https://dl.acm.org/doi/10.1145/3098593.3098599
     orbi: 2268/211667
 
+julia_cp_iccopt2025:
+    title: "Bridging Continuous and Discrete Optimization in Julia"
+    authors: Thibaut Cuvelier
+    venue: International Conference on Continuous Optimization (ICCOPT), July 2025
+    venue_link: 
+      name: PDF
+      url: /files/cp_iccopt2025.pdf
 julia_datacraft2021:
     title: "À la découverte de Julia"
     authors: Thibaut Cuvelier
