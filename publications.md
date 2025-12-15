@@ -88,6 +88,8 @@ layout: page
 
 {% include reference.md key='ortools_jumpdev2025' %}
 
+{% include reference.md key='julia_cp_iccopt2025' %}
+
 {% include reference.md key='rl_or_cnrs2024' %}
 
 {% include reference.md key='uncertainty_amazon2023' %}
