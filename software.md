@@ -26,6 +26,7 @@ In C++, I contribute to several packages:
 List of publications:
 
 * {% include reference.md key='ortools_datacraft2026' %}
+* {% include reference.md key='ortools_jumpdev2025' %}
 * {% include reference.md key='ortools_juliaconparis2025' %}
 * {% include reference.md key='ortools_juliacon2025' %}
 * {% include reference.md key='tpc2025' %}
