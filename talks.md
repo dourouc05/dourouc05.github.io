@@ -6,6 +6,18 @@ layout: page
 
 {% include card_begin.html title="Talks" id="talks" %}
 
+## ORTools.jl, a way to access Google's solvers within Julia and JuMP (2 October 2025, JuliaCon Paris; 18 November 2025, JuMP-dev)
+
+In Julia, JuMP is the go-to modelling package for mathematical optimisation. As of this writing, Google's award-winning solvers have not been accessible through JuMP; which offers Julia's ease of use. ORTools.jl is changing this. Julia users will now have access to Google's Glop, CP-SAT, and PDLP solvers through JuMP as provided by the ORTools.jl package.
+
+This talk offers an introduction to the features of the package and an overview of the difficulties we encountered. 
+
+{% include reference_box.md key="ortools_jumpdev2025" %}
+
+{% include reference_box.md key="ortools_juliaconparis2025" %}
+
+{% include reference_box.md key="ortools_juliacon2025" %}
+
 ## A Journey through Uncertain Optimisation (6 November 2023, Amazon Transport Services)
 
 Optimisation is used to take actions in many high-stakes situations. However, if practitioners disregard the uncertainty in their data, their solution will not have the best possible business impact. In this presentation, I will present my journey through the field of optimisation under uncertainty, starting with modelling ambiguities and moving to efficient learning in uncertain environments. 
