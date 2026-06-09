@@ -18,6 +18,8 @@ OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2
 
 {% include reference_box.md key="ortools_roadef2023" %}
 
+{% include reference_box.md key="ortools_datacraft2026" %}
+
 ## Seleroute.jl, a generic package for network-routing optimisation (6 October 2023, Julia Days Paris 2023)
 
 Seleroute.jl is an implementation of many state-of-the-art algorithms to compute optimum computer-network routing. These include oblivious routing to take into account the demand uncertainty into the routing or variants of fair routing. The possibilities of Julia have had a decisive impact on design decisions. 
