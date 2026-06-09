@@ -12,7 +12,7 @@ Optimisation is used to take actions in many high-stakes situations. However, if
 
 {% include reference_box.md key="uncertainty_amazon2023" %}
 
-## OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (23 February 2023, ROADEF)
+## OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (23 February 2023, ROADEF; 9 June 2026, Datacraft)
 
 OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2015, being in development since 2008. This toolkit provides a uniform interface to several solvers, both first- and third-party. In particular, it offers a high-level interface for vehicle-routing problems (VRPs). OR-Tools contains several solvers, in particular two CP solvers, CP* (since the first open-source release) and CP-SAT (gold-medal winner at several MiniZinc competitions, developed since 2009), but also two linear solvers: the simplex-based Glop (since 2014), and PDLP, a first-order large-scale linear solver. OR-Tools is being actively developed, with approximately quarterly releases. Outside Google, the solver suite is easily accessible via Google Cloud, either for solving VRPs or mixed-integer linear programs, although the latter API is not yet in general access.
 
