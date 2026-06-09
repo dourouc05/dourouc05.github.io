@@ -25,6 +25,13 @@ tpc2025:
     authors: Thibaut Cuvelier, Bruno De Backer
     venue: The Product Crew
 
+ortools_datacraft2026:
+    title: "OR-Tools' Vehicle Routing Solver: A Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (VRPs)"
+    authors: Thibaut Cuvelier
+    venue: Datacraft, June 2026
+    links: 
+      - name: Presentation (PDF)
+        url: /files/ortools_datacraft2026.pdf
 ortools_jumpdev2025:
     title: "Unlocking the Power of Google OR-Tools with MathOptInterface.jl"
     authors: Thibaut Cuvelier, Warren Ochibobo
