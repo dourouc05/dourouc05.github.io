@@ -77,7 +77,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/control-navigation.pdf)</td>
             <td class="small" markdown="span">
                 [Reference book](http://petercorke.com/RVC1/chaps/5/)<br/>
-                Peter Corke's Robotics Toolbox: [http://www.petercorke.com/RTB/r9/html/#pathplanning](http://www.petercorke.com/RTB/r9/html/#pathplanning), [angle difference (`angdiff`)](http://www.petercorke.com/RTB/r9/html/angdiff.html)<br/>
+                Peter Corke's Robotics Toolbox: [pathplanning](http://www.petercorke.com/RTB/r9/html/#pathplanning), [angle difference (`angdiff`)](http://www.petercorke.com/RTB/r9/html/angdiff.html)<br/>
                 MATLAB Robotics Toolbox: [path planning and occupancy grids](http://fr.mathworks.com/help/robotics/ug/occupancy-grids.html), [probabilistic roadmap (PRM)](http://fr.mathworks.com/help/robotics/ug/probabilistic-roadmaps-prm.html), [PurePursuit controller](http://fr.mathworks.com/help/robotics/ref/robotics.purepursuit-class.html)
             </td>
         </tr>
