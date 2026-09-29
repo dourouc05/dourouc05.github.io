@@ -7,7 +7,7 @@ permalink: teaching
 
 See also: [Teaching material](/teaching-material).
 
-## 2016-2017 {#2016-2017}
+## 2016-2017
 
 [Introduction to intelligent robotics](/teaching-2016-2017-intelligent-robotics)
 
@@ -15,7 +15,7 @@ See also: [Teaching material](/teaching-material).
 
 [Proposed master's theses](/teaching-2016-2017-proposed-theses)
 
-## 2015-2016 {#2015-2016}
+## 2015-2016
 
 [Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
