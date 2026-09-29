@@ -3,9 +3,11 @@ title: Teaching
 permalink: teaching
 ---
 
-<h1 id="teaching">Teaching</h1>
+# Teaching {#teaching}
 
-<h2 id="2016-2017">2016-2017</h2>
+See also: [Teaching material](/teaching-material).
+
+## 2016-2017 {#2016-2017}
 
 [Introduction to intelligent robotics](/teaching-2016-2017-intelligent-robotics)
 
@@ -13,7 +15,7 @@ permalink: teaching
 
 [Proposed master's theses](/teaching-2016-2017-proposed-theses)
 
-<h2 id="2015-2016">2015-2016</h2>
+## 2015-2016 {#2015-2016}
 
 [Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
