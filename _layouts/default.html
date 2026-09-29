@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Thibaut Cuvelier">
 
+<!--	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/bootstrap.min.js"></script>-->
+
     {% seo %}
 
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -22,60 +25,65 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-        <a class="navbar-brand" href="/">Thibaut Cuvelier</a>
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="/files/CV.pdf">CV</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/research" id="dropdown-research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown-research">
-                <a class="dropdown-item" href="/research">Research topics</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/talks#talks">Talks</a>
-                <a class="dropdown-item" href="/talks#posters">Posters</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/publications" id="dropdown-publications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown-publications">
-                <a class="dropdown-item" href="/publications">List of publications</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/publications#journal">Journal articles</a>
-                <a class="dropdown-item" href="/publications#conference">Conference articles</a>
-                <a class="dropdown-item" href="/publications#workshop">Workshop articles</a>
-                <a class="dropdown-item" href="/publications#abstract">Abstracts</a>
-                <a class="dropdown-item" href="/publications#poster">Posters</a>
-                <a class="dropdown-item" href="/publications#dissertation">Theses</a>
-                <a class="dropdown-item" href="/publications#book">Books</a>
-                <a class="dropdown-item" href="/publications#talk">Talks</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/teaching" id="dropdown-teaching" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown-teaching">
-                <a class="dropdown-item" href="/teaching">Teaching</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/teaching-material">Teaching material</a>
-                <a class="dropdown-item" href="/teaching#2016-2017">2016-2017</a>
-                <a class="dropdown-item" href="/teaching#2015-2016">2015-2016</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="/software" id="dropdown-software" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown-software">
-                <a class="dropdown-item" href="/software">Software</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/software#research-software">Research software</a>
-                <a class="dropdown-item" href="/software#research-support-software">Research libraries</a>
-                <a class="dropdown-item" href="/software#documentation-tools">Documentation</a>
-              </div>
-            </li>
-            <li class="nav-item"><a class="nav-link active" href="https://github.com/dourouc05">GitHub</a></li>
-            <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com/in/thibaut-cuvelier-a02517ab/">LinkedIn</a></li>
-          </ul>
-        </div>
+	  <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+	    <div class="container-fluid">
+          <a class="navbar-brand" href="/">Thibaut Cuvelier</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/files/CV.pdf">CV</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/research" id="dropdown-research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-research">
+                  <a class="dropdown-item" href="/research">Research topics</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/talks#talks">Talks</a>
+                  <a class="dropdown-item" href="/talks#posters">Posters</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/publications" id="dropdown-publications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-publications">
+                  <a class="dropdown-item" href="/publications">List of publications</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/publications#journal">Journal articles</a>
+                  <a class="dropdown-item" href="/publications#conference">Conference articles</a>
+                  <a class="dropdown-item" href="/publications#workshop">Workshop articles</a>
+                  <a class="dropdown-item" href="/publications#abstract">Abstracts</a>
+                  <a class="dropdown-item" href="/publications#poster">Posters</a>
+                  <a class="dropdown-item" href="/publications#dissertation">Theses</a>
+                  <a class="dropdown-item" href="/publications#book">Books</a>
+                  <a class="dropdown-item" href="/publications#talk">Talks</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/teaching" id="dropdown-teaching" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-teaching">
+                  <a class="dropdown-item" href="/teaching">Teaching</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/teaching-material">Teaching material</a>
+                  <a class="dropdown-item" href="/teaching#2016-2017">2016-2017</a>
+                  <a class="dropdown-item" href="/teaching#2015-2016">2015-2016</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/software" id="dropdown-software" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-software">
+                  <a class="dropdown-item" href="/software">Software</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/software#research-software">Research software</a>
+                  <a class="dropdown-item" href="/software#research-support-software">Research libraries</a>
+                  <a class="dropdown-item" href="/software#documentation-tools">Documentation</a>
+                </div>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/dourouc05">GitHub</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/thibaut-cuvelier-a02517ab/">LinkedIn</a></li>
+            </ul>
+          </div>
+	    </div>
       </nav>
     </header>
     <section>
