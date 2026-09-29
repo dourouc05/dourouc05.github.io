@@ -91,8 +91,6 @@ permalink: publications
 
 ## Talks {#talk}
 
-{% include reference.md key='ortools_datacraft2026' %}
-
 {% include reference.md key='ortools_jumpdev2025' %}
 
 {% include reference.md key='rl_or_cnrs2024' %}
@@ -116,5 +114,7 @@ permalink: publications
 {% include reference.md key='julia_geeks2017' %}
 
 ## Invited talks
+
+{% include reference.md key='ortools_datacraft2026' %}
 
 {% include reference.md key='julia_cp_iccopt2025' %}
