@@ -4,7 +4,7 @@ permalink: publications
 layout: page
 ---
 
-{% include card_begin.html title="Publications" id="publications" %}
+<h1 id="publications">Publications</h1>
 
 <h2 id="journal">Journal articles</h2>
 
@@ -109,5 +109,3 @@ layout: page
 {% include reference.md key='julia_ieee2017' %}
 
 {% include reference.md key='julia_geeks2017' %}
-
-{% include card_end.html %}
