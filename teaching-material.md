@@ -10,6 +10,4 @@ Due to my teaching-assistant role, I have developed an exercise book for the dis
 
 ## Robotics
 
-As a teaching assistant, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with [Mathieu Baijot](https://www.esat.kuleuven.be/micas/index.php/mathieu-baijot-cv)) and by creating videos showing the use of the simulator (they are being finalised). 
-
-{% include card_end.html %}
+As a teaching assistant, I had the opportunity to contribute to Renaud Detry's robotics courseware, [teaching robotics with a simulator](https://github.com/ULgRobotics/trs). My role has been to ease the first steps with MATLAB and the simulator, by splitting the main demonstration script into smaller units (work done with Mathieu Baijot) and by creating videos showing the use of the simulator (they are being finalised). 
