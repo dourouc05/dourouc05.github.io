@@ -3,7 +3,7 @@ title: Research topics
 permalink: research
 ---
 
-{% include card_begin.html title="Research topics" id="research-topics" %}
+# Research topics {#research-topics}
 
 ## Machine learning
 
@@ -162,5 +162,3 @@ The World Wide Web has enabled the creation of a global information space compri
 This book is a translation of Christian Bizer and Tom Heath's *Linked data: evolving the Web into a global data space*. 
 
 ISBN-13: 978-2-7440-2519-8. 
-
-{% include card_end.html %}

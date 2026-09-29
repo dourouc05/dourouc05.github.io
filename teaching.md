@@ -3,7 +3,7 @@ title: Teaching
 permalink: teaching
 ---
 
-{% include card_begin.html title="Teaching" %}
+<h1 id="teaching">Teaching</h1>
 
 <h2 id="2016-2017">2016-2017</h2>
 
@@ -18,5 +18,3 @@ permalink: teaching
 [Introduction to intelligent robotics](http://renaud-detry.net/teaching/info0948/)
 
 [Discrete optimisation](/teaching-2015-2016-discrete-optimisation)
-
-{% include card_end.html %}

@@ -3,9 +3,9 @@ title: Publications
 permalink: publications
 ---
 
-<h1 id="publications">Publications</h1>
+# Publications {#publications}
 
-<h2 id="journal">Journal articles</h2>
+## Journal articles {#journal}
 
 {% include reference.md key='bandits_sigmetrics2021' %}
 
@@ -15,7 +15,7 @@ permalink: publications
 
 {% include reference.md key='dams_wrm2018' %}
 
-<h2 id="conference">Conference articles</h2>
+## Conference articles {#conference}
 
 {% include reference.md key='bandits_alt21' %}
 
@@ -23,7 +23,7 @@ permalink: publications
 
 {% include reference.md key='ral_cnsm2019' %}
 
-<h2 id="workshop">Workshop articles</h2>
+## Workshop articles {#workshop}
 
 {% include reference.md key='rl_mm_neurips2023' %}
 
@@ -31,7 +31,7 @@ permalink: publications
 
 {% include reference.md key='netperftrace_bigdama2017' %}
 
-<h2 id="abstract">Abstracts</h2>
+## Abstracts {#abstract}
 
 {% include reference.md key='ortools_juliaconparis2025' %}
 
@@ -59,7 +59,7 @@ permalink: publications
 
 {% include reference.md key='tfe_orbel2016' %}
 
-<h2 id="poster">Posters</h2>
+## Posters {#poster}
 
 {% include reference.md key='ral_sigcomm2020' %}
 
@@ -69,13 +69,13 @@ permalink: publications
 
 {% include reference.md key='industore_dsss2017' %}
 
-<h2 id="dissertation">Dissertations</h2>
+## Dissertations {#dissertation}
 
 {% include reference.md key='phd' %}
 
 {% include reference.md key='tfe' %}
 
-<h2 id="book">Books</h2>
+## Books {#book}
 
 {% include reference.md key='pyqt5' %}
 
@@ -83,7 +83,7 @@ permalink: publications
 
 {% include reference.md key='websemantique' %}
 
-<h2 id="talk">Talks</h2>
+## Talks {#talk}
 
 {% include reference.md key='ortools_jumpdev2025' %}
 
