@@ -1,7 +1,6 @@
 ---
 title: Research topics
 permalink: research
-layout: page
 ---
 
 {% include card_begin.html title="Research topics" id="research-topics" %}

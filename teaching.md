@@ -1,7 +1,6 @@
 ---
 title: Teaching
 permalink: teaching
-layout: page
 ---
 
 {% include card_begin.html title="Teaching" %}

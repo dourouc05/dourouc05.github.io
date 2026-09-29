@@ -1,7 +1,6 @@
 ---
 title: Publications
 permalink: publications
-layout: page
 ---
 
 <h1 id="publications">Publications</h1>

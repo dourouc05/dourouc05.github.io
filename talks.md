@@ -1,7 +1,6 @@
 ---
 title: Talks
 permalink: talks
-layout: page
 ---
 
 {% include card_begin.html title="Talks" id="talks" %}

@@ -1,7 +1,6 @@
 ---
 title: Proposed master's theses (2016-2017)
 permalink: teaching-2016-2017-proposed-theses
-layout: page
 ---
 
 # Proposed master's theses (2016-2017)

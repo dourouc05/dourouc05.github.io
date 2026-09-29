@@ -1,7 +1,6 @@
 ---
 title: Software
 permalink: software
-layout: page
 ---
 
 {% include card_begin.html title="Research software" id="research-software" %}

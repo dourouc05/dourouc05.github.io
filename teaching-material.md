@@ -1,7 +1,6 @@
 ---
 title: Teaching material
 permalink: teaching-material
-layout: page
 ---
 
 {% include card_begin.html title="Teaching material" id="teaching-material" %}

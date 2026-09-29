@@ -1,7 +1,6 @@
 ---
 title: Introduction to intelligent robotics (INFO0948), 2016-2017
 permalink: teaching-2016-2017-intelligent-robotics
-layout: page
 ---
 
 # Introduction to intelligent robotics (INFO0948), 2016-2017
