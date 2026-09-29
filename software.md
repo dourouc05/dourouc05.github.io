@@ -3,7 +3,9 @@ title: Software
 permalink: software
 ---
 
-{% include card_begin.html title="Research software" id="research-software" %}
+# Software
+
+## Research software {#research-software}
 
 I am the main developer of the following Julia packages, directly related to my research: 
 
@@ -14,8 +16,7 @@ I am the main developer of the following Julia packages, directly related to my 
 
 I co-developed the [RAL Python package](https://github.com/SAWassermann/RAL) for stream-based active learning.
 
-{% include card_end.html %}
-{% include card_begin.html title="Research-support software" id="research-support-software" %}
+## Research-support software {#research-support-software}
 
 In C++, I contribute to several packages:
 
@@ -49,8 +50,9 @@ List of publications:
 * {% include reference.md key='routing_juliadays2023' %}
 * {% include reference.md key='julia_juliacon2021' %}
 
-{% include card_end.html %}
-{% include card_begin.html title="Documentation tools" id="documentation-tools" %}
+## Development projects
+
+### Documentation tools {#documentation-tools}
 
 I developed [QtDocTools](https://github.com/dourouc05/QtDocTools/), a simple CLI tool that was initially written to help manage [the translation of Qt’s documentation into French](https://qt.developpez.com/doc/) by automating many operations on DocBook documents, and outgrew to handle the whole publication chain (roundtrip to DOCX format for proofreading, generation of whole websites, etc.). When working on this tool, I also made a few contributions to [Apache POI](https://github.com/apache/poi) and to [Qt](https://www.qt.io/); the largest contributions were for Qt's QDoc documentation-generation tool, where I implemented a DocBook output and fixed many documentation issues. 
 
@@ -58,10 +60,7 @@ I contributed to [LyX, a WYSIWYM LaTeX editor](https://www.lyx.org/), especially
 
 Both projects lead me to [propose](https://github.com/docbook/docbook/issues/111) and support until acceptance of several propositions to [the DocBook OASIS standard](https://github.com/docbook/docbook).
 
-{% include card_end.html %}
-{% include card_begin.html title="Development projects" %}
-
-## Car on the Hill (became [CovoitULiège](https://covoituliege.ulg.ac.be/), now [UGo](https://ugo.be/))
+### Car on the Hill (became [CovoitULiège](https://covoituliege.ulg.ac.be/), now [UGo](https://ugo.be/))
 
 The ULg campuses are not exactly the best in class when it comes to mobility. This is partly due to its highly decentralised organisation: some faculties are localised in the city centre (in different areas of the city), but also remote from the city (the Sart-Tilman campus). Public transportation is a partial answer to this problem, especially in the city centre, where the bus offer is extensive. However, only two bus routes serve the Sart-Tilman campus, and these are over-crowded during rush time.
 
@@ -72,5 +71,3 @@ My part in the project was to develop a prototype for this application as a webs
 This project has had also some impact on the teaching activities of the department, as it was also the subject of [the integrated software project 2015-2016](http://web.archive.org/web/20160811161723/http://www.montefiore.ulg.ac.be/~proj0010/) (a large software development project for computer science master students). Its algorithmic part was a project<!-- http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2015/P2_statement.pdf --> for the discrete optimisation course. 
 
 The prototype has now developed and has been deployed at the scale of the university and can be licensed by third parties.
-
-{% include card_end.html %}

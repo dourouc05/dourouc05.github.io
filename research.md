@@ -116,10 +116,7 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 * {% include reference.md key='tfe_orbel2016' %}
 * {% include reference.md key='tfe' %}
 
-{% include card_end.html %}
-{% include card_begin.html title="Books" id="books" %}
-
-### Technical books
+# Technical books
 
 ## [Créer des applications graphiques en Python avec PyQt5](https://www.d-booker.fr/qt-python/376-creer-des-applications-graphiques-en-python-avec-pyqt.html), T. Cuvelier, P. Denis
 
