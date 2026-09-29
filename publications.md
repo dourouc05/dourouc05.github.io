@@ -17,6 +17,8 @@ permalink: publications
 
 ## Conference articles {#conference}
 
+{% include reference.md key='glns_icml_2026' %}
+
 {% include reference.md key='bandits_alt21' %}
 
 {% include reference.md key='bandits_sigmetrics2021_abstract' %}
@@ -32,6 +34,8 @@ permalink: publications
 {% include reference.md key='netperftrace_bigdama2017' %}
 
 ## Abstracts {#abstract}
+
+{% include reference.md key='sc_jopt_2025' %}
 
 {% include reference.md key='ortools_juliaconparis2025' %}
 
@@ -61,6 +65,8 @@ permalink: publications
 
 ## Posters {#poster}
 
+{% include reference.md key='llm_touropt_grc2025' %}
+
 {% include reference.md key='ral_sigcomm2020' %}
 
 {% include reference.md key='routing_tma2019' %}
@@ -85,9 +91,9 @@ permalink: publications
 
 ## Talks {#talk}
 
-{% include reference.md key='ortools_jumpdev2025' %}
+{% include reference.md key='ortools_datacraft2026' %}
 
-{% include reference.md key='julia_cp_iccopt2025' %}
+{% include reference.md key='ortools_jumpdev2025' %}
 
 {% include reference.md key='rl_or_cnrs2024' %}
 
@@ -108,3 +114,7 @@ permalink: publications
 {% include reference.md key='julia_ieee2017' %}
 
 {% include reference.md key='julia_geeks2017' %}
+
+## Invited talks
+
+{% include reference.md key='julia_cp_iccopt2025' %}

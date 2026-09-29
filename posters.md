@@ -5,6 +5,8 @@ permalink: posters
 
 # Posters {#posters}
 
+<!-- llm_touropt_grc2025 -->
+
 ## RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis (11 August 2020, SIGCOMM)
 
 Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes. 

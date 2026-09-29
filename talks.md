@@ -3,7 +3,9 @@ title: Talks
 permalink: talks
 ---
 
-# Talks and posters {#talks}
+# Talks {#talks}
+
+<!-- sc_jopt_2025 -->
 
 ## ORTools.jl, a way to access Google's solvers within Julia and JuMP (2 October 2025, JuliaCon Paris; 18 November 2025, JuMP-dev)
 
