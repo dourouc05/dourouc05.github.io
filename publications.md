@@ -93,6 +93,8 @@ permalink: publications
 
 {% include reference.md key='millemiglia_blogpost_2026' %}
 
+{% include reference.md key='cp_jumpblog_2021' %}
+
 ## Talks {#talk}
 
 {% include reference.md key='ortools_jumpdev2025' %}

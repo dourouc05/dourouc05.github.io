@@ -49,6 +49,7 @@ List of publications:
 
 * {% include reference.md key='routing_juliadays2023' %}
 * {% include reference.md key='julia_juliacon2021' %}
+* {% include reference.md key='cp_jumpblog_2021' %}
 
 ## Development projects
 

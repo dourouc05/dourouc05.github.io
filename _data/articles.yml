@@ -298,7 +298,7 @@ julia_juliacon2021:
   venue_link:
     name: PreTalx
     url: https://pretalx.com/juliacon2021/talk/EHUKWK/
-millemiglia_blogpost_2026:
+cp_jumpblog_2021:
   title: "An update on constraint programming in JuMP"
   authors: Thibaut Cuvelier
   venue: JuMP Blog
