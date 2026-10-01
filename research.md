@@ -67,6 +67,7 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 **List of publications**:
 
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='ral_tnsm2020' %}
 * {% include reference.md key='ral_sigcomm2020' %}
 * {% include reference.md key='ral_cnsm2019' %}
