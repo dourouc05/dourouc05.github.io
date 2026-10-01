@@ -56,6 +56,10 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 ### LLMs
 
+LLMs are not necessarily great at properly handling incomplete or ambiguous user prompts: they often ignore parts of the problem or use arbitrary values ("hallucinations"). To detect and improve the model's capabilities in this regard, I synthesise data sets of hard optimisation problems.
+
+Some APIs are complex to comprehend, especially for first-time users or people who have limited understanding of programming. [Google Maps Platform Route Optimization (GMPRO)](https://developers.google.com/maps/documentation/route-optimization) is one of them. I contributed to an LLM-based agent that bridges the gap between non-experts and the API by providing an easy route into the API, but also explanations for the generated solutions or for the reasons the model failed.
+
 **List of publications**:
 
 * {% include reference.md key='llm_touropt_grc2025' %}
