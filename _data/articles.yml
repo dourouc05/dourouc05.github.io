@@ -52,28 +52,28 @@ ortools_datacraft2026:
   venue: Datacraft, June 2026
   links:
     - name: Presentation (PDF)
-    url: /files/ortools_datacraft2026.pdf
+      url: /files/ortools_datacraft2026.pdf
 ortools_jumpdev2025:
   title: "Unlocking the Power of Google OR-Tools with MathOptInterface.jl"
   authors: Warren Ochibobo, Thibaut Cuvelier
   venue: JuMP-dev 2025, November 2025
   links:
     - name: Presentation (PDF)
-    url: /files/ortools-jumpdev2025.pdf
+      url: /files/ortools-jumpdev2025.pdf
 ortools_juliaconparis2025:
   title: "ORTools.jl: access Google's solvers through JuMP"
   authors: Thibaut Cuvelier, Warren Ochibobo
   venue: JuliaCon Local Paris 2025, October 2025
   links:
     - name: Presentation (PDF)
-    url: /files/ortools_juliaconparis_2025.pdf
+      url: /files/ortools_juliaconparis_2025.pdf
 ortools_juliacon2025:
   title: "ORTools.jl: access Google's solvers through JuMP"
   authors: Warren Ochibobo, Thibaut Cuvelier
   venue: JuliaCon 2025, July 2025
   links:
     - name: Presentation (PDF)
-    url: /files/ortools_juliacon_2025.pdf
+      url: /files/ortools_juliacon_2025.pdf
 ortools_roadef2023:
   title: "OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems"
   authors: Thibaut Cuvelier, Frederic Didier, Vincent Furnon, Steven Gay, Sarah Mohajeri, Laurent Perron
@@ -91,7 +91,7 @@ bandits_alt21:
   hal: hal-03162140
   links:
     - name: Presentation at ALT 2021
-    url: https://www.youtube.com/watch?v=Q9b1zIkqlew
+      url: https://www.youtube.com/watch?v=Q9b1zIkqlew
 bandits_sigmetrics2021:
   title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
   authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
@@ -133,7 +133,7 @@ bandits_snapp2020:
     url: https://sites.google.com/view/snappseminar/past-seminars/fall-2020
   links:
     - name: Recorded presentation
-    url: https://www.youtube.com/watch?v=7flMukHqfW4
+      url: https://www.youtube.com/watch?v=7flMukHqfW4
 
 routing_juliadays2023:
   title: Seleroute.jl, a generic package for network-routing optimisation
@@ -281,11 +281,11 @@ julia_datacraft2021:
     url: https://datacraft.paris/workshops/a-la-decouverte-de-julia/
   links:
     - name: Presentation (PDF)
-    url: /files/datacraft2022.pdf
+      url: /files/datacraft2022.pdf
     - name: YouTube recording
-    url: https://www.youtube.com/watch?v=rSrhKkk70M0
+      url: https://www.youtube.com/watch?v=rSrhKkk70M0
     - name: Notebooks
-    url: https://github.com/datacraft-paris/2211-Cuvelier-Julia
+      url: https://github.com/datacraft-paris/2211-Cuvelier-Julia
 julia_juliacon2021:
   title: "ConstraintProgrammingExtensions: MathOptInterface gets broader usage"
   authors: Thibaut Cuvelier
