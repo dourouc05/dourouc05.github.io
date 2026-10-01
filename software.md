@@ -5,6 +5,8 @@ permalink: software
 
 # Software
 
+<p class="lead" markdown="span">I am a long-time open-source contributor. Much of the code I wrote for research purposes is open-sourced. I also have a sweet spot for writing and documentation tools, especially around the DocBook standard.</p>
+
 ## Research software {#research-software}
 
 I am the main developer of the following Julia packages, directly related to my research:
