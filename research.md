@@ -105,6 +105,7 @@ The source code of the integrated models is [freely available on GitHub](https:/
 
 **List of publications**:
 
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='industore_snas2020' %}
 * {% include reference.md key='industore_dsss2017' %}
 * {% include reference.md key='industore_comex2017' %}
@@ -122,6 +123,7 @@ The Julia source code of the integrated models is [freely available on GitHub](h
 
 **List of publications**:
 
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='dams_ishmm2019' %}
 * {% include reference.md key='dams_wrm2018' %}
 
@@ -135,7 +137,7 @@ My master's thesis was exactly about this comparison. [It was presented at the O
 
 **List of publications**:
 
-* {% include reference.md key='tfe_pgmo2018' %}
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='tfe_orbel2016' %}
 * {% include reference.md key='tfe' %}
 
