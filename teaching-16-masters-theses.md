@@ -11,7 +11,7 @@ In the world of programming languages, those that have good runtime performance 
 
 Julia also has a strong community for mathematical optimization, named JuliaOpt. It has developed a series of packages to propose a state-of-the-art environment for mathematical programming, mainly several interfaces to existing solvers MathProgBase.jl, and two modelling layers JuMP.jl for general cases, Convex.jl for convex programming. Another JuliaOpt package, Optim.jl, provides full Julia implementation of optimisation algorithms, which can better handle Julia's peculiarities than external solvers (in particular, it can exploit properties in linear algebra not exposed through standard libraries, which could improve performance and scaleability).
 
-This environment can be further developed with other contributions, such as: 
+This environment can be further developed with other contributions, such as:
 
 
   - Implementation of missing optimisation algorithms in Optim.jl, especially for constrained optimisation or convex programming, such as interior point or dual methods, or sequential techniques (SQP, SLP), or less-known algorithms. The performance of the implementation should be compared to existing solutions in other environments.
@@ -22,7 +22,7 @@ Any of those three subjects is a candidate for a master's thesis.
 
 The proposed master's theses would take the form of open-source contributions to existing Julia packages or to new open-source libraries. Previous knowledge of the language is appreciated, but is not mandatory.
 
-Feel free to propose other kinds of contributions to the Julia environment! 
+Feel free to propose other kinds of contributions to the Julia environment!
 
 [Download as PDF](/files/theses/2016_julia.pdf).
 
@@ -34,7 +34,7 @@ For example, a paper mill has different consumption profiles depending on the ty
 
 A part of this project is to model the industrial processes of the plants. For optimization purposes, the main tool is to simplify their behaviour and make a linear model. This approach is often sufficient for many processes, but some of them are too complicated. To keep the linearity of the model while having very complex behaviours, an idea is to simulate a representative set of evolutions of the process depending on the way it is controlled (e.g., for the paper machine, increase the use of a fan and simulate the effect on the drying). These scenarios could then be extrapolated by linearizing the process around them.
 
-The goal of this master's thesis is to simulate a series of modes of operations for industrial processes and to prepare their integration into the global plant model. The student is expected to have or to be willing to acquire good knowledge of power-intensive industrial processes (such as HVAC, electrical ovens, electrolysis) and an interest in optimization. 
+The goal of this master's thesis is to simulate a series of modes of operations for industrial processes and to prepare their integration into the global plant model. The student is expected to have or to be willing to acquire good knowledge of power-intensive industrial processes (such as HVAC, electrical ovens, electrolysis) and an interest in optimization.
 
 [Download as PDF](/files/theses/2016_industore_modelling.pdf).
 
@@ -46,6 +46,6 @@ For example, the paper mill's production should be scheduled according to the pr
 
 A part of this project is to schedule jobs efficiently on machines within the context of a global plant model. Technically, the machines are modelled with a mixed-integer program (MIP), but the scheduling part is more commonly performed with constraint programming (CP). The actual difficulty is to mix both models in a single solver.
 
-The goal of this master's thesis is to develop a state-of-the-art solver for these kinds of problems that can find good solutions in a reasonable amount of time. The solver must work within the framework of mathematical programming to be integrated in the global plant model. Approaches can include formulation comparison and improvement, heuristics to find good initial solutions or improve existing ones, development of valid inequalities. 
+The goal of this master's thesis is to develop a state-of-the-art solver for these kinds of problems that can find good solutions in a reasonable amount of time. The solver must work within the framework of mathematical programming to be integrated in the global plant model. Approaches can include formulation comparison and improvement, heuristics to find good initial solutions or improve existing ones, development of valid inequalities.
 
 [Download as PDF](/files/theses/2016_industore_scheduling.pdf).

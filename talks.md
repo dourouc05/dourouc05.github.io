@@ -11,7 +11,7 @@ permalink: talks
 
 In Julia, JuMP is the go-to modelling package for mathematical optimisation. As of this writing, Google's award-winning solvers have not been accessible through JuMP; which offers Julia's ease of use. ORTools.jl is changing this. Julia users will now have access to Google's Glop, CP-SAT, and PDLP solvers through JuMP as provided by the ORTools.jl package.
 
-This talk offers an introduction to the features of the package and an overview of the difficulties we encountered. 
+This talk offers an introduction to the features of the package and an overview of the difficulties we encountered.
 
 {% include reference_box.md key="ortools_jumpdev2025" %}
 
@@ -21,7 +21,7 @@ This talk offers an introduction to the features of the package and an overview 
 
 ## A Journey through Uncertain Optimisation (6 November 2023, Amazon Transport Services)
 
-Optimisation is used to take actions in many high-stakes situations. However, if practitioners disregard the uncertainty in their data, their solution will not have the best possible business impact. In this presentation, I will present my journey through the field of optimisation under uncertainty, starting with modelling ambiguities and moving to efficient learning in uncertain environments. 
+Optimisation is used to take actions in many high-stakes situations. However, if practitioners disregard the uncertainty in their data, their solution will not have the best possible business impact. In this presentation, I will present my journey through the field of optimisation under uncertainty, starting with modelling ambiguities and moving to efficient learning in uncertain environments.
 
 {% include reference_box.md key="uncertainty_amazon2023" %}
 
@@ -35,7 +35,7 @@ OR-Tools is the general-purpose optimisation toolbox open-sourced by Google in 2
 
 ## Seleroute.jl, a generic package for network-routing optimisation (6 October 2023, Julia Days Paris 2023)
 
-Seleroute.jl is an implementation of many state-of-the-art algorithms to compute optimum computer-network routing. These include oblivious routing to take into account the demand uncertainty into the routing or variants of fair routing. The possibilities of Julia have had a decisive impact on design decisions. 
+Seleroute.jl is an implementation of many state-of-the-art algorithms to compute optimum computer-network routing. These include oblivious routing to take into account the demand uncertainty into the routing or variants of fair routing. The possibilities of Julia have had a decisive impact on design decisions.
 
 {% include reference_box.md key="routing_juliadays2023" %}
 
@@ -66,7 +66,7 @@ Robust routing approaches have been proposed to tackle this issue: indeed, they 
 
 Oblivious routing is the extreme case where the uncertainty space is the whole set of possible traffic matrices and the prescribed routing must be as close as p ossible to the optimum routing, whatever traffic matrix effectively occurs. It has been proved that oblivious routing achieves a polylogarithmic competitive ratio with respect to congestion.
 
-Several variants of robust or oblivious routing approaches will be considered and compared on series of realistic instances, some of which are based on Orange network topologies. Future works include dealing with other sources of uncertainty (for instance, survivability to failures) within a common robustness framework. 
+Several variants of robust or oblivious routing approaches will be considered and compared on series of realistic instances, some of which are based on Orange network topologies. Future works include dealing with other sources of uncertainty (for instance, survivability to failures) within a common robustness framework.
 
 {% include reference_box.md key="tfe_pgmo2018" %}
 
@@ -74,15 +74,15 @@ Several variants of robust or oblivious routing approaches will be considered an
 
 Julia is a recent programming language with a dynamic community, especially in operational research and mathematical optimisation in particular. Albeit new, it already has many advantages over its competitors, both for research and teaching. This presentation offers some feedback on several years of using Julia.
 
-In French. 
+In French.
 
 {% include reference_box.md key="julia_roadef2018" %}
 
 ## Voyage incertain : découvrir l’optimisation stochastique et robuste (5 February 2018, Orange Labs)
 
-Stochastic and robust optimisation are the two main approaches to take into account the uncertainty within mathematical optimisation. This presentation highlights the main ideas about each paradigm, the algorithms that are used, and gives examples of their use, mostly in a networking context. 
+Stochastic and robust optimisation are the two main approaches to take into account the uncertainty within mathematical optimisation. This presentation highlights the main ideas about each paradigm, the algorithms that are used, and gives examples of their use, mostly in a networking context.
 
-In French. 
+In French.
 
 {% include reference_box.md key="tfe_orange2018" %}
 
@@ -98,13 +98,13 @@ Nevertheless, this methodology implies to have frequent production plan changes,
 
 ## Modelling the industrial flexibility from the electricity consumption and HR points of view (21 April 2017, COMEX)
 
-Electro-intensive companies are very sensitive to electricity price variations. This is why flexibility is very important to them: they adapt their production to the price fluctuations, and can thus decrease their costs by a large amount. However, most studies of flexibility tend to ignore the human aspect of flexibility. Our approach reconciles both aspects: electricity costs and human resources management. 
+Electro-intensive companies are very sensitive to electricity price variations. This is why flexibility is very important to them: they adapt their production to the price fluctuations, and can thus decrease their costs by a large amount. However, most studies of flexibility tend to ignore the human aspect of flexibility. Our approach reconciles both aspects: electricity costs and human resources management.
 
 {% include reference_box.md key="industore_comex2017" %}
 
 ## A Journey through Julia (17 November 2016, [Geeks anonymes](https://www.recherche.uliege.be/cms/c_9463913/fr/geeks-anonymes); 17 May 2017, [IEEE Student Branch Liège](https://ieee.ulg.ac.be/en/))
 
-[Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation. 
+[Julia](http://www.julialang.org/) is a programming language that aims at being both dynamic and fast — and it does so. This small journey will take you from some guiding principles in Julia (those that make it fast), and then to the many packages the community created, so that you can make the most of it without spending hours in the documentation.
 
 {% include reference_box.md key="julia_ieee2017" %}
 

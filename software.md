@@ -7,7 +7,7 @@ permalink: software
 
 ## Research software {#research-software}
 
-I am the main developer of the following Julia packages, directly related to my research: 
+I am the main developer of the following Julia packages, directly related to my research:
 
 * [CombinatorialBandits.jl](https://github.com/dourouc05/CombinatorialBandits.jl): strategies for combinatorial bandits, both well-known policies and the ones I developed during my PhD
 * [Seleroute.jl](https://github.com/dourouc05/Seleroute.jl): routing algorithms for use in computer networks, with a special focus on uncertainty and fairness
@@ -32,16 +32,16 @@ List of publications:
 * {% include reference.md key='tpc2025' %}
 * {% include reference.md key='ortools_roadef2023' %}
 
-In Julia, I developed or significantly contributed to the following Julia packages when working on the previous packages: 
+In Julia, I developed or significantly contributed to the following Julia packages when working on the previous packages:
 
 * [NonsmoothOptim.jl](https://github.com/dourouc05/NonsmoothOptim.jl) for nonsmooth optimisation, especially subgradient method and bundle method
 * [Kombinator.jl](https://github.com/dourouc05/Kombinator.jl) for combinatorial optimisation: exact and approximation algorithms and linear-programming formulations for several combinatorial problems
-* Constraint programming: 
+* Constraint programming:
   * [ConstraintProgrammingExtensions.jl](https://github.com/dourouc05/ConstraintProgrammingExtensions.jl), providing a solver interface for constraint programming (an extension of [MathOptInterface](https://github.com/jump-dev/MathOptInterface.jl)) -- a large part of this groundwork has been integrated in [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl) since [version 1.8.0](https://github.com/jump-dev/MathOptInterface.jl/releases/tag/v1.8.0)
   * [JuCP.jl](https://github.com/dourouc05/JuCP.jl), a modelling layer for constraint programming (an extension of [JuMP](https://github.com/jump-dev/JuMP.jl))
   * [CPLEXCP.jl](https://github.com/dourouc05/CPLEXCP.jl), a solver wrapper for CPLEX CP Optimizer
   * [ORTools.jl](https://github.com/google/or-tools/tree/stable/ortools/julia/ORTools.jl), a solver wrapper for CP-SAT, Glop, and PDLP (all part of the OR-Tools software suite)
-* Mathematical programming: 
+* Mathematical programming:
   * Modelling: I contributed to [MathOptInterface.jl](https://github.com/jump-dev/MathOptInterface.jl), [JuMP.jl](https://github.com/jump-dev/JuMP.jl), [MathOptFormat.jl](https://github.com/odow/MathOptFormat.jl)
   * Solver wrappers: I contributed to [CPLEX.jl](https://github.com/jump-dev/CPLEX.jl), [Gurobi.jl](https://github.com/jump-dev/Gurobi.jl), [SCS.jl](https://github.com/jump-dev/SCS.jl), [Xpress.jl](https://github.com/jump-dev/Xpress.jl)
 
@@ -55,7 +55,7 @@ List of publications:
 
 ### Documentation tools {#documentation-tools}
 
-I developed [QtDocTools](https://github.com/dourouc05/QtDocTools/), a simple CLI tool that was initially written to help manage [the translation of Qt’s documentation into French](https://qt.developpez.com/doc/) by automating many operations on DocBook documents, and outgrew to handle the whole publication chain (roundtrip to DOCX format for proofreading, generation of whole websites, etc.). When working on this tool, I also made a few contributions to [Apache POI](https://github.com/apache/poi) and to [Qt](https://www.qt.io/); the largest contributions were for Qt's QDoc documentation-generation tool, where I implemented a DocBook output and fixed many documentation issues. 
+I developed [QtDocTools](https://github.com/dourouc05/QtDocTools/), a simple CLI tool that was initially written to help manage [the translation of Qt’s documentation into French](https://qt.developpez.com/doc/) by automating many operations on DocBook documents, and outgrew to handle the whole publication chain (roundtrip to DOCX format for proofreading, generation of whole websites, etc.). When working on this tool, I also made a few contributions to [Apache POI](https://github.com/apache/poi) and to [Qt](https://www.qt.io/); the largest contributions were for Qt's QDoc documentation-generation tool, where I implemented a DocBook output and fixed many documentation issues.
 
 I contributed to [LyX, a WYSIWYM LaTeX editor](https://www.lyx.org/), especially regarding its DocBook 5 support (premiered in LyX 2.4.0). I now also help maintain the support for the XHTML and MathML formats.
 
@@ -69,6 +69,6 @@ The goal of the Car on the Hill project is to better exploit the capacity of the
 
 My part in the project was to develop a prototype for this application as a website that could also be used as a mobile application, during the summer 2015. It was programmed in Python using the Django Web framework. An API has been developed to interact with the application; it was used for a master thesis in 2015-2016 about the development of a native Android application. The actual development of the application started in September 2016.
 
-This project has had also some impact on the teaching activities of the department, as it was also the subject of [the integrated software project 2015-2016](http://web.archive.org/web/20160811161723/http://www.montefiore.ulg.ac.be/~proj0010/) (a large software development project for computer science master students). Its algorithmic part was a project<!-- http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2015/P2_statement.pdf --> for the discrete optimisation course. 
+This project has had also some impact on the teaching activities of the department, as it was also the subject of [the integrated software project 2015-2016](http://web.archive.org/web/20160811161723/http://www.montefiore.ulg.ac.be/~proj0010/) (a large software development project for computer science master students). Its algorithmic part was a project<!-- http://www.montefiore.ulg.ac.be/~tcuvelier/files/math0462-2015/P2_statement.pdf --> for the discrete optimisation course.
 
 The prototype has now developed and has been deployed at the scale of the university and can be licensed by third parties.

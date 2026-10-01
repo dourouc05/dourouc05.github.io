@@ -19,7 +19,7 @@ The practical part of this course is two-fold: first, exercise sessions to help 
 
 [Introduction](/files/math0462-2015/OD_Cours1_2015.pdf)
 
-## Resit 
+## Resit
 
 For the resit, the written exam has the same modalities as the first session. It will take place on September 2nd, 8:30. For those who did not present the projects, only the second one must be handed in, with only one report for the two parts. An oral presentation is also required; contact me to organise the schedule. The project must be sent by email for September 5th at the latest; oral presentations will not happen after this date.
 
@@ -144,7 +144,7 @@ For the resit, the written exam has the same modalities as the first session. It
     </tbody>
 </table>
 
-Those exercises come in large part from Sébastien Mathieu's work, and have been modified with his consent. 
+Those exercises come in large part from Sébastien Mathieu's work, and have been modified with his consent.
 
 ## Projects
 
@@ -193,7 +193,7 @@ Debugging a MIP model: [Detecting the Sources of Model Infeasibility using Gurob
 
 ## Julia
 
-### How to install Julia and JuMP? 
+### How to install Julia and JuMP?
 
 [Julia](http://julialang.org/) is a technical computing programming language, completely free and open-source. Its syntax should be very familiar to MATLAB users. Its environment includes a strong mathematical optimisation community, [JuliaOpt](http://www.juliaopt.org/).
 
@@ -205,7 +205,7 @@ First, download Julia 0.3 for your platform [from their webpage](http://julialan
   - For OS X: download the DMG image, mount it, copy the application to your Applications folder.
   - For Linux: select the right package type.
 
-Then, install the optimisation packages: [JuMP](https://github.com/JuliaOpt/JuMP.jl) as a modelling layer, [Cbc](https://projects.coin-or.org/Cbc) as a free open-source solver. From the Julia prompt: 
+Then, install the optimisation packages: [JuMP](https://github.com/JuliaOpt/JuMP.jl) as a modelling layer, [Cbc](https://projects.coin-or.org/Cbc) as a free open-source solver. From the Julia prompt:
 
 ```julia
 julia> Pkg.update()
@@ -302,4 +302,4 @@ z: 2 dimensions:
 
 ### Some tricks
 
-In the REPL, type `;` to have access to a standard UNIX shell; type `?` for the help mode (equivalent to using the `help()` function). 
+In the REPL, type `;` to have access to a standard UNIX shell; type `?` for the help mode (equivalent to using the `help()` function).

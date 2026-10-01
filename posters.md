@@ -9,13 +9,13 @@ permalink: posters
 
 ## RAL - Reinforcement Active Learning for Network Traffic Monitoring and Analysis (11 August 2020, SIGCOMM)
 
-Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes. 
+Network-traffic data usually arrives in the form of a data stream. Online monitoring systems need to handle the incoming samples sequentially and quickly. These systems regularly need to get access to ground-truth data to understand the current state of the application they are monitoring, as well as to adapt the monitoring application itself. However, with in-the-wild network-monitoring scenarios, we often face the challenge of limited availability of such data. We introduce RAL, a novel stream-based, active-learning approach, which improves the ground-truth gathering process by dynamically selecting the most beneficial measurements, in particular for model-learning purposes.
 
 {% include reference_box.md key="ral_sigcomm2020" %}
 
 ## Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures (25 June 2019, TMA)
 
-Network routing considers the problem of finding one or multiple paths to transfer packets from their source to their destination, ideally making the best use of the available resources (for instance, by minimising the congestion in the network). Oblivious routing is a technique that generates static routing schemes that are independent of the traffic, but still have strong theoretical guarantees about its performance (for instance, measured by link congestion). This work presents a numerical study of oblivious routing, in both synthetic and realistic networks. It also contains a novel extension to link failures, to which the routing should be immunised. 
+Network routing considers the problem of finding one or multiple paths to transfer packets from their source to their destination, ideally making the best use of the available resources (for instance, by minimising the congestion in the network). Oblivious routing is a technique that generates static routing schemes that are independent of the traffic, but still have strong theoretical guarantees about its performance (for instance, measured by link congestion). This work presents a numerical study of oblivious routing, in both synthetic and realistic networks. It also contains a novel extension to link failures, to which the routing should be immunised.
 
 {% include reference_box.md key="routing_tma2019" %}
 

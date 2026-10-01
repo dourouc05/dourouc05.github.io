@@ -17,7 +17,7 @@ Coordinator: [L. Wehenkel](http://montefiore.ulg.ac.be/~lwh/).
 
 ## Schedule for the lessons
 
-Several theoretical lessons make up this course. Their main purpose is to help realising the project, but they will also give an overview of the field. 
+Several theoretical lessons make up this course. Their main purpose is to help realising the project, but they will also give an overview of the field.
 
 <table class="table table-bordered">
     <thead>
@@ -99,24 +99,24 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td markdown="span">[Slides](http://www.montefiore.ulg.ac.be/~tcuvelier/files/info0948-2016/10-fitting.pdf)</td>
             <td class="small">
                 <span markdown="span">**To go further**</span><br/>
-                For shape matching: 
+                For shape matching:
                 <ul>
                     <li markdown="span">[total least squares](https://en.wikipedia.org/wiki/Total_least_squares) (avoid simple linear regression: see [Chapter 1](http://people.cas.uab.edu/~mosya/cl/IHO.pdf) of [Circular and linear regression: Fitting circles and lines by least squares, N. Chernov](https://www.crcpress.com/Circular-and-Linear-Regression-Fitting-Circles-and-Lines-by-Least-Squares/Chernov/p/book/9781439835906))</li>
                     <li markdown="span">[Hausdorff distance](https://en.wikipedia.org/wiki/Hausdorff_distance)</li>
                 </ul>
                 <span markdown="span">An efficient data structure to work with many points: [the k-d tree](https://en.wikipedia.org/wiki/K-d_tree).</span><br/><br/>
                 <span markdown="span">**For the project**</span><br/>
-                Peter Corke's Machine Vision Toolbox: 
+                Peter Corke's Machine Vision Toolbox:
                 <ul>
                     <li markdown="span">[fitting points to a model with RANSAC](http://www.petercorke.com/MVTB/r3/html/ransac.html)</li>
                     <li markdown="span">[point cloud alignment with ICP](http://www.petercorke.com/MVTB/r3/html/icp.html)</li>
                 </ul>
-                MATLAB Computer Vision System Toolbox: 
+                MATLAB Computer Vision System Toolbox:
                 <ul>
                     <li markdown="span">[fitting point clouds to geometric shapes with RANSAC](https://fr.mathworks.com/help/vision/functionlist.html?s_cid=doc_ftr#bux46dr-1)</li>
                     <li markdown="span">[fitting point clouds with ICP](https://fr.mathworks.com/help/vision/ref/pcregrigid.html)</li>
                 </ul>
-                MATLAB Statistics and Machine Learning Toolbox: 
+                MATLAB Statistics and Machine Learning Toolbox:
                 <ul>
                     <li markdown="span">[PCA (can be used to initialise ICP)](https://fr.mathworks.com/help/stats/pca.html)</li>
                 </ul>
@@ -133,7 +133,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td colspan="3">
                 {% include danger.html %} Milestone A1<br/><br/>
                 You are expected to produce a 5-minute video of your robot that explores the map and eventually shows the map, with an audio comment explaining your implementation (why you chose a given path finding algorithm, how you decide the next point to explore, rather than what function you called). Ideally, the video should also show how your robot is making decisions (for example, show the map being built, the next point to explore, the trajectory). <br/>
-                Your submission must include both <em>your</em> source code and the video (either directly as a file, or a link to an external website where you hosted your video — in this case, make sure that we can access the video at any time after your submission). 
+                Your submission must include both <em>your</em> source code and the video (either directly as a file, or a link to an external website where you hosted your video — in this case, make sure that we can access the video at any time after your submission).
             </td>
         </tr>
         <tr id="course-7">
@@ -146,7 +146,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                 <span markdown="span">[Reducing Errors in Object-Fetching Interactions through Social Feedback](http://h2r.cs.brown.edu/social-feedback-icra-2017/): [video](https://www.youtube.com/watch?v=xuPZ9zKVIfw), [article](http://h2r.cs.brown.edu/wp-content/uploads/2017/03/whitney17.pdf).</span><br/><br/>
                 <span markdown="span">**For the project**</span><br/>
                 <span markdown="span">[Reference book](http://petercorke.com/RVC1/chaps/12/)</span><br/>
-                MATLAB Image Processing Toolbox: 
+                MATLAB Image Processing Toolbox:
                 <ul>
                     <li markdown="span">display an image: [imshow](https://fr.mathworks.com/help/images/ref/imshow.html), [the coordinate system](https://fr.mathworks.com/help/images/image-coordinate-systems.html)</li>
                     <li markdown="span">colour space transformation: [from RGB to HSV](https://fr.mathworks.com/help/matlab/ref/rgb2hsv.html) and [the reverse operation](https://fr.mathworks.com/help/matlab/ref/hsv2rgb.html)</li>
@@ -167,20 +167,20 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             </td>
             <td class="small">
                 <span markdown="span">[Reference book](http://petercorke.com/RVC1/chaps/13/)</span><br/><br/>
-                Peter Corke's Machine Vision Toolbox: 
+                Peter Corke's Machine Vision Toolbox:
                 <ul>
                     <li markdown="span">Feature extraction: [SIFT](http://www.petercorke.com/MVTB/r3/html/isift.html), [SURF](http://www.petercorke.com/MVTB/r3/html/isurf.html), [corner detector](http://www.petercorke.com/MVTB/r3/html/icorner.html)</li>
                 </ul>
-                MATLAB Computer Vision System Toolbox (high level): 
+                MATLAB Computer Vision System Toolbox (high level):
                 <ul>
                     <li markdown="span">[Image Category Classification Using Bag of Features](https://fr.mathworks.com/help/vision/examples/image-category-classification-using-bag-of-features.html)</li>
                     <li markdown="span">[bagOfFeatures](https://fr.mathworks.com/help/vision/ref/bagoffeatures-class.html)</li>
                 </ul>
-                MATLAB Computer Vision System Toolbox (low level): 
+                MATLAB Computer Vision System Toolbox (low level):
                 <ul>
                     <li markdown="span">[Local Feature Extraction](https://fr.mathworks.com/help/vision/local-feature-extraction.html)</li>
                 </ul>
-                MATLAB Statistics and Machine Learning Toolbox: 
+                MATLAB Statistics and Machine Learning Toolbox:
                 <ul>
                     <li markdown="span">[Classification](https://fr.mathworks.com/help/stats/classification.html)</li>
                 </ul>
@@ -199,7 +199,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>13 June 2017</td>
             <td colspan="3">
                 {% include danger.html %} Project submission<br/><br/>
-                You are expected to submit: 
+                You are expected to submit:
                 <ul>
                     <li>your source code for the whole project.</li>
                     <li>a PDF report (between five and ten pages) explaining which milestones you have implemented, the ideas behind your algorithms, why you think they should work in general for a map that respects the hypotheses of the project, what ideas you rejected (and why). Basically, everything that you would like to present during your defence should be in your report. If you want to, you may include links to videos.</li>
@@ -212,11 +212,11 @@ Several theoretical lessons make up this course. Their main purpose is to help r
             <td>14 June 2017</td>
             <td colspan="3">
                 {% include danger.html %} Project presentations<br/><br/>
-                
+               
                 <p markdown="span">The exam will mainly consist of a live demo of your solution on a house that differs from the one provided for training. Be ready to run your code on a laptop, with a different VREP file. Please also prepare videos showing the key elements of your solution, in case there is not enough time to run a full simulation sequence. Prepare two or three slides describing the key elements of your work. This defence shall last approximately ten to fifteen minutes per group.</p>
-                
+               
                 <p markdown="span">One examiner residing in the USA, a videoconferencing system will be used, namely [Skype](https://www.skype.com/en/). Please have it installed on your computer beforehand and test screen sharing with your project running in the simulator (only one computer per group is required, make sure it is powerful enough well in advance; contact us if the computers of all group members are not able to withstand Skype with the simulator). Also, be present at least 15 minutes in advance to ensure the examinations go smoothly (testing shared screens, uploading the exam map, etc.).</p>
-                
+               
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -321,7 +321,7 @@ Several theoretical lessons make up this course. Their main purpose is to help r
                 </table>
 
                 {% include note.html %}
-                The group names, member names, and member orders have been taken from the submission platform. 
+                The group names, member names, and member orders have been taken from the submission platform.
             </td>
         </tr>
     </tbody>
@@ -331,11 +331,11 @@ The chapter numbers follow those of the reference book, [Robotics, Vision and Co
 
 [The second edition is out since June 2017, 22](http://petercorke.com/wordpress/rvc/): the numbering may have evolved, but the book is still be valuable for this course ([it is also freely available when connected from the university network](https://link.springer.com/book/10.1007%2F978-3-319-54413-7)).
 
-The slides that were used the previous years are still available [on Renaud Detry's website](http://renaud-detry.net/teaching/info0948/private/slides.php). (Use the university's cabled network, or a password will be required.) 
+The slides that were used the previous years are still available [on Renaud Detry's website](http://renaud-detry.net/teaching/info0948/private/slides.php). (Use the university's cabled network, or a password will be required.)
 
 ## Project
 
-[Project statement](http://ulgrobotics.github.io/trs/project.html), [list of milestones](http://ulgrobotics.github.io/trs/project.html#milestones), [installation procedure](http://ulgrobotics.github.io/trs/setup.html#install). The project should be done in groups of two. If you have questions about the project, you can ask any teaching assistant. [Submissions must be done on the dedicated platform](https://submit.montefiore.ulg.ac.be/) (all the members of your group must register on the platform so that you can make a group). Deadlines: 
+[Project statement](http://ulgrobotics.github.io/trs/project.html), [list of milestones](http://ulgrobotics.github.io/trs/project.html#milestones), [installation procedure](http://ulgrobotics.github.io/trs/setup.html#install). The project should be done in groups of two. If you have questions about the project, you can ask any teaching assistant. [Submissions must be done on the dedicated platform](https://submit.montefiore.ulg.ac.be/) (all the members of your group must register on the platform so that you can make a group). Deadlines:
 
 
   - 23 March: milestone A1 and short presentation of your robot exploring the room to produce a map
@@ -363,9 +363,9 @@ Would you choose not to use MATLAB, here are a few links that you might find use
 
 ### The simulator shows a black screen and gives incorrect position/angle for the robot. What happened?
 
-Usually, when the simulator outputs NaN values, it means that it got invalid inputs, usually as velocities. Graphically, the impact of the NaN values is a black screen. 
+Usually, when the simulator outputs NaN values, it means that it got invalid inputs, usually as velocities. Graphically, the impact of the NaN values is a black screen.
 
-### How to update VLFeat? 
+### How to update VLFeat?
 
 By default, the script `startup_robot` downloads an outdated version of VLFeat (0.9.9, while the current one is 0.9.20), which lacks many features (such as an SVM implementation). To update it, you can download the latest version on the official website, including binaries (on [VLFeat's download page](http://www.vlfeat.org/download.html), the file is currently under the link VLFeat 0.9.20 binary package). Extract this archive on your computer (for example, in the directory `matlab/rvctools/contrib/vlfeat-0.9.20`, along with the embedded version of VLFeat, `matlab` containing the `startup_robot.m` file).
 
@@ -393,7 +393,7 @@ mex(cmd{:}) ;
 
 [In this case](https://github.com/vlfeat/vlfeat/issues/137), edit the file `matlab/rvctools/contrib/vlfeat-0.9.20/vl/host.h` to comment out the lines 315 and 335 (they look like `# define snprintf _snprintf`). (Another solution is to use [the master branch](https://github.com/vlfeat/vlfeat) of VLFeat.) Restart `matlab/rvctools/contrib/vlfeat-0.9.20/toolbox/vl_compile.m`.
 
-## How to use the simulator? 
+## How to use the simulator?
 
 For the projet in this course, you will be asked to use [the simulator V-REP](http://www.coppeliarobotics.com/). It emulates a complete robot (the [youBot](http://www.youbot-store.com/)) evolving in its environment: it will move around, place its arm, grasp objects, take pictures within the simulator.
 
