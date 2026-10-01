@@ -16,13 +16,18 @@ I am currently involved in a team effort to bring these two worlds together. Eac
 * Reinforcement learning cannot enforce constraints in the same way combinatorial optimisation models can.
 * Heuristics for combinatorial optimisations are designed by humans whereas reinforcement learning learns better policies over time.
 
-The main application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We tried approaching the problem as a whole (finding a good path for each shipment through the entire graph) -- as presented at [a NeurIPS workshop](https://hal.science/hal-04755187) and at the [EURO conference](https://hal.science/hal-04755188) -- or decomposing it and solving the individual components using reinforcement learning (finding feasible paths in a time-expanded graph and covering the shipments with paths). I also presented a summary of published and unpublished results [at a CNRS and Google joint event](https://tcuvelier.be/files/rl_or_cnrs2024.pdf).
+The main application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We currently tried two approaches to the problem:
+* As a whole: finding a good path for each shipment through the entire graph directly. This line of work was presented at [a NeurIPS workshop](https://hal.science/hal-04755187) and at the [EURO conference](https://hal.science/hal-04755188).
+* Decomposing it into a path-covering problem and solving the individual components using reinforcement learning. The decomposition involves two steps: finding feasible paths in a time-expanded graph (shortest paths on a directed acyclic graph) and covering the shipments with paths (set covering with side constraints). The part that is most amenable to reinforcement learning is set covering, for which we explored both reinforcement learning and diffusion models, as presented at [ICML](https://hal.science/hal-05768398).
+
+I also presented a summary of published and at-the-time unpublished results [at a CNRS and Google joint event](https://tcuvelier.be/files/rl_or_cnrs2024.pdf).
 
 Along the way, we also developed an instance generator for middle-mile logistics: [MilleMiglia](https://github.com/or-tools/millemiglia). This generator can create new random instances with any level of hardness; it does so while defining an exchangeable data format to compare solvers easily (in the same way routing problems has formats such as [TSPLIB, CARP, NEARP, or LiLim](http://vrp.galgos.inf.puc-rio.br/index.php/en/)). This work has been presented at the [EURO conference](https://hal.science/hal-04755189).
 
 **List of publications**:
 
 * {% include reference.md key='millemiglia_blogpost_2026' %}
+* {% include reference.md key='glns_icml_2026' %}
 * {% include reference.md key='rl_or_cnrs2024' %}
 * {% include reference.md key='data_mm_euro2024' %}
 * {% include reference.md key='rl_mm_euro2024' %}
