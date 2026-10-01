@@ -1,3 +1,10 @@
+millemiglia_blogpost_2026:
+    title: "MilleMiglia: A realistic instance generator for middle-mile logistics"
+    authors: Aymane Lotfi, Thibaut Cuvelier
+    venue: Google Research Blog
+    venue_link:
+      name: Blog post
+      url: https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/
 rl_or_cnrs2024:
     title: "Applications of Reinforcement Learning to Combinatorial Optimization"
     authors: Thibaut Cuvelier, Bruno De Backer, Onno Eberhard, Aymane Lotfi
@@ -291,6 +298,13 @@ julia_juliacon2021:
     venue_link:
       name: PreTalx
       url: https://pretalx.com/juliacon2021/talk/EHUKWK/
+millemiglia_blogpost_2026:
+    title: "An update on constraint programming in JuMP"
+    authors: Thibaut Cuvelier
+    venue: JuMP Blog
+    venue_link:
+      name: Blog post
+      url: https://jump.dev/blog/constraint-programming-update/
 julia_roadef2018:
     title: Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle
     authors: Thibaut Cuvelier
