@@ -47,6 +47,7 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 **List of publications**:
 
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='phd' %}
 * {% include reference.md key='bandits_amazon2021' %}
 * {% include reference.md key='bandits_alt21' %}
@@ -86,9 +87,11 @@ My implementation of many network-routing models is [freely available on GitHub 
 
 **List of publications**:
 
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='routing_juliadays2023' %}
 * {% include reference.md key='routing_tma2019' %}
 * {% include reference.md key='routing_tma2018' %}
+* {% include reference.md key='tfe_pgmo2018' %}
 
 ### Electrical flexibility for the industry
 

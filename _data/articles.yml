@@ -151,6 +151,11 @@ routing_tma2018:
   venue: Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018
   orbi: 2268/227128
   hal: hal-02265432
+routing_pgmo2018:
+  title: Comparing Oblivious and Robust Routing Approaches
+  authors: Thibaut Cuvelier, Éric Gourdin
+  venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
+  orbi: 2268/229784
    
 ral_tnsm2020:
   title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
@@ -235,11 +240,6 @@ uncertainty_amazon2023:
     name: PDF
     url: /files/uncertainty_ats2023.pdf
    
-tfe_pgmo2018:
-  title: Comparing Oblivious and Robust Routing Approaches
-  authors: Thibaut Cuvelier, Éric Gourdin
-  venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
-  orbi: 2268/229784
 tfe_orange2018:
   title: "Voyage incertain : découvrir l’optimisation stochastique et robuste"
   authors: Thibaut Cuvelier
