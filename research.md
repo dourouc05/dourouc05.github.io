@@ -19,6 +19,7 @@ I am currently involved in a team effort to bring these two worlds together. Eac
 * Heuristics for combinatorial optimisations are designed by humans whereas reinforcement learning learns better policies over time.
 
 The main application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We currently tried two approaches to the problem:
+
 * As a whole: finding a good path for each shipment through the entire graph directly. This line of work was presented at [a NeurIPS workshop](https://hal.science/hal-04755187) and at the [EURO conference](https://hal.science/hal-04755188).
 * Decomposing it into a path-covering problem and solving the individual components using reinforcement learning. The decomposition involves two steps: finding feasible paths in a time-expanded graph (shortest paths on a directed acyclic graph) and covering the shipments with paths (set covering with side constraints). The part that is most amenable to reinforcement learning is set covering, for which we explored both reinforcement learning and diffusion models, as presented at [ICML](https://hal.science/hal-05768398).
 
@@ -33,6 +34,7 @@ Along the way, we also developed an instance generator for middle-mile logistics
 * {% include reference.md key='rl_or_cnrs2024' %}
 * {% include reference.md key='data_mm_euro2024' %}
 * {% include reference.md key='rl_mm_euro2024' %}
+* {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='rl_mm_neurips2023' %}
 
 ### LLMs
