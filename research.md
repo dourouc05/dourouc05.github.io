@@ -37,13 +37,7 @@ Along the way, we also developed an instance generator for middle-mile logistics
 * {% include reference.md key='uncertainty_amazon2023' %}
 * {% include reference.md key='rl_mm_neurips2023' %}
 
-### LLMs
-
-**List of publications**:
-
-* {% include reference.md key='llm_touropt_grc2025' %}
-
-### Reinforcement learning: Combinatorial bandits
+### Combinatorial bandits
 
 Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to situations where the agent makes decision that are chosen in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.). These decisions have a very specific structure, as they are made of many individual components (for instance, a path is a sequence of edges: the cost of the path is obtained as the sum of the cost of each edge). This field generalises online combinatorial optimisation.
 
@@ -58,6 +52,12 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 * {% include reference.md key='bandits_alt21' %}
 * {% include reference.md key='bandits_sigmetrics2021' %}
 * {% include reference.md key='bandits_sigmetrics2021_abstract' %}
+
+### LLMs
+
+**List of publications**:
+
+* {% include reference.md key='llm_touropt_grc2025' %}
 
 ### Active learning
 
