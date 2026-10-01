@@ -5,6 +5,7 @@ millemiglia_blogpost_2026:
   venue_link:
     name: Blog post
     url: https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/
+  note: This blog post has been highlighted in an internal Google-Research-wide newsletter.
 rl_or_cnrs2024:
   title: "Applications of Reinforcement Learning to Combinatorial Optimization"
   authors: Thibaut Cuvelier, Bruno De Backer, Onno Eberhard, Aymane Lotfi
