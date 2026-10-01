@@ -1,335 +1,335 @@
 millemiglia_blogpost_2026:
-    title: "MilleMiglia: A realistic instance generator for middle-mile logistics"
-    authors: Aymane Lotfi, Thibaut Cuvelier
-    venue: Google Research Blog
-    venue_link:
-      name: Blog post
-      url: https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/
+  title: "MilleMiglia: A realistic instance generator for middle-mile logistics"
+  authors: Aymane Lotfi, Thibaut Cuvelier
+  venue: Google Research Blog
+  venue_link:
+    name: Blog post
+    url: https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/
 rl_or_cnrs2024:
-    title: "Applications of Reinforcement Learning to Combinatorial Optimization"
-    authors: Thibaut Cuvelier, Bruno De Backer, Onno Eberhard, Aymane Lotfi
-    venue: CNRS + Google, May 2024
-    venue_link:
-      name: PDF
-      url: /files/rl_or_cnrs2024.pdf
+  title: "Applications of Reinforcement Learning to Combinatorial Optimization"
+  authors: Thibaut Cuvelier, Bruno De Backer, Onno Eberhard, Aymane Lotfi
+  venue: CNRS + Google, May 2024
+  venue_link:
+    name: PDF
+    url: /files/rl_or_cnrs2024.pdf
 llm_touropt_grc2025:
-    title: "Flattening the learning curse of powerful APIs: the use-case of vehicle routing"
-    authors: Thibaut Cuvelier, Mark Daly, Anne-Claire Haury
-    venue: Google Research conference, Mountain View (California, USA), April 2025 (internal)
+  title: "Flattening the learning curse of powerful APIs: the use-case of vehicle routing"
+  authors: Thibaut Cuvelier, Mark Daly, Anne-Claire Haury
+  venue: Google Research conference, Mountain View (California, USA), April 2025 (internal)
 data_mm_euro2024:
-    title: "A Novel Instance Generator for Simulating Middle-Mile Logistics Networks"
-    authors: Aymane Lotfi, Petris Matteo, Thibaut Cuvelier, Bruno De Backer, Claudia Archetti
-    venue: 33rd European Conference on Operational Research
-    hal: hal-04755189
+  title: "A Novel Instance Generator for Simulating Middle-Mile Logistics Networks"
+  authors: Aymane Lotfi, Petris Matteo, Thibaut Cuvelier, Bruno De Backer, Claudia Archetti
+  venue: 33rd European Conference on Operational Research
+  hal: hal-04755189
 rl_mm_euro2024:
-    title: "A Tale of Middle-Mile Logistics, Graph Neural Networks, and Reinforcement Learning"
-    authors: Onno Eberhard, Thibaut Cuvelier, Bruno De Backer
-    venue: 33rd European Conference on Operational Research
-    hal: hal-04755188
+  title: "A Tale of Middle-Mile Logistics, Graph Neural Networks, and Reinforcement Learning"
+  authors: Onno Eberhard, Thibaut Cuvelier, Bruno De Backer
+  venue: 33rd European Conference on Operational Research
+  hal: hal-04755188
 rl_mm_neurips2023:
-    title: "Middle-Mile Logistics Through the Lens of Goal-Conditioned Reinforcement Learning"
-    authors: Onno Eberhard, Thibaut Cuvelier, Michal Valko, Bruno De Backer
-    venue: NeurIPS 2023 Workshop on Goal-Conditioned Reinforcement Learning, November 2023
-    hal: hal-04755187
+  title: "Middle-Mile Logistics Through the Lens of Goal-Conditioned Reinforcement Learning"
+  authors: Onno Eberhard, Thibaut Cuvelier, Michal Valko, Bruno De Backer
+  venue: NeurIPS 2023 Workshop on Goal-Conditioned Reinforcement Learning, November 2023
+  hal: hal-04755187
 tpc2025:
-    title: "Tech @ Google : optimiser un algo pour la rapidité"
-    authors: Thibaut Cuvelier, Bruno De Backer
-    venue: The Product Crew
+  title: "Tech @ Google : optimiser un algo pour la rapidité"
+  authors: Thibaut Cuvelier, Bruno De Backer
+  venue: The Product Crew
 
 glns_icml_2026:
-    title: "Generative Large Neighborhood Search: Scalable Set Cover Optimization via Discrete Diffusion"
-    authors: Achref Jaziri, Thibaut Cuvelier, Bruno De Backer
-    venue: 43rd International Conference on Machine Learning
-    hal: hal-05768398
+  title: "Generative Large Neighborhood Search: Scalable Set Cover Optimization via Discrete Diffusion"
+  authors: Achref Jaziri, Thibaut Cuvelier, Bruno De Backer
+  venue: 43rd International Conference on Machine Learning
+  hal: hal-05768398
 sc_jopt_2025:
-    title: "Getting to 1,000x: Solving Large Set-Covering Problems"
-    authors: Bruno De Backer, Thibaut Cuvelier
-    venue: Optimization Days JOPT, May 2025
+  title: "Getting to 1,000x: Solving Large Set-Covering Problems"
+  authors: Bruno De Backer, Thibaut Cuvelier
+  venue: Optimization Days JOPT, May 2025
 
 ortools_datacraft2026:
-    title: "OR-Tools' Vehicle Routing Solver: A Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (VRPs)"
-    authors: Thibaut Cuvelier
-    venue: Datacraft, June 2026
-    links:
-      - name: Presentation (PDF)
-        url: /files/ortools_datacraft2026.pdf
+  title: "OR-Tools' Vehicle Routing Solver: A Generic Constraint-Programming Solver with Heuristic Search for Routing Problems (VRPs)"
+  authors: Thibaut Cuvelier
+  venue: Datacraft, June 2026
+  links:
+    - name: Presentation (PDF)
+    url: /files/ortools_datacraft2026.pdf
 ortools_jumpdev2025:
-    title: "Unlocking the Power of Google OR-Tools with MathOptInterface.jl"
-    authors: Warren Ochibobo, Thibaut Cuvelier
-    venue: JuMP-dev 2025, November 2025
-    links:
-      - name: Presentation (PDF)
-        url: /files/ortools-jumpdev2025.pdf
+  title: "Unlocking the Power of Google OR-Tools with MathOptInterface.jl"
+  authors: Warren Ochibobo, Thibaut Cuvelier
+  venue: JuMP-dev 2025, November 2025
+  links:
+    - name: Presentation (PDF)
+    url: /files/ortools-jumpdev2025.pdf
 ortools_juliaconparis2025:
-    title: "ORTools.jl: access Google's solvers through JuMP"
-    authors: Thibaut Cuvelier, Warren Ochibobo
-    venue: JuliaCon Local Paris 2025, October 2025
-    links:
-      - name: Presentation (PDF)
-        url: /files/ortools_juliaconparis_2025.pdf
+  title: "ORTools.jl: access Google's solvers through JuMP"
+  authors: Thibaut Cuvelier, Warren Ochibobo
+  venue: JuliaCon Local Paris 2025, October 2025
+  links:
+    - name: Presentation (PDF)
+    url: /files/ortools_juliaconparis_2025.pdf
 ortools_juliacon2025:
-    title: "ORTools.jl: access Google's solvers through JuMP"
-    authors: Warren Ochibobo, Thibaut Cuvelier
-    venue: JuliaCon 2025, July 2025
-    links:
-      - name: Presentation (PDF)
-        url: /files/ortools_juliacon_2025.pdf
+  title: "ORTools.jl: access Google's solvers through JuMP"
+  authors: Warren Ochibobo, Thibaut Cuvelier
+  venue: JuliaCon 2025, July 2025
+  links:
+    - name: Presentation (PDF)
+    url: /files/ortools_juliacon_2025.pdf
 ortools_roadef2023:
-    title: "OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems"
-    authors: Thibaut Cuvelier, Frederic Didier, Vincent Furnon, Steven Gay, Sarah Mohajeri, Laurent Perron
-    venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2023, February 2023
-    hal: hal-04015496
+  title: "OR-Tools' Vehicle Routing Solver: a Generic Constraint-Programming Solver with Heuristic Search for Routing Problems"
+  authors: Thibaut Cuvelier, Frederic Didier, Vincent Furnon, Steven Gay, Sarah Mohajeri, Laurent Perron
+  venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2023, February 2023
+  hal: hal-04015496
 
 bandits_alt21:
-    title: Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time
-    authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
-    venue: Algorithmic Learning Theory (ALT), Paris (France), March 2021
-    venue_link:
-      name: Journal of Machine Learning
-      url: http://proceedings.mlr.press/v132/cuvelier21a.html
-    arxiv: 2102.07254
-    hal: hal-03162140
-    links:
-      - name: Presentation at ALT 2021
-        url: https://www.youtube.com/watch?v=Q9b1zIkqlew
+  title: Asymptotically Optimal Strategies For Combinatorial Semi-Bandits in Polynomial Time
+  authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
+  venue: Algorithmic Learning Theory (ALT), Paris (France), March 2021
+  venue_link:
+    name: Journal of Machine Learning
+    url: http://proceedings.mlr.press/v132/cuvelier21a.html
+  arxiv: 2102.07254
+  hal: hal-03162140
+  links:
+    - name: Presentation at ALT 2021
+    url: https://www.youtube.com/watch?v=Q9b1zIkqlew
 bandits_sigmetrics2021:
-    title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
-    authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
-    venue: ACM SIGMETRICS 2021, Beijing (China), June 2021
-    venue_link:
-      name: ACM Digital Library
-      url: https://dl.acm.org/doi/10.1145/3447387
-    arxiv: 2002.07258
-    hal: hal-03162127
-    doi: 10.1145/3447387
-    kudos: https://link.growkudos.com/1de35db56o0
+  title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
+  authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
+  venue: ACM SIGMETRICS 2021, Beijing (China), June 2021
+  venue_link:
+    name: ACM Digital Library
+    url: https://dl.acm.org/doi/10.1145/3447387
+  arxiv: 2002.07258
+  hal: hal-03162127
+  doi: 10.1145/3447387
+  kudos: https://link.growkudos.com/1de35db56o0
 bandits_sigmetrics2021_abstract:
-    title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
-    authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
-    venue: ACM SIGMETRICS 2021, Beijing (China), June 2021
-    venue_link:
-      name: ACM Digital Library
-      url: https://dl.acm.org/doi/10.1145/3410220.3453926
-    hal: hal-03201526
-    doi: 10.1145/3410220.3453926
+  title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
+  authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
+  venue: ACM SIGMETRICS 2021, Beijing (China), June 2021
+  venue_link:
+    name: ACM Digital Library
+    url: https://dl.acm.org/doi/10.1145/3410220.3453926
+  hal: hal-03201526
+  doi: 10.1145/3410220.3453926
 bandits_amazon2021:
-    title: "Polynomial-Time Combinatorial Bandits: Computationally Tractable Reinforcement Learning in Complex Environments"
-    authors: Thibaut Cuvelier
-    venue: Amazon Transport Services, Luxembourg (Luxembourg), March 2021
-    venue_link:
-      name: PDF
-      url: /files/bandits_ats2021.pdf
+  title: "Polynomial-Time Combinatorial Bandits: Computationally Tractable Reinforcement Learning in Complex Environments"
+  authors: Thibaut Cuvelier
+  venue: Amazon Transport Services, Luxembourg (Luxembourg), March 2021
+  venue_link:
+    name: PDF
+    url: /files/bandits_ats2021.pdf
 phd:
-    title: "Polynomial-Time Algorithms for Combinatorial Semibandits: Computationally Tractable Reinforcement Learning in Complex Environments (official title: Algorithmes en temps polynomial pour les semi-bandits combinatoires : apprentissage par renforcement efficace dans des environnements complexes)"
-    authors: Thibaut Cuvelier
-    venue: PhD dissertation, university Paris-Saclay, June 2021
-    hal: tel-03296009
+  title: "Polynomial-Time Algorithms for Combinatorial Semibandits: Computationally Tractable Reinforcement Learning in Complex Environments (official title: Algorithmes en temps polynomial pour les semi-bandits combinatoires : apprentissage par renforcement efficace dans des environnements complexes)"
+  authors: Thibaut Cuvelier
+  venue: PhD dissertation, university Paris-Saclay, June 2021
+  hal: tel-03296009
 bandits_snapp2020:
-    title: Statistically Efficient, Polynomial-Time Algorithms for Combinatorial Semi-Bandits
-    authors: Richard Combes, Thibaut Cuvelier, Éric Gourdin
-    venue: Stochastic Networks, Applied Probability, and Performance Seminar, September 2020
-    venue_link:
-      name: SNAPP Seminar
-      url: https://sites.google.com/view/snappseminar/past-seminars/fall-2020
-    links:
-      - name: Recorded presentation
-        url: https://www.youtube.com/watch?v=7flMukHqfW4
+  title: Statistically Efficient, Polynomial-Time Algorithms for Combinatorial Semi-Bandits
+  authors: Richard Combes, Thibaut Cuvelier, Éric Gourdin
+  venue: Stochastic Networks, Applied Probability, and Performance Seminar, September 2020
+  venue_link:
+    name: SNAPP Seminar
+    url: https://sites.google.com/view/snappseminar/past-seminars/fall-2020
+  links:
+    - name: Recorded presentation
+    url: https://www.youtube.com/watch?v=7flMukHqfW4
 
 routing_juliadays2023:
-    title: Seleroute.jl, a generic package for network-routing optimisation
-    authors: Thibaut Cuvelier
-    venue: Julia and Optimization Days 2023
-    hal: hal-04231900
+  title: Seleroute.jl, a generic package for network-routing optimisation
+  authors: Thibaut Cuvelier
+  venue: Julia and Optimization Days 2023
+  hal: hal-04231900
 routing_tma2019:
-    title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
-    authors: Thibaut Cuvelier, Éric Gourdin
-    venue: Network Traffic Measurement and Analysis (TMA) PhD School 2019, Paris (France), June 2019
-    hal: hal-02161708
+  title: "Oblivious Routing: Static Routing Prepared Against Network Traffic and Link Failures"
+  authors: Thibaut Cuvelier, Éric Gourdin
+  venue: Network Traffic Measurement and Analysis (TMA) PhD School 2019, Paris (France), June 2019
+  hal: hal-02161708
 routing_tma2018:
-    title: "Oblivious Routing: Worst-Case Routing is not Breaking the Internet's Legs"
-    authors: Thibaut Cuvelier, Éric Gourdin
-    venue: Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018
-    orbi: 2268/227128
-    hal: hal-02265432
+  title: "Oblivious Routing: Worst-Case Routing is not Breaking the Internet's Legs"
+  authors: Thibaut Cuvelier, Éric Gourdin
+  venue: Network Traffic Measurement and Analysis (TMA) PhD School 2018, Vienna (Austria), June 2018
+  orbi: 2268/227128
+  hal: hal-02265432
    
 ral_tnsm2020:
-    title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
-    authors: Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas
-    venue: IEEE Transactions on Network and Service Management, vol. 18, no. 2, June 2021
-    venue_link:
-      name: IEEE Xplore
-      url: https://ieeexplore.ieee.org/document/9256319
-    hal: hal-03110834
+  title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
+  authors: Sarah Wassermann, Thibaut Cuvelier, Pavol Mulinka, Pedro Casas
+  venue: IEEE Transactions on Network and Service Management, vol. 18, no. 2, June 2021
+  venue_link:
+    name: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/9256319
+  hal: hal-03110834
 ral_sigcomm2020:
-    title: RAL — Reinforcement Active Learning for Network Traffic Monitoring and Analysis
-    authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
-    venue: Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020
-    hal: hal-02932839
+  title: RAL — Reinforcement Active Learning for Network Traffic Monitoring and Analysis
+  authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
+  venue: Proceedings of the ACM SIGCOMM Conference Posters and Demos, online, August 2020
+  hal: hal-02932839
 ral_cnsm2019:
-    title: "ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring"
-    authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka
-    venue: 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019
-    hal: hal-02301393
+  title: "ADAM & RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring"
+  authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas, Pavol Mulinka
+  venue: 15th International Conference on Network and Service Management (CNSM) 2019, Halifax (Canada), October 2019
+  hal: hal-02301393
 ral_wiml2019:
-    title: Improving Stream-Based Active Learning with Reinforcement Learning
-    authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
-    venue: Workshop for Women in Machine Learning (WiML) 2019
-    hal: hal-02375296
+  title: Improving Stream-Based Active Learning with Reinforcement Learning
+  authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
+  venue: Workshop for Women in Machine Learning (WiML) 2019
+  hal: hal-02375296
 ral_ecml2019:
-    title: "RAL: Improving Stream-Based Active Learning by Reinforcement Learning"
-    authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
-    venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019
-    venue_link:
-      name: IAL 2019 proceedings
-      url: https://p.ies.uni-kassel.de/ial2019/ialatecml2019.pdf
-    hal: hal-02265426
+  title: "RAL: Improving Stream-Based Active Learning by Reinforcement Learning"
+  authors: Sarah Wassermann, Thibaut Cuvelier, Pedro Casas
+  venue: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) Workshop on Interactive Adaptive Learning (IAL), Würzburg (Germany), September 2019
+  venue_link:
+    name: IAL 2019 proceedings
+    url: https://p.ies.uni-kassel.de/ial2019/ialatecml2019.pdf
+  hal: hal-02265426
    
 industore_snas2020:
-    title: Embedding reservoirs in industrial models to exploit their flexibility
-    authors: Thibaut Cuvelier
-    venue: SN Applied Sciences, volume 2, article number 2171, December 2020
-    venue_link:
-      name: Springer
-      url: https://link.springer.com/article/10.1007/s42452-020-03925-2
-    doi: 10.1007/s42452-020-03925-2
-    hal: hal-03053322
-    arxiv: 2104.08995
-    kudos: https://link.growkudos.com/1lnr2qwiqrk
+  title: Embedding reservoirs in industrial models to exploit their flexibility
+  authors: Thibaut Cuvelier
+  venue: SN Applied Sciences, volume 2, article number 2171, December 2020
+  venue_link:
+    name: Springer
+    url: https://link.springer.com/article/10.1007/s42452-020-03925-2
+  doi: 10.1007/s42452-020-03925-2
+  hal: hal-03053322
+  arxiv: 2104.08995
+  kudos: https://link.growkudos.com/1lnr2qwiqrk
 industore_dsss2017:
-    title: Characterising Industrial Sites' Flexibility with Reservoir Models
-    authors: Thibaut Cuvelier
-    venue: DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017
-    orbi: 2268/212703
+  title: Characterising Industrial Sites' Flexibility with Reservoir Models
+  authors: Thibaut Cuvelier
+  venue: DS3 Data Science Summer School (École Polytechnique), Paris (France), August 2017
+  orbi: 2268/212703
 industore_comex2017:
-    title: Modelling the industrial flexibility from the electricity consumption and HR points of view
-    authors: Thibaut Cuvelier, Quentin Louveaux
-    venue: "22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017"
-    orbi: 2268/209469
+  title: Modelling the industrial flexibility from the electricity consumption and HR points of view
+  authors: Thibaut Cuvelier, Quentin Louveaux
+  venue: "22nd Belgian Mathematical Optimization Workshop, COMEX (combinatorial optimisation: metaheuristics and exact methods), La Roche-en-Ardenne (Belgium), April 2017"
+  orbi: 2268/209469
 industore_ifors2017:
-    title: Optimising workforce and energy costs by exploiting production flexibility
-    authors: Thibaut Cuvelier, Quentin Louveaux
-    venue: 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017
-    orbi: 2268/207330
+  title: Optimising workforce and energy costs by exploiting production flexibility
+  authors: Thibaut Cuvelier, Quentin Louveaux
+  venue: 21st Conference of the International Federation of Operational Research Societies (IFORS), Québec (Canada), July 2017
+  orbi: 2268/207330
    
 dams_ishmm2019:
-    title: Operation rules of the Vesdre reservoir revisited
-    authors: Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux
-    venue: 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019
-    orbi: 2268/239415
+  title: Operation rules of the Vesdre reservoir revisited
+  authors: Benjamin Dewals, Thibaut Cuvelier, Pierre Archambeau, Sébastien Erpicum, Michel Pirotton, Quentin Louveaux
+  venue: 6th International Symposium on Hydrological Modelling of the Meuse basin, September 2019
+  orbi: 2268/239415
 dams_wrm2018:
-    title: Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty
-    authors: Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux
-    venue: Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018
-    venue_link:
-      name: Springer
-      url: https://link.springer.com/article/10.1007/s11269-017-1893-1
-    orbi: 2268/219394
-    hal: hal-02265436
-    arxiv: 1801.08892
+  title: Comparison Between Robust and Stochastic Optimisation for Long-term Reservoir Operations Under Uncertainty
+  authors: Thibaut Cuvelier, Pierre Archambeau, Benjamin Dewals, Quentin Louveaux
+  venue: Water Resources Management, vol. 32, no. 5, pp. 1599–1614, March 2018
+  venue_link:
+    name: Springer
+    url: https://link.springer.com/article/10.1007/s11269-017-1893-1
+  orbi: 2268/219394
+  hal: hal-02265436
+  arxiv: 1801.08892
 
 uncertainty_amazon2023:
-    title: A Journey through Uncertain Optimisation
-    authors: Thibaut Cuvelier
-    venue: Amazon Transport Services, Luxembourg (Luxembourg), November 2023
-    venue_link:
-      name: PDF
-      url: /files/uncertainty_ats2023.pdf
-     
+  title: A Journey through Uncertain Optimisation
+  authors: Thibaut Cuvelier
+  venue: Amazon Transport Services, Luxembourg (Luxembourg), November 2023
+  venue_link:
+    name: PDF
+    url: /files/uncertainty_ats2023.pdf
+   
 tfe_pgmo2018:
-    title: Comparing Oblivious and Robust Routing Approaches
-    authors: Thibaut Cuvelier, Éric Gourdin
-    venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
-    orbi: 2268/229784
+  title: Comparing Oblivious and Robust Routing Approaches
+  authors: Thibaut Cuvelier, Éric Gourdin
+  venue: Programme Gaspard Monge pour l’optimisation, la recherche opérationnelle et leurs interactions avec les sciences des données (PGMO Days) 2018, November 2018
+  orbi: 2268/229784
 tfe_orange2018:
-    title: "Voyage incertain : découvrir l’optimisation stochastique et robuste"
-    authors: Thibaut Cuvelier
-    venue: Orange Labs, Châtillon (France), February 2018
-    orbi: 2268/219824
+  title: "Voyage incertain : découvrir l’optimisation stochastique et robuste"
+  authors: Thibaut Cuvelier
+  venue: Orange Labs, Châtillon (France), February 2018
+  orbi: 2268/219824
 tfe_orbel2016:
-    title: "Optimisation and uncertainty: comparing stochastic and robust programming"
-    authors: Thibaut Cuvelier
-    venue: 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016
-    orbi: 2268/197081
+  title: "Optimisation and uncertainty: comparing stochastic and robust programming"
+  authors: Thibaut Cuvelier
+  venue: 30th Annual Conference of the Belgian Operational Research Society (ORBEL), Louvain-la-Neuve (Belgium), January 2016
+  orbi: 2268/197081
 tfe:
-    title: Implementing and Comparing Stochastic and Robust Programming
-    authors: Thibaut Cuvelier
-    venue: Engineering degree dissertation, university of Liège, June 2015
-    orbi: 2268/197090
+  title: Implementing and Comparing Stochastic and Robust Programming
+  authors: Thibaut Cuvelier
+  venue: Engineering degree dissertation, university of Liège, June 2015
+  orbi: 2268/197090
    
 netperftrace_bigdama2017:
-    title: NETPerfTrace — Predicting Internet Path Dynamics and Performance with Machine Learning
-    authors: Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet
-    venue: ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017
-    venue_link:
-      name: ACM Digital Library
-      url: https://dl.acm.org/doi/10.1145/3098593.3098599
-    orbi: 2268/211667
+  title: NETPerfTrace — Predicting Internet Path Dynamics and Performance with Machine Learning
+  authors: Sarah Wassermann, Pedro Casas, Thibaut Cuvelier, Benoît Donnet
+  venue: ACM SIGCOMM Workshop on Big Data Analytics and Machine Learning for Data Communication (Big-DAMA), Los Angeles (USA), August 2017
+  venue_link:
+    name: ACM Digital Library
+    url: https://dl.acm.org/doi/10.1145/3098593.3098599
+  orbi: 2268/211667
 
 julia_cp_iccopt2025:
-    title: "Bridging Continuous and Discrete Optimization in Julia"
-    authors: Thibaut Cuvelier
-    venue: International Conference on Continuous Optimization (ICCOPT), July 2025
-    venue_link:
-      name: PDF
-      url: /files/cp_iccopt2025.pdf
+  title: "Bridging Continuous and Discrete Optimization in Julia"
+  authors: Thibaut Cuvelier
+  venue: International Conference on Continuous Optimization (ICCOPT), July 2025
+  venue_link:
+    name: PDF
+    url: /files/cp_iccopt2025.pdf
 julia_datacraft2021:
-    title: "À la découverte de Julia"
-    authors: Thibaut Cuvelier
-    venue: Datacraft, November 2022
-    venue_link:
-      name: Datacraft
-      url: https://datacraft.paris/workshops/a-la-decouverte-de-julia/
-    links:
-      - name: Presentation (PDF)
-        url: /files/datacraft2022.pdf
-      - name: YouTube recording
-        url: https://www.youtube.com/watch?v=rSrhKkk70M0
-      - name: Notebooks
-        url: https://github.com/datacraft-paris/2211-Cuvelier-Julia
+  title: "À la découverte de Julia"
+  authors: Thibaut Cuvelier
+  venue: Datacraft, November 2022
+  venue_link:
+    name: Datacraft
+    url: https://datacraft.paris/workshops/a-la-decouverte-de-julia/
+  links:
+    - name: Presentation (PDF)
+    url: /files/datacraft2022.pdf
+    - name: YouTube recording
+    url: https://www.youtube.com/watch?v=rSrhKkk70M0
+    - name: Notebooks
+    url: https://github.com/datacraft-paris/2211-Cuvelier-Julia
 julia_juliacon2021:
-    title: "ConstraintProgrammingExtensions: MathOptInterface gets broader usage"
-    authors: Thibaut Cuvelier
-    venue: JuMP-dev 2021, July 2021
+  title: "ConstraintProgrammingExtensions: MathOptInterface gets broader usage"
+  authors: Thibaut Cuvelier
+  venue: JuMP-dev 2021, July 2021
 julia_juliacon2021:
-    title: "ConstraintProgrammingExtensions.jl: An MOI/JuMP extension for constraint programming"
-    authors: Thibaut Cuvelier
-    venue: JuliaCon 2021, July 2021
-    hal: hal-03306211v1
-    venue_link:
-      name: PreTalx
-      url: https://pretalx.com/juliacon2021/talk/EHUKWK/
+  title: "ConstraintProgrammingExtensions.jl: An MOI/JuMP extension for constraint programming"
+  authors: Thibaut Cuvelier
+  venue: JuliaCon 2021, July 2021
+  hal: hal-03306211v1
+  venue_link:
+    name: PreTalx
+    url: https://pretalx.com/juliacon2021/talk/EHUKWK/
 millemiglia_blogpost_2026:
-    title: "An update on constraint programming in JuMP"
-    authors: Thibaut Cuvelier
-    venue: JuMP Blog
-    venue_link:
-      name: Blog post
-      url: https://jump.dev/blog/constraint-programming-update/
+  title: "An update on constraint programming in JuMP"
+  authors: Thibaut Cuvelier
+  venue: JuMP Blog
+  venue_link:
+    name: Blog post
+    url: https://jump.dev/blog/constraint-programming-update/
 julia_roadef2018:
-    title: Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle
-    authors: Thibaut Cuvelier
-    venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2018, February 2018
-    orbi: 2268/220267
+  title: Retour d’expérience sur Julia pour la recherche et l’enseignement en recherche opérationnelle
+  authors: Thibaut Cuvelier
+  venue: Congrès de la Société française de recherche opérationnelle et d'aide à la décision (ROADEF) 2018, February 2018
+  orbi: 2268/220267
 julia_ieee2017:
-    title: A Journey through Julia
-    authors: Thibaut Cuvelier
-    venue: IEEE Student Branch Liège (Belgium), May 2017
-    orbi: 2268/210211
+  title: A Journey through Julia
+  authors: Thibaut Cuvelier
+  venue: IEEE Student Branch Liège (Belgium), May 2017
+  orbi: 2268/210211
 julia_geeks2017:
-    title: A Journey through Julia
-    authors: Thibaut Cuvelier
-    venue: Geeks anonymes, Liège (Belgium), November2016
-    orbi: 2268/203491
+  title: A Journey through Julia
+  authors: Thibaut Cuvelier
+  venue: Geeks anonymes, Liège (Belgium), November2016
+  orbi: 2268/203491
 
 pyqt5:
-    title: Créer des applications graphiques en Python avec PyQt5
-    authors: Thibaut Cuvelier, Pierre Denis
-    venue: "Published by D-BookeR, March 2017. ISBN-13: 978-2-8227-0518-9"
+  title: Créer des applications graphiques en Python avec PyQt5
+  authors: Thibaut Cuvelier, Pierre Denis
+  venue: "Published by D-BookeR, March 2017. ISBN-13: 978-2-8227-0518-9"
 qt5:
-    title: Créer des applications avec Qt 5 – les essentiels
-    authors: Guillaume Belz, Thibaut Cuvelier, Ilya Diallo, Louis du Verdier, Vincent Meyer, Florent Renault
-    venue: "Published by D-BookeR, November 2013. ISBN-13: 978-2-8227-0108-2"
+  title: Créer des applications avec Qt 5 – les essentiels
+  authors: Guillaume Belz, Thibaut Cuvelier, Ilya Diallo, Louis du Verdier, Vincent Meyer, Florent Renault
+  venue: "Published by D-BookeR, November 2013. ISBN-13: 978-2-8227-0108-2"
 websemantique:
-    title: "Web sémantique : méthodes et outils pour le Web de données"
-    authors: Tom Heath, Christian Bizier; translated by Thibaut Cuvelier, Julien Plu, Antoine Seilles
-    venue: "Published by Pearson, May 2012. ISBN-13: 978-2-7440-2519-8"
+  title: "Web sémantique : méthodes et outils pour le Web de données"
+  authors: Tom Heath, Christian Bizier; translated by Thibaut Cuvelier, Julien Plu, Antoine Seilles
+  venue: "Published by Pearson, May 2012. ISBN-13: 978-2-7440-2519-8"
