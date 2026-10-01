@@ -5,6 +5,8 @@ permalink: research
 
 # Research topics {#research-topics}
 
+<p class="lead" markdown="span">My research interests mostly lie in operational research and machine learning, both at their intersection and separately.</p>
+
 ## Machine learning and artificial intelligence
 
 ### Reinforcement learning for combinatorial optimisation
