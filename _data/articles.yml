@@ -95,7 +95,7 @@ bandits_alt21:
 bandits_sigmetrics2021:
   title: Statistically Efficient, Polynomial Time Algorithms for Combinatorial Semi Bandits
   authors: Thibaut Cuvelier, Richard Combes, Éric Gourdin
-  venue: ACM SIGMETRICS 2021, Beijing (China), June 2021
+  venue: Proceedings of the ACM on Measurement and Analysis of Computing Systems
   venue_link:
     name: ACM Digital Library
     url: https://dl.acm.org/doi/10.1145/3447387
