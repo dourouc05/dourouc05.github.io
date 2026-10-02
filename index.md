@@ -5,7 +5,7 @@ title: Thibaut Cuvelier
 <div class="jumbotron">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 d-sm-none d-md-block" markdown="span">
+      <div class="col-sm-3 d-sm-none d-md-block" markdown="span">
         ![Photo](/images/photo.2018.jpg)
       </div>
       <div class="col-8" markdown="span" style="font-size: 1.25rem">
