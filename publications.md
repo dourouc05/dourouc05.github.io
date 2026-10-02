@@ -89,7 +89,7 @@ permalink: publications
 
 {% include reference.md key='websemantique' %}
 
-## Research blog posts:
+## Research blog posts
 
 {% include reference.md key='millemiglia_blogpost_2026' %}
 
