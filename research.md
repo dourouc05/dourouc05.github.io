@@ -95,7 +95,7 @@ My implementation of many network-routing models is [freely available on GitHub 
 * {% include reference.md key='routing_juliadays2023' %}
 * {% include reference.md key='routing_tma2019' %}
 * {% include reference.md key='routing_tma2018' %}
-* {% include reference.md key='tfe_pgmo2018' %}
+* {% include reference.md key='routing_pgmo2018' %}
 
 ### Electrical flexibility for the industry
 
