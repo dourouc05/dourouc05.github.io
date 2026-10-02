@@ -4,9 +4,6 @@ title: Thibaut Cuvelier
 
 <div class="jumbotron">
   <div class="container">
-    <div class="d-none d-sm-block d-md-none" markdown="span">
-      ![Photo](/images/photo.2016.11.jpg)
-    </div>
     <div class="row">
       <div class="col-sm-4 d-sm-none d-md-block" markdown="span">
         ![Photo](/images/photo.2016.11.jpg)
