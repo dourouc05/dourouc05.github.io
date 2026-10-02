@@ -13,15 +13,17 @@ permalink: research
 
 Reinforcement learning is a paradigm in machine learning where an agent learns an algorithm to make good decisions that are not known beforehand (unlike supervised learning, where the expected result of the model are known in advance, or unsupervised learning, where no decisions are made). Combinatorial optimisation achieves the same goal of making good decisions while relying on human experience to derive a mathematical model or to design heuristics.
 
-I am currently involved in a team effort to bring these two worlds together. Each of them has its own drawbacks and advantages:
-* Combinatorial optimisation algorithms can make good decision in large dimension (but the computation times can grow impractical) while reinforcement learning cannot natively deal with the huge dimensionality of combinatorial sets.
-* Reinforcement learning cannot enforce constraints in the same way combinatorial optimisation models can.
+I am currently involved in a team effort to **bring these two worlds together**. Each of them has its own drawbacks and advantages:
+* Combinatorial optimisation algorithms can make good decision in **large dimension** (but the computation times can grow impractical) while reinforcement learning cannot natively deal with the huge dimensionality of combinatorial sets.
+* Reinforcement learning cannot enforce **constraints** in the same way combinatorial optimisation models can.
 * Heuristics for combinatorial optimisations are designed by humans whereas reinforcement learning learns better policies over time.
 
-The main application domain is middle-mile logistics, a very hard combinatorial problem. Middle mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. We currently tried two approaches to the problem:
+The main application domain is **middle-mile logistics**, a very hard combinatorial problem. Middle-mile logistics is concerned by the transportation of goods between warehouses, sitting between  the first and last miles of the supply chain. The major constraint is timing (goods must be present at the destination hub at the right time for the next step of the supply chain). While first and last miles assign one shipment to a single vehicle and its route through customers, middle mile is about finding a path for one shipment through several vehicles along predefined routes. 
 
-* As a whole: finding a good path for each shipment through the entire graph directly. This line of work was presented at [a NeurIPS workshop](https://hal.science/hal-04755187) and at the [EURO conference](https://hal.science/hal-04755188).
-* Decomposing it into a path-covering problem and solving the individual components using reinforcement learning. The decomposition involves two steps: finding feasible paths in a time-expanded graph (shortest paths on a directed acyclic graph) and covering the shipments with paths (set covering with side constraints). The part that is most amenable to reinforcement learning is set covering, for which we explored both reinforcement learning and diffusion models, as presented at [ICML](https://hal.science/hal-05768398).
+We currently tried **two approaches to the problem**:
+
+* **As a whole**: finding a good path for each shipment through the entire graph directly. This line of work was presented at [a NeurIPS workshop](https://hal.science/hal-04755187) and at the [EURO conference](https://hal.science/hal-04755188).
+* **Decomposing it** into a path-covering problem and solving the individual components using reinforcement learning. The decomposition involves two steps: finding feasible paths in a time-expanded graph (shortest paths on a directed acyclic graph) and covering the shipments with paths (set covering with side constraints). The part that is most amenable to reinforcement learning is set covering, for which we explored both reinforcement learning and diffusion models, as presented at [ICML](https://hal.science/hal-05768398).
 
 I also presented a summary of published and at-the-time unpublished results [at a CNRS and Google joint event](https://tcuvelier.be/files/rl_or_cnrs2024.pdf).
 
@@ -39,11 +41,11 @@ Along the way, we also developed an instance generator for middle-mile logistics
 
 ### Combinatorial bandits
 
-Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to situations where the agent makes decision that are chosen in a combinatorial space (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.). These decisions have a very specific structure, as they are made of many individual components (for instance, a path is a sequence of edges: the cost of the path is obtained as the sum of the cost of each edge). This field generalises online combinatorial optimisation.
+Machine-learning algorithms are often based on optimisation techniques, but do not always take the most of them. For instance, in reinforcement learning, the combinatorial-bandit paradigm corresponds to situations where **the agent makes decision in a combinatorial space** (a router decides for the path of an incoming packet, a website decides which ads should be shown, etc.). These decisions have a very specific structure, as they are made of many individual components (for instance, a path is a sequence of edges: the cost of the path is obtained as the sum of the cost of each edge). This field generalises online combinatorial optimisation.
 
 Most algorithms for combinatorial bandits use mathematical-optimisation tools in some way. However, current algorithms either have an excellent operational performance (but taking a decision takes a very long time: these algorithms include [ESCB](https://papers.nips.cc/paper/5831-combinatorial-bandits-revisited) and [OSSB](https://papers.nips.cc/paper/6773-minimal-exploration-in-structured-stochastic-bandits)) or have great computational properties (but the solutions they take can be arbitrarily worse than those played by the first algorithms, like [Thompson sampling](https://papers.nips.cc/paper/7670-an-information-theoretic-analysis-for-thompson-sampling-with-many-actions) or [CUCB](http://proceedings.mlr.press/v38/kveton15.html)). More precisely, the first kind of algorithm typically has an exponential computational complexity (with respect to the dimension of the problem, i.e. the number of components of a solution).
 
-Developing new advanced tools in the field of mathematical optimisation (solving nonlinear programs using budgeted linear problems), I reduce the bandit-problem complexity to polynomial in many useful cases, for two state-of-the-art algorithms (ESCB and OSSB). The result of this work is available as [open-source software](https://github.com/dourouc05/CombinatorialBandits.jl) (under an MIT license). The techniques behind a polynomial-time implementation of ESCB have been presented [at the SNAPP seminar](https://www.youtube.com/watch?v=7flMukHqfW4), [in an arXiv preprint](https://arxiv.org/abs/2002.07258), and at [the ACM SIGMETRICS conference](https://dl.acm.org/doi/10.1145/3447387). The ones for OSSB have been presented at [the ALT conference](http://proceedings.mlr.press/v132/cuvelier21a.html).
+Developing new advanced tools in the field of mathematical optimisation (solving nonlinear programs using budgeted linear problems), I **reduce the bandit-problem complexity to polynomial** in many useful cases, for two state-of-the-art algorithms (ESCB and OSSB). The result of this work is available as [open-source software](https://github.com/dourouc05/CombinatorialBandits.jl) (under an MIT license). The techniques behind a polynomial-time implementation of ESCB have been presented [at the SNAPP seminar](https://www.youtube.com/watch?v=7flMukHqfW4), [in an arXiv preprint](https://arxiv.org/abs/2002.07258), and at [the ACM SIGMETRICS conference](https://dl.acm.org/doi/10.1145/3447387). The ones for OSSB have been presented at [the ALT conference](http://proceedings.mlr.press/v132/cuvelier21a.html).
 
 **List of publications**:
 
@@ -56,9 +58,9 @@ Developing new advanced tools in the field of mathematical optimisation (solving
 
 ### LLMs
 
-LLMs are not necessarily great at properly handling incomplete or ambiguous user prompts: they often ignore parts of the problem or use arbitrary values ("hallucinations"). To detect and improve the model's capabilities in this regard, I synthesise data sets of hard optimisation problems.
+LLMs are not necessarily great at properly handling **incomplete or ambiguous user prompts**: they often ignore parts of the problem or use arbitrary values ("hallucinations"). To detect and improve the model's capabilities in this regard, I synthesise data sets of hard optimisation problems.
 
-Some APIs are complex to comprehend, especially for first-time users or people who have limited understanding of programming. [Google Maps Platform Route Optimization (GMPRO)](https://developers.google.com/maps/documentation/route-optimization) is one of them. I contributed to an LLM-based agent that bridges the gap between non-experts and the API by providing an easy route into the API, but also explanations for the generated solutions or for the reasons the model failed.
+Some APIs are complex to comprehend, especially for first-time users or people who have limited understanding of programming. [Google Maps Platform Route Optimization (GMPRO)](https://developers.google.com/maps/documentation/route-optimization) is one of them. I contributed to an LLM-based agent that **bridges the gap between non-experts and the API** by providing an easy route into the API, but also explanations for the generated solutions or for the reasons the model failed.
 
 **List of publications**:
 
@@ -68,7 +70,7 @@ Some APIs are complex to comprehend, especially for first-time users or people w
 
 Active learning is the field of supervised machine learning where the learning algorithm can query an oracle (a human user or another information source) for new labels of previously unlabelled samples. In particular, in stream-based active learning, samples are sequentially presented to the algorithm. This field is highly related to optimal experimental design.
 
-We propose a new algorithm, RAL (reinforced active learning), for stream-based active learning based on reinforcement learning, more specifically on contextual bandits with expert advice, that can outperform current techniques. RAL uses bandit algorithms to merge several existing active-learning algorithms in an adaptive ensemble. We provide [a Python implementation of RAL](https://github.com/SAWassermann/RAL/). We studied RAL's performance and provided a theoretical analysis [at the IAL (interactive adaptive learning) workshop](https://hal.archives-ouvertes.fr/hal-02265426/).
+We propose a new algorithm, **RAL (reinforced active learning)**, for stream-based active learning based on reinforcement learning, more specifically on contextual bandits with expert advice, that can outperform current techniques. RAL uses bandit algorithms to merge several existing active-learning algorithms in an **adaptive ensemble**. We provide [a Python implementation of RAL](https://github.com/SAWassermann/RAL/). We studied RAL's performance and provided a theoretical analysis [at the IAL (interactive adaptive learning) workshop](https://hal.archives-ouvertes.fr/hal-02265426/).
 
 **List of publications**:
 
@@ -83,9 +85,9 @@ We propose a new algorithm, RAL (reinforced active learning), for stream-based a
 
 ### Network routing under uncertainty
 
-In computer networks, traffic engineering concerns the efficient use of existing network equipment so that users get the best experience when using the network. Most of the parameters have some level of uncertainty: for instance, operators cannot predict with an extremely high accuracy the traffic that their network will have to withstand. Therefore, this uncertainty must be built into the mathematical models that are used when making traffic-engineering decisions.
+In computer networks, **traffic engineering** concerns the efficient use of existing network equipment so that users get the best experience when using the network. Most of the parameters have some level of uncertainty: for instance, operators cannot predict with an extremely high accuracy the traffic that their network will have to withstand. Therefore, this uncertainty must be built into the mathematical models that are used when making traffic-engineering decisions.
 
-There are several ways to cope with the variability of parameters, such as robust optimisation. Oblivious routing is an often-disregarded paradigm, especially due to its computational cost. Other approaches include fairness, with the idea that a fair solution should withstand more traffic.
+There are several ways to cope with the variability of parameters, such as **robust optimisation**. Oblivious routing is an often-disregarded paradigm, especially due to its computational cost. Other approaches include **fairness**, with the idea that a fair solution should withstand more traffic.
 
 My implementation of many network-routing models is [freely available on GitHub in the Seleroute.jl package](https://github.com/dourouc05/Seleroute.jl) (under an MIT license). Preliminary have been presented at [the TMA conference](hal.archives-ouvertes.fr/hal-02161708). Details of the Julia implementation have been discussed at [the Julia Days 2023](https://hal.science/hal-04231900).
 
@@ -101,9 +103,9 @@ My implementation of many network-routing models is [freely available on GitHub 
 
 The [InduStore research project](http://www.industore-project.be/) develops a methodology that helps industrialists add flexibility when using their plants, especially regarding the price of electricity on the day-ahead market.
 
-These developments started with easing the modelling of industrial processes with generic block-diagram models and their associated mathematical formulation. Thanks to this kind of models, those processes can be used in mathematical-programming-based solutions for optimising plants. Currently, a seemingly good candidate for this modelling is the reservoir, which can model many kinds of processes.
+These developments started with easing the **modelling of industrial processes** with generic block-diagram models and their associated mathematical formulation. Thanks to this kind of models, those processes can be used in mathematical-programming-based solutions for optimising plants. Currently, a seemingly good candidate for this modelling is the reservoir, which can model many kinds of processes.
 
-Once the process models are developed, they should be integrated within a complete plant model to actually exploit the flexibility. Outside the processes, two elements must be considered: the order book, but also the workers, as they are at the heart of the production. Industrial sites tend to use shift work to be able to produce twenty-four hours a day; however, this requires to organise the shifts according to legal constraints. Our approach considers the two faces of the same coin: production and shift work. The first one exploits the flexibility, while the second optimises the schedule for the workers' well-being.
+Once the process models are developed, they should be integrated within a complete plant model to **exploit the flexibility**. Outside the processes, two elements must be considered: the order book, but also the workers, as they are at the heart of the production. Industrial sites tend to use shift work to be able to produce twenty-four hours a day; however, this requires to organise the shifts according to legal constraints. Our approach considers the two faces of the same coin: production and shift work. The first one exploits the flexibility, while the second optimises the schedule for the workers' well-being.
 
 The source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/IndustrialProcessFlexibilisation.jl) (under an MIT license). The production-HR coupling has been presented [at the COMEX workshop](http://orbi.ulg.ac.be/handle/2268/209469) and [at the IFORS conference](http://orbi.ulg.ac.be/handle/2268/207330). The modelling methodology has been presented [at the DS3 summer school](http://orbi.ulg.ac.be/handle/2268/212703).
 
@@ -117,11 +119,11 @@ The source code of the integrated models is [freely available on GitHub](https:/
 
 ### Water reservoir management
 
-Current dam management techniques that use optimisation either are based on mathematical programming and have a low level of detail, or heavily use metaheuristics to include physical phenomena. The latter completely lose the traditional convergence properties of mathematical optimisation, and both still lack provably reliable uncertainty modelling.
+Current dam management techniques that use optimisation either are based on mathematical programming and have a very low level of detail, or heavily use metaheuristics to include physical phenomena. The latter completely lose the traditional convergence properties of mathematical optimisation, and both still lack provably reliable uncertainty modelling.
 
 More specifically, this research aims to include flooding models inside mathematical programming while including uncertainty. Floods are usually described by nonlinear differential models, and the goal is to make them fit into convex optimisation frameworks.
 
-For now, the models have a rather low level of detail, but include uncertainty in the inflow.
+For now, the models have a rather low level of detail, but include **uncertainty in the inflow**.
 
 The Julia source code of the integrated models is [freely available on GitHub](https://github.com/dourouc05/ReservoirManagement.jl) (under an MIT license). The uncertain models have been compared in [an article published in the Water Resources Management journal](http://hdl.handle.net/2268/219394).
 
@@ -133,7 +135,7 @@ The Julia source code of the integrated models is [freely available on GitHub](h
 
 ## Master's thesis: stochastic and robust programming
 
-Formal optimisation can take into account the uncertainty in two main ways: either stochastic or robust programming. Both paradigms have their own strengths, based on quite different theoretical notions: stochastic optimisation considers the uncertain parameters are described by their probability density functoin, while robust optimisation regards them as belonging to an uncertainty set.
+Formal optimisation can take into account the **uncertainty** in two main ways: either stochastic or robust programming. Both paradigms have their own strengths, based on quite different theoretical notions: stochastic optimisation considers the uncertain parameters are described by their probability density functoin, while robust optimisation regards them as belonging to an uncertainty set.
 
 Those two approaches are quite different, but have rarely seen a direct comparison, be it for their actual performance when solving the resulting optimisation problems, but also for the robustness of their solution against unforeseen uncertainty.
 
